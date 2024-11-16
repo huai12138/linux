@@ -1,9 +1,9 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "Fira Mono";
-/*    font-family: Liberation Mono;*/
+/*    font-family: "Fira Mono";*/
+    font-family: MiSans Vf;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 
     border-radius: 10px;
     text-shadow: none;
