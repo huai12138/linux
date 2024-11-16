@@ -121,12 +121,13 @@ alias R="systemctl reboot"
 alias windows="sh /home/huai/.config/windows.sh"
 alias startwindows="sh /home/huai/.config/startwindows.sh"
 alias 0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
-alias 1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
+alias 1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Devi_20130100ph0-00.analog-stereo"
 alias p="mpc play"
 alias s="mpc stop"
 alias pause="mpc pause"
 alias n="mpc next"
 alias pl="vim /home/huai/.config/mpd/playlist"
+alias h="Hyprland"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
