@@ -1,0 +1,508 @@
+Nov 17 16:50 : config: option 'command' on line 354 was not recognized
+Nov 17 16:53 : player: played "黑龙 - 38度6.flac"
+Nov 17 16:53 : config: option 'command' on line 354 was not recognized
+Nov 17 16:54 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 16:54 : client: [0] malformed command "GET / HTTP/1.1"
+Nov 17 16:54 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 16:54 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 16:54 : client: [3] malformed command "GET / HTTP/1.1"
+Nov 17 16:54 : player: played "黑龙 - 38度6.flac"
+Nov 17 16:55 : client: [4] malformed command "GET / HTTP/1.1"
+Nov 17 16:55 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Nov 17 16:55 : config: option 'command' on line 354 was not recognized
+Nov 17 16:56 : client: [0] malformed command "GET / HTTP/1.1"
+Nov 17 16:56 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 16:56 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Nov 17 16:56 : config: option 'command' on line 354 was not recognized
+Nov 17 16:57 : client: [0] malformed command "GET / HTTP/1.1"
+Nov 17 16:57 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 16:58 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 16:59 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Nov 17 16:59 : client: [3] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [4] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [5] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [6] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [7] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [8] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [9] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [10] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [11] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [12] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [13] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [14] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [15] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [16] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [17] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [18] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [19] malformed command "GET / HTTP/1.1"
+Nov 17 16:59 : client: [21] malformed command "GET / HTTP/1.0"
+Nov 17 17:01 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:01 : player: played "Katie Herzig - Forevermore.flac"
+Nov 17 17:02 : client: [22] malformed command "GET / HTTP/1.1"
+Nov 17 17:03 : client: [23] malformed command "GET / HTTP/1.0"
+Nov 17 17:04 : client: [24] malformed command "GET / HTTP/1.1"
+Nov 17 17:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:05 : player: played "王心凌 - 睫毛弯弯.flac"
+Nov 17 17:08 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:09 : player: played "蔡依林 - 爱情36计.flac"
+Nov 17 17:09 : player: played "蔡依林 - 招牌动作.flac"
+Nov 17 17:09 : update: added /光良 - 童话.flac
+Nov 17 17:09 : update: added /任贤齐 - 心太软.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 青春没有售价.flac
+Nov 17 17:09 : update: added /杨幂 - 爱的供养.flac
+Nov 17 17:09 : update: added /陈奕迅 - 十年.flac
+Nov 17 17:09 : update: added /蔡依林 - 野蛮游戏.flac
+Nov 17 17:09 : update: added /王麟 _ 老猫 - 伤不起 (Single Version).flac
+Nov 17 17:09 : update: added /周杰伦 - 青花瓷.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 觉悟 (闪闪版).flac
+Nov 17 17:09 : update: added /梁静茹 - 分手快乐.flac
+Nov 17 17:09 : update: added /林俊杰 - 她说.flac
+Nov 17 17:09 : update: added /刘德华 - 忘情水.flac
+Nov 17 17:09 : update: added /平生不晚 - 难却.flac
+Nov 17 17:09 : update: added /薛之谦 - 认真的雪.flac
+Nov 17 17:09 : config: option "command" on line 354 was not recognized
+Nov 17 17:09 : update: added /SING女团 - 神谕法则.flac
+Nov 17 17:09 : update: added /林俊杰 - 我还想她.flac
+Nov 17 17:09 : update: added /王绎龙 - 午夜DJ.flac
+Nov 17 17:09 : update: added /庄心妍 - 放过自己.flac
+Nov 17 17:09 : update: added /萧全 - 社会摇.flac
+Nov 17 17:09 : update: added /欧得洋 - 孤单北半球.flac
+Nov 17 17:09 : update: added /梁静茹 - 宁夏.flac
+Nov 17 17:09 : update: added /任贤齐 - 对面的女孩看过来.flac
+Nov 17 17:09 : update: added /郑智化 - 水手.flac
+Nov 17 17:09 : update: added /胡歌 - 六月的雨.mp3
+Nov 17 17:09 : update: added /慕容晓晓 - 爱情买卖.flac
+Nov 17 17:09 : update: added /美美jocie - 不怕不怕.flac
+Nov 17 17:09 : update: added /黄静美 - 爱财爱己.flac
+Nov 17 17:09 : update: added /陈旭 - 哥只是个传说.flac
+Nov 17 17:09 : update: added /Suara (すあら) - 不安定な神様 (不安定的神明).flac
+Nov 17 17:09 : update: added /徐誉滕 - 做我老婆好不好.flac
+Nov 17 17:09 : update: added /王忻辰 _ 苏星婕 - 清空.flac
+Nov 17 17:09 : update: added /郑源 - 一万个理由.flac
+Nov 17 17:09 : update: added /朴树 - 平凡之路.flac
+Nov 17 17:09 : update: added /蔡依林 - 看我72变.flac
+Nov 17 17:09 : update: added /刘亦菲 - 毛毛雨.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 浮生记.flac
+Nov 17 17:09 : update: added /庄心妍 _ 祁隆 - 一万个舍不得.flac
+Nov 17 17:09 : update: added /金志文 - 难以启齿的柔弱.flac
+Nov 17 17:09 : update: added /袁成杰 _ 戚薇 - 外滩十八号.flac
+Nov 17 17:09 : update: added /张韶涵 - 欧若拉.flac
+Nov 17 17:09 : update: added /火箭少女101 - 卡路里.flac
+Nov 17 17:09 : update: added /陈奕迅 - 孤勇者.flac
+Nov 17 17:09 : update: added /迪克牛仔 - 有多少爱可以重来.flac
+Nov 17 17:09 : update: added /徐良 _ Britneylee小暖 - 和平分手.flac
+Nov 17 17:09 : update: added /张杰 - 天下.flac
+Nov 17 17:09 : update: added /李荣浩 - 李白.flac
+Nov 17 17:09 : update: added /潘玮柏 _ 弦子 - 不得不爱.flac
+Nov 17 17:09 : update: added /不才 - 化身孤岛的鲸.flac
+Nov 17 17:09 : update: added /张韶涵 - 亲爱的，那不是爱情.flac
+Nov 17 17:09 : update: added /斯琴高丽 _ 顾峰 - 犯错.flac
+Nov 17 17:09 : update: added /乌兰托娅 - 火红的萨日朗.flac
+Nov 17 17:09 : update: added /闻人听書_ - 一笑江湖 (DJ弹鼓版).mp3
+Nov 17 17:09 : update: added /Twins - 我很想爱他.flac
+Nov 17 17:09 : update: added /蔡依林 - 招牌动作.flac
+Nov 17 17:09 : update: added /萧亚轩 - 爱的主打歌.flac
+Nov 17 17:09 : update: added /王力宏 - 大城小爱.flac
+Nov 17 17:09 : update: added /小虎队 - 爱.flac
+Nov 17 17:09 : update: added /孙燕姿 - 绿光.flac
+Nov 17 17:09 : update: added /萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.flac
+Nov 17 17:09 : update: added /胡杨林 - 香水有毒.flac
+Nov 17 17:09 : update: added /六哲 _ 贺敬轩 - 让全世界知道我爱你.flac
+Nov 17 17:09 : update: added /任贤齐 - 我是一只鱼.flac
+Nov 17 17:09 : update: added /F4 - 流星雨.flac
+Nov 17 17:09 : update: added /黄勇 _ 任书怀 - 你看到的我.flac
+Nov 17 17:09 : update: added /齐晨 - 咱们结婚吧.flac
+Nov 17 17:09 : update: added /兰雨 - 最后一次的温柔.flac
+Nov 17 17:09 : update: added /六哲 - 被伤过的心还可以爱谁.flac
+Nov 17 17:09 : update: added /芭比 - 触电.flac
+Nov 17 17:09 : update: added /周杰伦 - 说好的幸福呢.flac
+Nov 17 17:09 : update: added /庄心妍 - 真的不容易.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 时光背面的我.flac
+Nov 17 17:09 : update: added /陈慧琳 - 不如跳舞.flac
+Nov 17 17:09 : update: added /CoCo李玟 - 想你的365天.flac
+Nov 17 17:09 : update: added /伍佰 & China Blue - 挪威的森林.flac
+Nov 17 17:09 : update: added /S_H_E - Super Star.flac
+Nov 17 17:09 : update: added /魏新雨 - 恋人心.flac
+Nov 17 17:09 : update: added /蔡依林 - 日不落.flac
+Nov 17 17:09 : update: added /张信哲 - 过火.flac
+Nov 17 17:09 : update: added /高姗 - 和你遇到.flac
+Nov 17 17:09 : update: added /烟把儿乐队 - 纸短情长.mp3
+Nov 17 17:09 : update: added /凤凰传奇 - 月亮之上.flac
+Nov 17 17:09 : update: added /蒙面哥 - 一亿个伤心.flac
+Nov 17 17:09 : update: added /张雨生 - 大海.flac
+Nov 17 17:09 : update: added /王麟 _ 老猫 - 伤不起.flac
+Nov 17 17:09 : update: added /Craig Smart - I Miss You.mp3
+Nov 17 17:09 : update: added /上官红燕 - 玛尼情歌.flac
+Nov 17 17:09 : update: added /Matteo - Panama.flac
+Nov 17 17:09 : update: added /凤凰传奇 - 自由飞翔.flac
+Nov 17 17:09 : update: added /花儿乐队 - 穷开心.flac
+Nov 17 17:09 : update: added /花儿乐队 - 我们能不能不分手.flac
+Nov 17 17:09 : update: added /李圣杰 - 痴心绝对.flac
+Nov 17 17:09 : update: added /徐良 _ 小凌 - 客官不可以.flac
+Nov 17 17:09 : update: added /刘亦菲 - 放飞美丽.flac
+Nov 17 17:09 : update: added /刘亦菲 - 幸运草.flac
+Nov 17 17:09 : update: added /周杰伦 - 东风破.flac
+Nov 17 17:09 : update: added /周杰伦 - 发如雪.flac
+Nov 17 17:09 : update: added /周杰伦 - 简单爱.flac
+Nov 17 17:09 : update: added /张敬轩 - 断点.flac
+Nov 17 17:09 : update: added /PSY (朴载相) - 강남스타일 (江南Style).flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 万重浪.flac
+Nov 17 17:09 : update: added /Twins - 莫斯科没有眼泪.flac
+Nov 17 17:09 : update: added /王力宏 - 天地龙鳞.flac
+Nov 17 17:09 : update: added /王不醒 - 月老掉线 (DJ阿卓版).flac
+Nov 17 17:09 : update: added /赵雷 - 成都.flac
+Nov 17 17:09 : update: added /刘亦菲 - 心悸.flac
+Nov 17 17:09 : update: added /阿木 - 有一种爱叫做放手.flac
+Nov 17 17:09 : update: added /孙辉 _ 蓝若兮 - QQ爱.flac
+Nov 17 17:09 : update: added /王心凌 - 睫毛弯弯.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 你的名字.flac
+Nov 17 17:09 : update: added /孙晨 - 拜托.flac
+Nov 17 17:09 : update: added /张杰 - 逆战.flac
+Nov 17 17:09 : update: added /萧敬腾 - 王妃.flac
+Nov 17 17:09 : update: added /周杰伦 - 七里香.flac
+Nov 17 17:09 : update: added /王冰洋 - 飞舞.flac
+Nov 17 17:09 : update: added /林俊杰 - 美人鱼.flac
+Nov 17 17:09 : update: added /伊格赛听 _ 叶里 - 谪仙.flac
+Nov 17 17:09 : update: added /马天宇 - 该死的温柔.flac
+Nov 17 17:09 : update: added /少女时代 - Gee.flac
+Nov 17 17:09 : update: added /乌兰托娅 - 套马杆.flac
+Nov 17 17:09 : update: added /凤凰传奇 - 奢香夫人.flac
+Nov 17 17:09 : update: added /周杰伦 - 星晴.flac
+Nov 17 17:09 : update: added /代理仁 - 预谋.flac
+Nov 17 17:09 : update: added /胡歌 - 忘记时间.flac
+Nov 17 17:09 : update: added /刘亦菲 - 一克拉的眼泪.flac
+Nov 17 17:09 : update: added /马旭东 - 最美的烟火.flac
+Nov 17 17:09 : update: added /徐誉滕 - 等一分钟.flac
+Nov 17 17:09 : update: added /周杰伦 _ 费玉清 - 千里之外.flac
+Nov 17 17:09 : update: added /李晓杰 - 老大.flac
+Nov 17 17:09 : update: added /许巍 - 曾经的你.flac
+Nov 17 17:09 : update: added /筷子兄弟 - 老男孩.mp3
+Nov 17 17:09 : update: added /Katie Herzig - Forevermore.flac
+Nov 17 17:09 : update: added /王蓉 - 爸爸妈妈.flac
+Nov 17 17:09 : update: added /凤凰传奇 - 荷塘月色.flac
+Nov 17 17:09 : update: added /潘玮柏 _ 张韶涵 - 快乐崇拜.flac
+Nov 17 17:09 : update: added /小阿七 - 不谓侠.flac
+Nov 17 17:09 : update: added /小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.flac
+Nov 17 17:09 : update: added /崔子格 - 卜卦.flac
+Nov 17 17:09 : update: added /陈楚生 - 有没有人告诉你.flac
+Nov 17 17:09 : update: added /郑智化 - 星星点灯.flac
+Nov 17 17:09 : update: added /六哲 - 给我个理由.flac
+Nov 17 17:09 : update: added /青鸟飞鱼 - 此生不换.flac
+Nov 17 17:09 : update: added /刘德华 - 今天.flac
+Nov 17 17:09 : update: added /夏天Alex - 不再联系.flac
+Nov 17 17:09 : update: added /梁静茹 - 可惜不是你.flac
+Nov 17 17:09 : update: added /蔡依林 - Love Love Love.flac
+Nov 17 17:09 : update: added /马旭东 - 入戏太深.mp3
+Nov 17 17:09 : update: added /张韶涵 - 隐形的翅膀.flac
+Nov 17 17:09 : update: added /周杰伦 - 菊花台.flac
+Nov 17 17:09 : update: added /张芸京 - 偏爱.flac
+Nov 17 17:09 : update: added /蔡依林 - 舞娘.flac
+Nov 17 17:09 : update: added /六哲 - 如果没有他你还爱我吗.flac
+Nov 17 17:09 : update: added /任贤齐 - 伤心太平洋.flac
+Nov 17 17:09 : update: added /李玉刚 - 刚好遇见你.flac
+Nov 17 17:09 : update: added /林俊杰 - 一千年以后.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING _ 前男友 - 踏雪 (新版).flac
+Nov 17 17:09 : update: added /誓言 - 求佛.flac
+Nov 17 17:09 : update: added /许嵩 _ 何曼婷 - 素颜.flac
+Nov 17 17:09 : update: added /花儿乐队 - 嘻唰唰.flac
+Nov 17 17:09 : update: added /大张伟 - 倍儿爽.flac
+Nov 17 17:09 : update: added /陶喆 _ 蔡依林 - 今天你要嫁给我.flac
+Nov 17 17:09 : update: added /王冰洋 - 因为想你才寂寞.flac
+Nov 17 17:09 : update: added /黑龙 - 38度6.flac
+Nov 17 17:09 : update: added /蔡依林 - 爱情36计.flac
+Nov 17 17:09 : update: added /苏打绿 - 小情歌 (苏打绿版).flac
+Nov 17 17:09 : update: added /柯柯柯啊 - 姑娘别哭泣.flac
+Nov 17 17:09 : update: added /凤凰传奇 - 全是爱.flac
+Nov 17 17:09 : update: added /许嵩 - 城府.flac
+Nov 17 17:09 : update: added /黄龄 - 痒.flac
+Nov 17 17:09 : update: added /凤凰传奇 - 最炫民族风.flac
+Nov 17 17:09 : update: added /欢子 - 心痛2009.flac
+Nov 17 17:09 : update: added /黄龄 _ Tăng Duy Tân - 叹.flac
+Nov 17 17:09 : update: added /鱼闪闪BLING - 美人鱼.flac
+Nov 17 17:09 : update: added /郑秀文 - 眉飞色舞.flac
+Nov 17 17:09 : update: added /周传雄 - 寂寞沙洲冷.flac
+Nov 17 17:09 : update: added /任贤齐 - 橘子香水.flac
+Nov 17 17:09 : update: added /吴雨霏 - 生生世世爱.flac
+Nov 17 17:09 : update: added /王蓉 - 哎呀.flac
+Nov 17 17:09 : update: added /张栋梁 - 北极星的眼泪.flac
+Nov 17 17:09 : update: added /蔡依林 - 爱情三十六计.flac
+Nov 17 17:09 : update: added /飞轮海 _ 田馥甄 - 只对你有感觉.flac
+Nov 17 17:09 : update: added /筷子兄弟 - 小苹果.flac
+Nov 17 17:09 : client: [0] malformed command "GET / HTTP/1.0"
+Nov 17 17:11 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 17:11 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 17:11 : client: [3] malformed command "GET / HTTP/1.1"
+Nov 17 17:12 : client: [5] malformed command "GET / HTTP/1.0"
+Nov 17 17:12 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:13 : player: played "光良 - 童话.flac"
+Nov 17 17:21 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:21 : player: played "黑龙 - 38度6.flac"
+Nov 17 17:23 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Nov 17 17:23 : config: option "command" on line 354 was not recognized
+Nov 17 17:23 : client: [0] malformed command "GET / HTTP/1.0"
+Nov 17 17:23 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 17:23 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 17:23 : client: [3] malformed command "GET / HTTP/1.1"
+Nov 17 17:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:26 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Nov 17 17:26 : client: [7] malformed command "GET / HTTP/1.1"
+Nov 17 17:27 : client: [8] malformed command "GET / HTTP/1.1"
+Nov 17 17:27 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:27 : client: [9] malformed command "GET / HTTP/1.1"
+Nov 17 17:27 : client: [10] malformed command "GET / HTTP/1.1"
+Nov 17 17:28 : client: [11] malformed command "GET / HTTP/1.1"
+Nov 17 17:28 : player: played "Katie Herzig - Forevermore.flac"
+Nov 17 17:29 : client: [12] malformed command "GET / HTTP/1.1"
+Nov 17 17:29 : player: played "王心凌 - 睫毛弯弯.flac"
+Nov 17 17:29 : config: option "command" on line 354 was not recognized
+Nov 17 17:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:32 : player: played "王心凌 - 睫毛弯弯.flac"
+Nov 17 17:34 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 17:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:35 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 17:35 : player: played "蔡依林 - 爱情36计.flac"
+Nov 17 17:38 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:39 : player: played "蔡依林 - 招牌动作.flac"
+Nov 17 17:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:43 : player: played "周杰伦 - 星晴.flac"
+Nov 17 17:44 : client: [4] malformed command "GET / HTTP/1.1"
+Nov 17 17:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:47 : player: played "林俊杰 - 我还想她.flac"
+Nov 17 17:49 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:50 : player: played "蔡依林 - 舞娘.flac"
+Nov 17 17:51 : player: played "张敬轩 - 断点.flac"
+Nov 17 17:51 : config: option "command" on line 354 was not recognized
+Nov 17 17:54 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:55 : player: played "张敬轩 - 断点.flac"
+Nov 17 17:57 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 17:58 : player: played "Matteo - Panama.flac"
+Nov 17 18:01 : player: played "Craig Smart - I Miss You.mp3"
+Nov 17 18:04 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:04 : player: played "孙辉 _ 蓝若兮 - QQ爱.flac"
+Nov 17 18:04 : update: added /光良 - 童话.flac
+Nov 17 18:04 : update: added /任贤齐 - 心太软.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 青春没有售价.flac
+Nov 17 18:04 : update: added /杨幂 - 爱的供养.flac
+Nov 17 18:04 : update: added /陈奕迅 - 十年.flac
+Nov 17 18:04 : update: added /蔡依林 - 野蛮游戏.flac
+Nov 17 18:04 : update: added /王麟 _ 老猫 - 伤不起 (Single Version).flac
+Nov 17 18:04 : update: added /周杰伦 - 青花瓷.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 觉悟 (闪闪版).flac
+Nov 17 18:04 : update: added /梁静茹 - 分手快乐.flac
+Nov 17 18:04 : update: added /林俊杰 - 她说.flac
+Nov 17 18:04 : update: added /刘德华 - 忘情水.flac
+Nov 17 18:04 : update: added /平生不晚 - 难却.flac
+Nov 17 18:04 : update: added /薛之谦 - 认真的雪.flac
+Nov 17 18:04 : update: added /SING女团 - 神谕法则.flac
+Nov 17 18:04 : update: added /林俊杰 - 我还想她.flac
+Nov 17 18:04 : update: added /王绎龙 - 午夜DJ.flac
+Nov 17 18:04 : update: added /庄心妍 - 放过自己.flac
+Nov 17 18:04 : update: added /萧全 - 社会摇.flac
+Nov 17 18:04 : update: added /欧得洋 - 孤单北半球.flac
+Nov 17 18:04 : update: added /梁静茹 - 宁夏.flac
+Nov 17 18:04 : update: added /任贤齐 - 对面的女孩看过来.flac
+Nov 17 18:04 : update: added /郑智化 - 水手.flac
+Nov 17 18:04 : update: added /胡歌 - 六月的雨.mp3
+Nov 17 18:04 : update: added /慕容晓晓 - 爱情买卖.flac
+Nov 17 18:04 : update: added /美美jocie - 不怕不怕.flac
+Nov 17 18:04 : update: added /黄静美 - 爱财爱己.flac
+Nov 17 18:04 : update: added /陈旭 - 哥只是个传说.flac
+Nov 17 18:04 : update: added /Suara (すあら) - 不安定な神様 (不安定的神明).flac
+Nov 17 18:04 : update: added /徐誉滕 - 做我老婆好不好.flac
+Nov 17 18:04 : update: added /王忻辰 _ 苏星婕 - 清空.flac
+Nov 17 18:04 : update: added /郑源 - 一万个理由.flac
+Nov 17 18:04 : update: added /朴树 - 平凡之路.flac
+Nov 17 18:04 : update: added /蔡依林 - 看我72变.flac
+Nov 17 18:04 : update: added /刘亦菲 - 毛毛雨.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 浮生记.flac
+Nov 17 18:04 : update: added /庄心妍 _ 祁隆 - 一万个舍不得.flac
+Nov 17 18:04 : update: added /金志文 - 难以启齿的柔弱.flac
+Nov 17 18:04 : update: added /袁成杰 _ 戚薇 - 外滩十八号.flac
+Nov 17 18:04 : update: added /张韶涵 - 欧若拉.flac
+Nov 17 18:04 : update: added /火箭少女101 - 卡路里.flac
+Nov 17 18:04 : update: added /陈奕迅 - 孤勇者.flac
+Nov 17 18:04 : update: added /迪克牛仔 - 有多少爱可以重来.flac
+Nov 17 18:04 : update: added /徐良 _ Britneylee小暖 - 和平分手.flac
+Nov 17 18:04 : update: added /张杰 - 天下.flac
+Nov 17 18:04 : update: added /李荣浩 - 李白.flac
+Nov 17 18:04 : update: added /潘玮柏 _ 弦子 - 不得不爱.flac
+Nov 17 18:04 : update: added /不才 - 化身孤岛的鲸.flac
+Nov 17 18:04 : update: added /张韶涵 - 亲爱的，那不是爱情.flac
+Nov 17 18:04 : update: added /斯琴高丽 _ 顾峰 - 犯错.flac
+Nov 17 18:04 : update: added /乌兰托娅 - 火红的萨日朗.flac
+Nov 17 18:04 : update: added /闻人听書_ - 一笑江湖 (DJ弹鼓版).mp3
+Nov 17 18:04 : update: added /Twins - 我很想爱他.flac
+Nov 17 18:04 : update: added /蔡依林 - 招牌动作.flac
+Nov 17 18:04 : update: added /萧亚轩 - 爱的主打歌.flac
+Nov 17 18:04 : update: added /王力宏 - 大城小爱.flac
+Nov 17 18:04 : update: added /小虎队 - 爱.flac
+Nov 17 18:04 : update: added /孙燕姿 - 绿光.flac
+Nov 17 18:04 : update: added /萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.flac
+Nov 17 18:04 : update: added /胡杨林 - 香水有毒.flac
+Nov 17 18:04 : update: added /六哲 _ 贺敬轩 - 让全世界知道我爱你.flac
+Nov 17 18:04 : update: added /任贤齐 - 我是一只鱼.flac
+Nov 17 18:04 : update: added /F4 - 流星雨.flac
+Nov 17 18:04 : update: added /黄勇 _ 任书怀 - 你看到的我.flac
+Nov 17 18:04 : update: added /齐晨 - 咱们结婚吧.flac
+Nov 17 18:04 : update: added /兰雨 - 最后一次的温柔.flac
+Nov 17 18:04 : update: added /六哲 - 被伤过的心还可以爱谁.flac
+Nov 17 18:04 : update: added /芭比 - 触电.flac
+Nov 17 18:04 : update: added /周杰伦 - 说好的幸福呢.flac
+Nov 17 18:04 : update: added /庄心妍 - 真的不容易.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 时光背面的我.flac
+Nov 17 18:04 : update: added /陈慧琳 - 不如跳舞.flac
+Nov 17 18:04 : update: added /CoCo李玟 - 想你的365天.flac
+Nov 17 18:04 : update: added /伍佰 & China Blue - 挪威的森林.flac
+Nov 17 18:04 : config: option 'command' on line 354 was not recognized
+Nov 17 18:04 : update: added /S_H_E - Super Star.flac
+Nov 17 18:04 : update: added /魏新雨 - 恋人心.flac
+Nov 17 18:04 : update: added /蔡依林 - 日不落.flac
+Nov 17 18:04 : update: added /张信哲 - 过火.flac
+Nov 17 18:04 : update: added /高姗 - 和你遇到.flac
+Nov 17 18:04 : update: added /烟把儿乐队 - 纸短情长.mp3
+Nov 17 18:04 : update: added /凤凰传奇 - 月亮之上.flac
+Nov 17 18:04 : update: added /蒙面哥 - 一亿个伤心.flac
+Nov 17 18:04 : update: added /张雨生 - 大海.flac
+Nov 17 18:04 : update: added /王麟 _ 老猫 - 伤不起.flac
+Nov 17 18:04 : update: added /Craig Smart - I Miss You.mp3
+Nov 17 18:04 : update: added /上官红燕 - 玛尼情歌.flac
+Nov 17 18:04 : update: added /Matteo - Panama.flac
+Nov 17 18:04 : update: added /凤凰传奇 - 自由飞翔.flac
+Nov 17 18:04 : update: added /花儿乐队 - 穷开心.flac
+Nov 17 18:04 : update: added /花儿乐队 - 我们能不能不分手.flac
+Nov 17 18:04 : update: added /李圣杰 - 痴心绝对.flac
+Nov 17 18:04 : update: added /徐良 _ 小凌 - 客官不可以.flac
+Nov 17 18:04 : update: added /刘亦菲 - 放飞美丽.flac
+Nov 17 18:04 : update: added /刘亦菲 - 幸运草.flac
+Nov 17 18:04 : update: added /周杰伦 - 东风破.flac
+Nov 17 18:04 : update: added /周杰伦 - 发如雪.flac
+Nov 17 18:04 : update: added /周杰伦 - 简单爱.flac
+Nov 17 18:04 : update: added /张敬轩 - 断点.flac
+Nov 17 18:04 : update: added /PSY (朴载相) - 강남스타일 (江南Style).flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 万重浪.flac
+Nov 17 18:04 : update: added /Twins - 莫斯科没有眼泪.flac
+Nov 17 18:04 : update: added /王力宏 - 天地龙鳞.flac
+Nov 17 18:04 : update: added /王不醒 - 月老掉线 (DJ阿卓版).flac
+Nov 17 18:04 : update: added /赵雷 - 成都.flac
+Nov 17 18:04 : update: added /刘亦菲 - 心悸.flac
+Nov 17 18:04 : update: added /阿木 - 有一种爱叫做放手.flac
+Nov 17 18:04 : update: added /孙辉 _ 蓝若兮 - QQ爱.flac
+Nov 17 18:04 : update: added /王心凌 - 睫毛弯弯.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 你的名字.flac
+Nov 17 18:04 : update: added /孙晨 - 拜托.flac
+Nov 17 18:04 : update: added /张杰 - 逆战.flac
+Nov 17 18:04 : update: added /萧敬腾 - 王妃.flac
+Nov 17 18:04 : update: added /周杰伦 - 七里香.flac
+Nov 17 18:04 : update: added /王冰洋 - 飞舞.flac
+Nov 17 18:04 : update: added /林俊杰 - 美人鱼.flac
+Nov 17 18:04 : update: added /伊格赛听 _ 叶里 - 谪仙.flac
+Nov 17 18:04 : update: added /马天宇 - 该死的温柔.flac
+Nov 17 18:04 : update: added /少女时代 - Gee.flac
+Nov 17 18:04 : update: added /乌兰托娅 - 套马杆.flac
+Nov 17 18:04 : update: added /凤凰传奇 - 奢香夫人.flac
+Nov 17 18:04 : update: added /周杰伦 - 星晴.flac
+Nov 17 18:04 : update: added /代理仁 - 预谋.flac
+Nov 17 18:04 : update: added /胡歌 - 忘记时间.flac
+Nov 17 18:04 : update: added /刘亦菲 - 一克拉的眼泪.flac
+Nov 17 18:04 : update: added /马旭东 - 最美的烟火.flac
+Nov 17 18:04 : update: added /徐誉滕 - 等一分钟.flac
+Nov 17 18:04 : update: added /周杰伦 _ 费玉清 - 千里之外.flac
+Nov 17 18:04 : update: added /李晓杰 - 老大.flac
+Nov 17 18:04 : update: added /许巍 - 曾经的你.flac
+Nov 17 18:04 : update: added /筷子兄弟 - 老男孩.mp3
+Nov 17 18:04 : update: added /Katie Herzig - Forevermore.flac
+Nov 17 18:04 : update: added /王蓉 - 爸爸妈妈.flac
+Nov 17 18:04 : update: added /凤凰传奇 - 荷塘月色.flac
+Nov 17 18:04 : update: added /潘玮柏 _ 张韶涵 - 快乐崇拜.flac
+Nov 17 18:04 : update: added /小阿七 - 不谓侠.flac
+Nov 17 18:04 : update: added /小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.flac
+Nov 17 18:04 : update: added /崔子格 - 卜卦.flac
+Nov 17 18:04 : update: added /陈楚生 - 有没有人告诉你.flac
+Nov 17 18:04 : update: added /郑智化 - 星星点灯.flac
+Nov 17 18:04 : update: added /六哲 - 给我个理由.flac
+Nov 17 18:04 : update: added /青鸟飞鱼 - 此生不换.flac
+Nov 17 18:04 : update: added /刘德华 - 今天.flac
+Nov 17 18:04 : update: added /夏天Alex - 不再联系.flac
+Nov 17 18:04 : update: added /梁静茹 - 可惜不是你.flac
+Nov 17 18:04 : update: added /蔡依林 - Love Love Love.flac
+Nov 17 18:04 : update: added /马旭东 - 入戏太深.mp3
+Nov 17 18:04 : update: added /张韶涵 - 隐形的翅膀.flac
+Nov 17 18:04 : update: added /周杰伦 - 菊花台.flac
+Nov 17 18:04 : update: added /张芸京 - 偏爱.flac
+Nov 17 18:04 : update: added /蔡依林 - 舞娘.flac
+Nov 17 18:04 : update: added /六哲 - 如果没有他你还爱我吗.flac
+Nov 17 18:04 : update: added /任贤齐 - 伤心太平洋.flac
+Nov 17 18:04 : update: added /李玉刚 - 刚好遇见你.flac
+Nov 17 18:04 : update: added /林俊杰 - 一千年以后.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING _ 前男友 - 踏雪 (新版).flac
+Nov 17 18:04 : update: added /誓言 - 求佛.flac
+Nov 17 18:04 : update: added /许嵩 _ 何曼婷 - 素颜.flac
+Nov 17 18:04 : update: added /花儿乐队 - 嘻唰唰.flac
+Nov 17 18:04 : update: added /大张伟 - 倍儿爽.flac
+Nov 17 18:04 : update: added /陶喆 _ 蔡依林 - 今天你要嫁给我.flac
+Nov 17 18:04 : update: added /王冰洋 - 因为想你才寂寞.flac
+Nov 17 18:04 : update: added /黑龙 - 38度6.flac
+Nov 17 18:04 : update: added /蔡依林 - 爱情36计.flac
+Nov 17 18:04 : update: added /苏打绿 - 小情歌 (苏打绿版).flac
+Nov 17 18:04 : update: added /柯柯柯啊 - 姑娘别哭泣.flac
+Nov 17 18:04 : update: added /凤凰传奇 - 全是爱.flac
+Nov 17 18:04 : update: added /许嵩 - 城府.flac
+Nov 17 18:04 : update: added /黄龄 - 痒.flac
+Nov 17 18:04 : update: added /凤凰传奇 - 最炫民族风.flac
+Nov 17 18:04 : update: added /欢子 - 心痛2009.flac
+Nov 17 18:04 : update: added /黄龄 _ Tăng Duy Tân - 叹.flac
+Nov 17 18:04 : update: added /鱼闪闪BLING - 美人鱼.flac
+Nov 17 18:04 : update: added /郑秀文 - 眉飞色舞.flac
+Nov 17 18:04 : update: added /周传雄 - 寂寞沙洲冷.flac
+Nov 17 18:04 : update: added /任贤齐 - 橘子香水.flac
+Nov 17 18:04 : update: added /吴雨霏 - 生生世世爱.flac
+Nov 17 18:04 : update: added /王蓉 - 哎呀.flac
+Nov 17 18:04 : update: added /张栋梁 - 北极星的眼泪.flac
+Nov 17 18:04 : update: added /蔡依林 - 爱情三十六计.flac
+Nov 17 18:04 : update: added /飞轮海 _ 田馥甄 - 只对你有感觉.flac
+Nov 17 18:04 : update: added /筷子兄弟 - 小苹果.flac
+Nov 17 18:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:05 : player: played "光良 - 童话.flac"
+Nov 17 18:05 : config: option 'command' on line 354 was not recognized
+Nov 17 18:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:05 : player: played "光良 - 童话.flac"
+Nov 17 18:06 : client: [1] malformed command "GET / HTTP/1.1"
+Nov 17 18:06 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 18:06 : client: [3] malformed command "GET / HTTP/1.1"
+Nov 17 18:06 : client: [4] malformed command "GET / HTTP/1.1"
+Nov 17 18:06 : client: [5] malformed command "GET / HTTP/1.1"
+Nov 17 18:07 : client: [6] malformed command "GET / HTTP/1.1"
+Nov 17 18:07 : client: [7] malformed command "GET / HTTP/1.1"
+Nov 17 18:08 : player: played "王麟 _ 老猫 - 伤不起 (Single Version).flac"
+Nov 17 18:08 : config: option 'command' on line 354 was not recognized
+Nov 17 18:08 : player: played "王麟 _ 老猫 - 伤不起 (Single Version).flac"
+Nov 17 18:08 : config: option 'command' on line 354 was not recognized
+Nov 17 18:08 : client: [0] malformed command "GET / HTTP/1.1"
+Nov 17 18:09 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:09 : player: played "王麟 _ 老猫 - 伤不起 (Single Version).flac"
+Nov 17 18:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:13 : player: played "杨幂 - 爱的供养.flac"
+Nov 17 18:13 : client: [2] malformed command "GET / HTTP/1.1"
+Nov 17 18:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:19 : player: played "任贤齐 - 心太软.flac"
+Nov 17 18:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 18:23 : client: [4] malformed command "GET / HTTP/1.1"
+Nov 17 18:23 : player: played "刘德华 - 忘情水.flac"
+Nov 17 18:25 : player: played "周杰伦 - 青花瓷.flac"
+Nov 17 19:05 : config: option 'command' on line 354 was not recognized
+Nov 17 19:07 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 19:07 : player: played "周杰伦 - 青花瓷.flac"
+Nov 17 19:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 19:11 : player: played "光良 - 童话.flac"
+Nov 17 19:11 : player: played "鱼闪闪BLING - 觉悟 (闪闪版).flac"
+Nov 17 19:16 : config: option 'command' on line 354 was not recognized
+Nov 17 19:18 : player: played "鱼闪闪BLING - 觉悟 (闪闪版).flac"
+Nov 17 19:39 : config: option 'command' on line 354 was not recognized
+Nov 17 19:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 19:40 : player: played "鱼闪闪BLING - 觉悟 (闪闪版).flac"
+Nov 17 19:44 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 19:44 : player: played "蔡依林 - 野蛮游戏.flac"
+Nov 17 19:47 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 17 19:47 : player: played "平生不晚 - 难却.flac"
+Nov 17 19:48 : player: played "鱼闪闪BLING - 青春没有售价.flac"
+Nov 17 19:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
