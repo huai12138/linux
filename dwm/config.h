@@ -11,7 +11,8 @@ static const Bool viewontag         = True;     /* Switch view on tag switch */
 /*static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";*/
 
-static const char *fonts[]          = { "MiSans VF:size=10" };
+/*static const char *fonts[]          = { "MiSans VF:size=10" };*/
+static const char *fonts[]          = { "Liberation Mono:size=10" };
 static const char dmenufont[]       = "Liberation Mono:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
