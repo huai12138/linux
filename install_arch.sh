@@ -18,11 +18,11 @@ echo +1G                    # 大小 1GB
 echo n                      # 创建新的分区 2 (根分区)
 echo 2
 echo
-echo +60G                   # 大小 60GB
+echo +61440M                # 大小 60GB
 echo n                      # 创建新的分区 3 (Swap 分区)
 echo 3
 echo
-echo +16G                   # 大小 16GB
+echo +16384M                # 大小 16GB
 echo n                      # 创建新的分区 4 (/home 分区)
 echo 4
 echo                        # 默认起始扇区
@@ -56,7 +56,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd zsh xorg xorg-server xorg-xinit git
+pacstrap /mnt base base-devel freerdp nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd zsh xorg xorg-server xorg-xinit git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool
 
 # 生成 fstab
 echo ">> Generating fstab"
@@ -73,7 +73,7 @@ hwclock --systohc
 
 # 配置本地化
 echo ">> Configuring localization"
-echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
+echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" >> /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
@@ -103,7 +103,7 @@ echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
 # 安装 yay
 echo ">> Installing yay (AUR helper)"
-su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm"
+su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git"
 
 EOF
 
