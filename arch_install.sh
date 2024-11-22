@@ -84,7 +84,7 @@ echo -e "127.0.0.1       localhost\n::1             localhost\n127.0.0.1       h
 
 # 设置 root 密码
 echo ">> Setting root password"
-echo root:your_root_password | chpasswd   # 替换为实际 root 密码
+passwd   # 提示用户在此输入 root 密码
 
 # 安装引导程序和 CPU 微码
 echo ">> Installing GRUB bootloader and CPU microcode"
@@ -95,11 +95,12 @@ echo ">> Configuring GRUB"
 grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
 
-# 创建新用户
+# 添加新用户并设置密码
 echo ">> Adding new user 'huai'"
 useradd -m -G wheel huai
-echo huai:your_user_password | chpasswd   # 替换为实际用户密码
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
+echo ">> Setting password for user 'huai'"
+passwd huai   # 提示用户在此输入 huai 用户密码
 
 # 安装 yay
 echo ">> Installing yay (AUR helper)"
