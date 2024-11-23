@@ -5,4 +5,5 @@ slstatus &
 numlockx &
 picom -b
 fcitx5 &
+dunst &
 exec dwm
