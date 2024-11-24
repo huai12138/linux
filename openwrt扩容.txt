@@ -5,6 +5,14 @@ opkg install block-mount
 opkg install parted 
 parted -l
 mkfs.ext4 /dev/sda3
+
+
+
+
+
+
+
+
 mkdir -p /tmp/introot
 mkdir -p /tmp/extroot
 mount --bind / /tmp/introot
