@@ -73,7 +73,7 @@ hwclock --systohc
 
 # 配置本地化
 echo ">> Configuring localization"
-echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" >> /etc/locale.gen
+echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
@@ -113,3 +113,4 @@ EOF
 echo ">> Exiting chroot and rebooting"
 umount -R /mnt
 reboot
+
