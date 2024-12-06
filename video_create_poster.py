@@ -3,8 +3,8 @@ import os
 import subprocess
 
 # 输入视频目录和输出封面目录
-video_dir = "/home/user/videos"  # 替换为视频主目录路径
-output_dir = "/home/user/output"  # 替换为输出封面主目录路径
+video_dir = "/home/huai/data/media/downloads/mv"  # 替换为视频主目录路径
+output_dir = "/home/huai/data/media/downloads/mv"  # 替换为输出封面主目录路径
 
 # 创建输出目录（如果不存在）
 os.makedirs(output_dir, exist_ok=True)
