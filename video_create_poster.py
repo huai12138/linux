@@ -14,7 +14,7 @@ def main():
     for root, dirs, files in os.walk(video_dir):
         for file in files:
             # 检查是否是支持的视频文件
-            if file.endswith((".mp4",".ts", ".mkv", ".avi", ".mov", ".flv")):
+            if file.endswith((".mp4",".ts",".TS",".MP4", ".mkv", ".avi", ".mov", ".flv")):
                 video_path = os.path.join(root, file)
                 
                 # 输出图片文件路径，与视频文件在同一目录
