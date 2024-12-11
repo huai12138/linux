@@ -139,3 +139,5 @@ alias arch="cd /home/huai/arch"
    
    
 
+export VISUAL=vim
+export EDITOR=vim
