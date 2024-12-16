@@ -24,7 +24,7 @@ case $choice in
     ;;
 esac
 
-# 查找并删除 .jpg 文件
-find "$delete_dir" -type f -name "*.jpg" -exec rm -f {} \;
+# 查找并删除指定目录及其子目录下的所有 .jpg 文件
+find "$delete_dir" -type f -name "*.jpg" -delete
 
 echo "删除完成。"
