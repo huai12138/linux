@@ -2,10 +2,28 @@ import os
 import subprocess
 
 def main():
-    # 提示用户输入视频主目录路径
-    video_dir = input("请输入视频主目录路径（例如 /home/user/videos）: ").strip()
+    # 提供两个预定义的路径供用户选择
+    predefined_paths = {
+        "1": "/home/huai/data/media/downloads/h",
+        "2": "/home/huai/data/media/downloads/mv"
+    }
 
-    # 检查输入目录是否有效
+    # 显示路径选项
+    print("请选择视频主目录路径：")
+    for key, path in predefined_paths.items():
+        print(f"{key}: {path}")
+    
+    # 获取用户选择
+    choice = input("请输入选项编号（1或2）：").strip()
+
+    # 验证用户输入
+    if choice not in predefined_paths:
+        print("无效的选项，请重新运行脚本并选择 1 或 2。")
+        return
+
+    video_dir = predefined_paths[choice]
+
+    # 检查选择的目录是否有效
     if not os.path.isdir(video_dir):
         print(f"错误: 视频目录 '{video_dir}' 不存在。")
         return
