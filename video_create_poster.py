@@ -14,22 +14,23 @@ def main():
     for root, dirs, files in os.walk(video_dir):
         for file in files:
             # 检查是否是支持的视频文件
-            if file.endswith((".mp4",".ts",".TS",".MP4", ".mkv", ".avi", ".mov", ".flv")):
+            if file.endswith((".mp4", ".ts", ".TS", ".MP4", ".mkv", ".avi", ".mov", ".flv")):
                 video_path = os.path.join(root, file)
-                
+
                 # 输出图片文件路径，与视频文件在同一目录
                 output_file = os.path.join(root, f"{os.path.splitext(file)[0]}-poster.jpg")
-                
+
                 # FFmpeg命令生成封面图片
                 command = [
                     "ffmpeg",
-                    "-i", video_path,        # 输入视频路径
-                    "-ss", "00:00:01",       # 选取5秒的帧，可自行调整时间点
-                    "-vframes", "1",         # 提取一帧
-                    "-q:v", "2",             # 图片质量（2为高质量）
-                    output_file              # 输出图片路径
+                    "-y",                  # 强制覆盖输出文件
+                    "-i", video_path,      # 输入视频路径
+                    "-ss", "00:00:01",     # 选取1秒的帧，可自行调整时间点
+                    "-vframes", "1",       # 提取一帧
+                    "-q:v", "2",           # 图片质量（2为高质量）
+                    output_file            # 输出图片路径
                 ]
-                
+
                 try:
                     subprocess.run(command, check=True)
                     print(f"生成封面成功: {output_file}")
