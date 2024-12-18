@@ -28,6 +28,6 @@ sudo apt update
 
 echo "清华源 (Bookworm) 设置完成！"
 #安装dwm依赖 
-#sudo apt install -y xorg build-essential libx11-dev libxft-dev libxinerama-dev 
+sudo apt install -y xorg build-essential libx11-dev libxft-dev libxinerama-dev git 
 
 echo "安装完成！"
