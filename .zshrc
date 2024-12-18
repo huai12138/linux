@@ -131,7 +131,8 @@ alias pl="vim /home/huai/.config/mpd/playlists/all.m3u"
 alias h="Hyprland"
 alias config="cd /home/huai/.config"
 alias free="cd /home/huai/free"
-alias arch="cd /home/huai/arch"
+alias linux="cd /home/huai/linux"
+alias stacks="cd /home/huai/stacks"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
