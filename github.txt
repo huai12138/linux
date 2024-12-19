@@ -3,11 +3,11 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/huaihuaidehuaihuai/ceshi.git
+git remote add origin https://github.com/huai12138/linux.git
 git push -u origin main
 
 
-git remote add origin https://github.com/huaihuaidehuaihuai/ceshi.git
+git remote add origin https://github.com/huai12138/linux.git
 git branch -M main
 git push -u origin main
 
