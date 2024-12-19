@@ -99,7 +99,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # 添加新用户并设置密码
 echo ">> Adding new user 'huai'"
 useradd -m -G wheel huai
-echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
+echo "huai ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo ">> Setting password for user 'huai'"
 echo "huai:1" | chpasswd   # 设置 huai 用户密码，替换 "yourpassword" 为实际密码
 
