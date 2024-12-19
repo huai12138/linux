@@ -133,6 +133,7 @@ alias config="cd /home/huai/.config"
 alias free="cd /home/huai/free"
 alias linux="cd /home/huai/linux"
 alias stacks="cd /home/huai/stacks"
+alias data="cd /home/huai/data"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
