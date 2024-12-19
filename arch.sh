@@ -107,6 +107,10 @@ echo "huai:1" | chpasswd   # 设置 huai 用户密码，替换 "yourpassword" �
 echo ">> Installing yay (AUR helper)"
 su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
 
+# 配置输入法环境变量
+echo ">> Setting input method environment variables"
+echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus" >> /etc/environment
+
 EOF
 
 # 退出并重启
