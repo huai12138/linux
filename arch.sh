@@ -85,7 +85,7 @@ echo "10.10.10.21:/mnt/data /home/huai/data nfs _netdev,noauto,x-systemd.automou
 
 # 设置 root 密码
 echo ">> Setting root password"
-passwd   # 提示用户在此输入 root 密码
+echo "root:1" | chpasswd   # 设置 root 密码，替换 "yourpassword" 为实际密码
 
 # 安装引导程序和 CPU 微码
 echo ">> Installing GRUB bootloader and CPU microcode"
@@ -101,7 +101,7 @@ echo ">> Adding new user 'huai'"
 useradd -m -G wheel huai
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 echo ">> Setting password for user 'huai'"
-passwd huai   # 提示用户在此输入 huai 用户密码
+echo "huai:1" | chpasswd   # 设置 huai 用户密码，替换 "yourpassword" 为实际密码
 
 # 安装 yay
 echo ">> Installing yay (AUR helper)"
