@@ -1,5 +1,5 @@
 #!/bin/zsh
 
-chromium &
+google-chrome-stable &
 telegram-desktop &
 /bin/zsh ~/.config/wallpaperautochange.sh
