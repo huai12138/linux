@@ -11,7 +11,7 @@ ping -c 1 "$TARGET_IP" > /dev/null 2>&1
 if [ $? -eq 0 ]; then
     # 如果目标主机可达，则直接连接 Remmina
     echo "Windows系统已启动，连接中..."
-    remmina -c "$REMmina_CONFIG"
+    remmina -c "$REMmina_CONFIG" &
 else
     # 如果目标主机不可达，则发送 Wake-On-LAN 信号
     echo "Windows系统未启动，正在唤醒..."
@@ -23,6 +23,6 @@ else
     
     # 唤醒后再连接 Remmina
     echo "重新连接 Remmina..."
-    remmina -c "$REMmina_CONFIG"
+    remmina -c "$REMmina_CONFIG" &
 fi
 
