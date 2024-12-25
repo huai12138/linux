@@ -22,7 +22,7 @@ else
     sleep 30
     
     # 唤醒后再连接 Remmina
-    echo "重新连接 Remmina..."
+    echo "正在连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
 fi
 
