@@ -748,3 +748,407 @@ Dec 19 20:33 : update: updating /林俊杰 - 一千年以后.flac
 Dec 19 20:33 : update: updating /徐良 _ Britneylee小暖 - 和平分手.flac
 Dec 19 20:33 : exception: Playlist already exists
 Dec 19 20:37 : player: played "少女时代 - 소원을 말해봐 (Genie).flac"
+Dec 19 20:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 20:41 : player: played "任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.flac"
+Dec 19 20:44 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 20:44 : player: played "黑龙 - 38度6.flac"
+Dec 19 20:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 20:48 : player: played "张韶涵 - 亲爱的，那不是爱情.flac"
+Dec 19 20:52 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 20:52 : player: played "王心凌 - 睫毛弯弯.flac"
+Dec 19 20:56 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 20:57 : player: played "海鸣威 _ 吴琼 - 老人与海.flac"
+Dec 19 21:00 : player: played "少女时代 - Gee.flac"
+Dec 19 21:03 : player: played "PSY - Gentleman.flac"
+Dec 19 21:27 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:27 : player: played "PSY - Gentleman.flac"
+Dec 19 21:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:31 : player: played "Groove Coverage - God Is a Girl (Album Version).flac"
+Dec 19 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:34 : player: played "MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).flac"
+Dec 19 21:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:38 : player: played "蔡依林 - 招牌动作.flac"
+Dec 19 21:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:42 : player: played "周杰伦 - 星晴.flac"
+Dec 19 21:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:46 : player: played "林俊杰 - 我还想她.flac"
+Dec 19 21:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:48 : player: played "Katie Herzig - Forevermore.flac"
+Dec 19 21:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:52 : player: played "少女时代 (소녀시대) - Mr_Taxi.flac"
+Dec 19 21:56 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 21:56 : player: played "张敬轩 - 断点.flac"
+Dec 19 21:59 : player: played "少女时代 - Oh!.flac"
+Dec 19 22:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:03 : player: played "Matteo - Panama.flac"
+Dec 19 22:06 : player: played "Craig Smart - I Miss You.ogg"
+Dec 19 22:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:11 : player: played "梁静茹 - 分手快乐.flac"
+Dec 19 22:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:14 : player: played "S_H_E - Super Star.flac"
+Dec 19 22:17 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:17 : player: played "潘玮柏 _ 张韶涵 - 快乐崇拜.flac"
+Dec 19 22:21 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:21 : player: played "PSY (朴载相) - 강남스타일 (江南Style).flac"
+Dec 19 22:24 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:24 : player: played "庄心妍 _ 祁隆 - 一万个舍不得.flac"
+Dec 19 22:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:29 : player: played "蒙面哥 - 一亿个伤心.flac"
+Dec 19 22:32 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:33 : player: played "于洋 - 一开始说陪你到老的人现在他还在吗.flac"
+Dec 19 22:36 : player: played "闻人听書_ - 一笑江湖 (DJ弹鼓版).ogg"
+Dec 19 22:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:41 : player: played "陈楚生 - 有没有人告诉你 (1_7 Concert Live).flac"
+Dec 19 22:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:46 : player: played "周杰伦 - 七里香.flac"
+Dec 19 22:50 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:50 : player: played "鱼闪闪BLING - 万重浪.flac"
+Dec 19 22:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:54 : player: played "陈雅森 - 下辈子不一定还能遇见你.flac"
+Dec 19 22:57 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 19 22:58 : player: played "Suara (すあら) - 不安定な神様 (不安定的神明).flac"
+Dec 19 22:59 : player: played "美美jocie - 不怕不怕.flac"
+Dec 20 12:22 : config: option 'command' on line 354 was not recognized
+Dec 21 12:28 : config: option 'command' on line 354 was not recognized
+Dec 21 22:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:29 : player: played "徐良 _ Britneylee小暖 - 和平分手.flac"
+Dec 21 22:32 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:32 : player: played "井胧 _ 井迪儿 - 骁.flac"
+Dec 21 22:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:37 : player: played "胡杨林 - 香水有毒.flac"
+Dec 21 22:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:40 : player: played "潘玮柏 _ 张韶涵 - 快乐崇拜.flac"
+Dec 21 22:43 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:43 : player: played "兰雨 - 最后一次的温柔.flac"
+Dec 21 22:47 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:47 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 21 22:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:51 : player: played "欢子 - 心痛2009.flac"
+Dec 21 22:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 22:56 : player: played "林俊杰 - 江南.flac"
+Dec 21 23:00 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 23:00 : player: played "凤凰传奇 - 荷塘月色.flac"
+Dec 21 23:03 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 21 23:03 : player: played "陈慧琳 - 不如跳舞.flac"
+Dec 21 23:05 : player: played "许嵩 - 城府.flac"
+Dec 22 12:24 : config: option 'command' on line 354 was not recognized
+Dec 23 11:10 : config: option 'command' on line 354 was not recognized
+Dec 23 17:54 : config: option 'command' on line 354 was not recognized
+Dec 24 08:45 : config: option 'command' on line 354 was not recognized
+Dec 24 12:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:29 : player: played "火箭少女101 - 卡路里.flac"
+Dec 24 12:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:34 : player: played "乌兰托娅 - 火红的萨日朗.flac"
+Dec 24 12:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:37 : player: played "郑秀文 - 眉飞色舞.flac"
+Dec 24 12:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:41 : player: played "林俊杰 - 一千年以后.flac"
+Dec 24 12:44 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:45 : player: played "凤凰传奇 - 全是爱.flac"
+Dec 24 12:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:48 : player: played "魏新雨 - 恋人心.flac"
+Dec 24 12:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:52 : player: played "王力宏 - 天地龙鳞.flac"
+Dec 24 12:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 12:55 : player: played "李晓杰 - 老大.flac"
+Dec 24 12:59 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:00 : player: played "梁静茹 - 分手快乐.flac"
+Dec 24 13:04 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:04 : player: played "李荣浩 - 李白.flac"
+Dec 24 13:07 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:07 : player: played "王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).flac"
+Dec 24 13:12 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:12 : player: played "刘亦菲 - 一克拉的眼泪.flac"
+Dec 24 13:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:15 : player: played "伊格赛听 _ 叶里 - 谪仙.flac"
+Dec 24 13:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:20 : player: played "林俊杰 - 江南.flac"
+Dec 24 13:24 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:24 : player: played "凤凰传奇 - 荷塘月色.flac"
+Dec 24 13:28 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:28 : player: played "金志文 - 难以启齿的柔弱.flac"
+Dec 24 13:31 : player: played "蔡依林 - 舞娘.flac"
+Dec 24 13:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:35 : player: played "王蓉 - 哎呀.flac"
+Dec 24 13:38 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:38 : player: played "上官红燕 - 玛尼情歌.flac"
+Dec 24 13:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:42 : player: played "张韶涵 - 隐形的翅膀.flac"
+Dec 24 13:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:45 : player: played "鱼闪闪BLING - 觉悟 (闪闪版).flac"
+Dec 24 13:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:48 : player: played "张韶涵 - 香水百合.flac"
+Dec 24 13:52 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:52 : player: played "谢安琪 - 我们都被忘了.flac"
+Dec 24 13:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:55 : player: played "张妙格 - 我期待的不是雪 (而是有你的冬天).flac"
+Dec 24 13:59 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 13:59 : player: played "Groove Coverage - God Is a Girl (Album Version).flac"
+Dec 24 14:01 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:02 : player: played "鱼闪闪BLING - 时光背面的我.flac"
+Dec 24 14:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:05 : player: played "三叔说 - 海市蜃楼.flac"
+Dec 24 14:09 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:10 : player: played "张韶涵 - 欧若拉.flac"
+Dec 24 14:14 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:14 : player: played "周传雄 - 寂寞沙洲冷.flac"
+Dec 24 14:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:18 : player: played "张芸京 - 偏爱.flac"
+Dec 24 14:22 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:22 : player: played "欧得洋 - 孤单北半球.flac"
+Dec 24 14:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:26 : player: played "马天宇 - 该死的温柔.flac"
+Dec 24 14:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:32 : player: played "任贤齐 - 心太软.flac"
+Dec 24 14:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:35 : player: played "Twins - 莫斯科没有眼泪.flac"
+Dec 24 14:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 14:40 : player: played "F4 - 流星雨.flac"
+Dec 24 14:42 : player: played "徐誉滕 - 等一分钟.flac"
+Dec 24 15:00 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:00 : player: played "徐誉滕 - 等一分钟.flac"
+Dec 24 15:04 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:05 : player: played "徐誉滕 - 做我老婆好不好.flac"
+Dec 24 15:08 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:08 : player: played "S_H_E - Super Star.flac"
+Dec 24 15:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:12 : player: played "许嵩 _ 莫诗旎 - 你若成风.flac"
+Dec 24 15:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:15 : player: played "慕容晓晓 - 爱情买卖.flac"
+Dec 24 15:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:20 : player: played "阿木 - 有一种爱叫做放手.flac"
+Dec 24 15:21 : player: played "袁成杰 _ 戚薇 - 外滩十八号.flac"
+Dec 24 15:23 : config: option 'command' on line 354 was not recognized
+Dec 24 15:23 : output: Failed to play on "alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo" (pipewire): no target node available
+Dec 24 15:23 : exception: Failed to open audio output
+Dec 24 15:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:26 : player: played "袁成杰 _ 戚薇 - 外滩十八号.flac"
+Dec 24 15:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:31 : player: played "潘玮柏 _ 弦子 - 不得不爱.flac"
+Dec 24 15:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:35 : player: played "周杰伦 - 星晴.flac"
+Dec 24 15:39 : player: played "少女时代 - Gee.flac"
+Dec 24 15:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:43 : player: played "凤凰传奇 - 奢香夫人.flac"
+Dec 24 15:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:46 : player: played "Twins - 莫斯科没有眼泪.flac"
+Dec 24 15:49 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:50 : player: played "黄静美 - 囚心禁爱.flac"
+Dec 24 15:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:54 : player: played "林俊杰 - 我还想她.flac"
+Dec 24 15:58 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 15:58 : player: played "梁静茹 - 分手快乐.flac"
+Dec 24 16:01 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:02 : player: played "王力宏 - 天地龙鳞.flac"
+Dec 24 16:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:05 : player: played "Matteo - Panama.flac"
+Dec 24 16:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:10 : player: played "朴树 - 平凡之路.flac"
+Dec 24 16:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:13 : player: played "梁静茹 - 宁夏.flac"
+Dec 24 16:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:18 : player: played "迪克牛仔 - 有多少爱可以重来.flac"
+Dec 24 16:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:23 : player: played "周杰伦 - 菊花台.flac"
+Dec 24 16:28 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:28 : player: played "高姗 - 和你遇到.flac"
+Dec 24 16:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:31 : player: played "黄静美 - 怎么做怎么过怎么活.flac"
+Dec 24 16:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:35 : player: played "张震岳 - 爱的初体验.flac"
+Dec 24 16:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:40 : player: played "周杰伦 - 东风破.flac"
+Dec 24 16:43 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:43 : player: played "王忻辰 _ 苏星婕 - 清空.flac"
+Dec 24 16:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:48 : player: played "王绎龙 - 午夜DJ (DJ版).flac"
+Dec 24 16:52 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:52 : player: played "三叔说 - 海市蜃楼.flac"
+Dec 24 16:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 16:55 : player: played "兰雨 - 最后一次的温柔.flac"
+Dec 24 17:00 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:00 : player: played "六哲 - 被伤过的心还可以爱谁.flac"
+Dec 24 17:04 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:04 : player: played "王心凌 - 睫毛弯弯.flac"
+Dec 24 17:08 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:09 : player: played "周杰伦 - 说好的幸福呢.flac"
+Dec 24 17:12 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:13 : player: played "代理仁 - 预谋.flac"
+Dec 24 17:17 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:17 : player: played "王冰洋 - 飞舞.flac"
+Dec 24 17:21 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:21 : player: played "刘亦菲 - 毛毛雨.flac"
+Dec 24 17:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:26 : player: played "阿吉太组合 - 阿衣莫.flac"
+Dec 24 17:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:30 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 24 17:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:33 : player: played "陈慧琳 - 不如跳舞.flac"
+Dec 24 17:38 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:38 : player: played "谢安琪 - 我们都被忘了.flac"
+Dec 24 17:41 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:41 : player: played "王心凌 - 爱你.flac"
+Dec 24 17:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:45 : player: played "白小白 - 爱不得忘不舍.flac"
+Dec 24 17:49 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:49 : player: played "陈旭 - 哥只是个传说.flac"
+Dec 24 17:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:53 : player: played "飞轮海 _ 田馥甄 - 只对你有感觉.flac"
+Dec 24 17:58 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 17:58 : player: played "蔡依林 _ 周杰伦 - 布拉格广场.flac"
+Dec 24 18:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:02 : player: played "光良 - 童话.flac"
+Dec 24 18:06 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:06 : player: played "美美jocie - 不怕不怕.flac"
+Dec 24 18:09 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:09 : player: played "李晓杰 - 老大.flac"
+Dec 24 18:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:14 : player: played "张栋梁 - 北极星的眼泪.flac"
+Dec 24 18:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:19 : player: played "周杰伦 - 发如雪.flac"
+Dec 24 18:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:23 : player: played "张敬轩 - 断点.flac"
+Dec 24 18:26 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:26 : player: played "顾峰 _ 斯琴高丽 - 犯错.flac"
+Dec 24 18:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:31 : player: played "周杰伦 _ 费玉清 - 千里之外.flac"
+Dec 24 18:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:35 : player: played "凤凰传奇 - 自由飞翔.flac"
+Dec 24 18:37 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:37 : player: played "Katie Herzig - Forevermore.flac"
+Dec 24 18:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:42 : player: played "凤凰传奇 - 最炫民族风.flac"
+Dec 24 18:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:45 : player: played "蔡依林 - 招牌动作.flac"
+Dec 24 18:48 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:49 : player: played "小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.flac"
+Dec 24 18:54 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 18:54 : player: played "展展与罗罗 - 沙漠骆驼.flac"
+Dec 24 18:59 : player: played "烟把儿乐队 - 纸短情长.ogg"
+Dec 24 19:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:03 : player: played "筷子兄弟 - 小苹果.flac"
+Dec 24 19:07 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:07 : player: played "林俊杰 - 美人鱼.flac"
+Dec 24 19:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:12 : player: played "吴雨霏 - 生生世世爱.flac"
+Dec 24 19:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:15 : player: played "刘亦菲 - 心悸.flac"
+Dec 24 19:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:19 : player: played "周杰伦 - 青花瓷.flac"
+Dec 24 19:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:23 : player: played "于洋 - 一开始说陪你到老的人现在他还在吗.flac"
+Dec 24 19:27 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:27 : player: played "胡歌 - 六月的雨.flac"
+Dec 24 19:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:31 : player: played "徐良 _ 小凌 - 客官不可以.flac"
+Dec 24 19:35 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:35 : player: played "欧得洋 - 孤单北半球.flac"
+Dec 24 19:38 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:39 : player: played "少女时代 (소녀시대) - Mr_Taxi.flac"
+Dec 24 19:42 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:42 : player: played "任贤齐 - 橘子香水.flac"
+Dec 24 19:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:46 : player: played "花儿乐队 - 我们能不能不分手.flac"
+Dec 24 19:50 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:50 : player: played "海鸣威 _ 吴琼 - 老人与海.flac"
+Dec 24 19:54 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:55 : player: played "刘亦菲 - 放飞美丽.flac"
+Dec 24 19:58 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 19:58 : player: played "夏天Alex - 不再联系.flac"
+Dec 24 20:01 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:01 : player: played "叶里 - 人间惊鸿客.flac"
+Dec 24 20:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:06 : player: played "王蓉 - 爸爸妈妈.flac"
+Dec 24 20:09 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:10 : player: played "许嵩 _ 何曼婷 - 素颜.flac"
+Dec 24 20:13 : player: played "Craig Smart - I Miss You.ogg"
+Dec 24 20:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:18 : player: played "郑智化 - 星星点灯.flac"
+Dec 24 20:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:23 : player: played "张信哲 - 过火.flac"
+Dec 24 20:27 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:27 : player: played "薛之谦 - 认真的雪.flac"
+Dec 24 20:31 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:31 : player: played "鱼闪闪BLING _ 前男友 - 踏雪 (新版).flac"
+Dec 24 20:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:37 : player: played "刀郎 - 西海情歌.flac"
+Dec 24 20:40 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:40 : player: played "李玉刚 - 刚好遇见你.flac"
+Dec 24 20:44 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:44 : player: played "深海鱼子酱 - 千千万万.flac"
+Dec 24 20:47 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:48 : player: played "大张伟 - 倍儿爽.flac"
+Dec 24 20:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:51 : player: played "郑秀文 - 眉飞色舞.flac"
+Dec 24 20:54 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 20:55 : player: played "张杰 - 天下.flac"
+Dec 24 21:00 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:00 : player: played "周华健 - 朋友.flac"
+Dec 24 21:03 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:04 : player: played "张韶涵 - 隐形的翅膀.flac"
+Dec 24 21:08 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:08 : player: played "林俊杰 - 江南.flac"
+Dec 24 21:12 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:12 : player: played "王不醒 - 月老掉线.flac"
+Dec 24 21:16 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:16 : player: played "凤凰传奇 - 荷塘月色.flac"
+Dec 24 21:20 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:21 : player: played "大欢 - 化风行万里.flac"
+Dec 24 21:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:25 : player: played "李圣杰 - 痴心绝对.flac"
+Dec 24 21:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:29 : player: played "火箭少女101 - 卡路里.flac"
+Dec 24 21:34 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:34 : player: played "赵雷 - 成都.flac"
+Dec 24 21:38 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:38 : player: played "黄勇 _ 任书怀 - 你看到的我.flac"
+Dec 24 21:41 : player: played "蔡依林 - 舞娘.flac"
+Dec 24 21:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:45 : player: played "齐晨 - 咱们结婚吧.flac"
+Dec 24 21:50 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 24 21:50 : player: played "誓言 - 求佛.flac"
+Dec 24 21:53 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:01 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:04 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:08 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:11 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:15 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:18 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:22 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:25 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 24 22:28 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 25 11:17 : config: option 'command' on line 354 was not recognized
+Dec 25 14:19 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 25 14:19 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 25 14:20 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 25 15:29 : config: option 'command' on line 354 was not recognized
+Dec 25 15:29 : output: Failed to play on "alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo" (pipewire): no target node available
+Dec 25 15:29 : exception: Failed to open audio output
+Dec 25 15:29 : output: Failed to play on "alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo" (pipewire): no target node available
+Dec 25 15:29 : exception: Failed to open audio output
+Dec 25 15:30 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 25 15:30 : config: option 'command' on line 354 was not recognized
+Dec 25 15:30 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 25 15:36 : config: option 'command' on line 354 was not recognized
+Dec 25 16:10 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Dec 25 16:10 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 25 16:10 : player: played "音阙诗听 _ 赵方婧 - 芒种.flac"
+Dec 26 11:20 : config: option 'command' on line 354 was not recognized
+Dec 26 17:05 : config: option 'command' on line 354 was not recognized
+Dec 26 17:11 : config: option 'command' on line 354 was not recognized
+Dec 26 17:21 : config: option 'command' on line 354 was not recognized
+Dec 26 17:25 : config: option 'command' on line 354 was not recognized
+Dec 26 17:29 : config: option 'command' on line 354 was not recognized
+Dec 26 17:34 : config: option 'command' on line 354 was not recognized
+Dec 26 17:41 : config: option 'command' on line 354 was not recognized
+Dec 26 18:16 : config: option 'command' on line 354 was not recognized
+Dec 26 18:26 : config: option 'command' on line 354 was not recognized
+Dec 26 18:29 : config: option 'command' on line 354 was not recognized
+Dec 26 18:35 : config: option 'command' on line 354 was not recognized
+Dec 26 19:35 : config: option 'command' on line 354 was not recognized
+Dec 26 23:47 : config: option 'command' on line 354 was not recognized
+Dec 27 13:03 : config: option 'command' on line 354 was not recognized
+Dec 27 16:38 : player: played "Twins - 莫斯科没有眼泪.flac"
+Dec 27 16:43 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 27 16:47 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
+Dec 27 16:50 : player: played "就是南方凯 - 列车开往春天 (DJ沈乐Remix).ogg"
