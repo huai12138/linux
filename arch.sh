@@ -14,7 +14,7 @@ echo g                      # 创建新的 GPT 分区表
 echo n                      # 创建新的分区 1 (EFI 分区)
 echo 1                      # 分区号
 echo                        # 默认起始扇区
-echo +1G                    # 大小 1GB
+echo +512m                  # 大小 512m
 echo n                      # 创建新的分区 2 (根分区)
 echo 2
 echo
