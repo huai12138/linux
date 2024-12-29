@@ -4,7 +4,7 @@ TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
-MAX_TRIES=20
+MAX_TRIES=10
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') $1"
