@@ -21,8 +21,13 @@ else
     echo "正在等待系统启动..."
     sleep 30
     
+    # 机器启动 完成
+    echo "系统启动完成 开始连接..."
     # 唤醒后再连接 Remmina
+    sleep 1
     echo "正在连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
+    sleep 3
+    echo "连接成功 祝您愉快"
 fi
 
