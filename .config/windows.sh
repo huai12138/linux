@@ -36,7 +36,7 @@ fi
 if sudo arping -c 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
     log "Windows 系统已启动，连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    sleep 1
+    sleep 5
     log "连接成功，祝您愉快"
 else
     log "Windows 系统未启动，正在唤醒..."
@@ -49,7 +49,7 @@ else
             break
         fi
         log "尝试连接 ($i/$MAX_TRIES)..."
-        sleep 3
+        sleep 1
     done
 
     if [[ "$i" -ge "$MAX_TRIES" ]]; then
