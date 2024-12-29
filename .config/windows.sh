@@ -12,6 +12,8 @@ if [ $? -eq 0 ]; then
     # 如果目标主机可达，则直接连接 Remmina
     echo "Windows系统已启动，连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
+    sleep 3
+    echo "连接成功 祝您愉快"
 else
     # 如果目标主机不可达，则发送 Wake-On-LAN 信号
     echo "Windows系统未启动，正在唤醒..."
