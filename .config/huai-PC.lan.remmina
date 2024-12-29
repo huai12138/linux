@@ -1,8 +1,8 @@
 [remmina]
-password=sa7ZPNg88qsrGwp2Oii7jw==
+password=fRU7CiYXKq73D1tMQU2b1g==
 gateway_username=
 notes_text=
-window_height=1042
+window_height=1044
 vc=
 preferipv6=0
 scale=2
@@ -96,7 +96,7 @@ window_maximize=0
 keyboard_grab=0
 dvc=
 gateway_usage=0
-window_width=1904
+window_width=1906
 no-suppress=0
 sound=local
 websockets=0
