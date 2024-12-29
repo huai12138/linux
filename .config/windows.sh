@@ -3,7 +3,7 @@
 # 目标IP和MAC地址
 TARGET_IP="10.0.0.15"
 MAC_ADDRESS="00:23:24:67:DF:14"
-REMmina_CONFIG="$HOME/.config/huai-PC.lan.remmina"
+REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 
 # 使用 ping 命令检查目标主机是否可达
 ping -c 1 "$TARGET_IP" > /dev/null 2>&1
