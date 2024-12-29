@@ -43,7 +43,7 @@ else
     wakeonlan "$MAC_ADDRESS" > /dev/null 2>&1
 
     log "正在等待系统启动..."
-    for i in $(seq 1 "$MAX_TRIES"); do
+    for ((i=1; i<=MAX_TRIES; i++)); do
         if sudo arping -c 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
             log "系统已上线"
             break
@@ -52,13 +52,13 @@ else
         sleep 1
     done
 
-    if [[ "$i" -ge "$MAX_TRIES" ]]; then
+    if (( i > MAX_TRIES )); then
         log "等待 $MAX_TRIES 次尝试后，连接超时，请检查网络或目标主机。"
         exit 1
     fi
 
     log "系统启动完成，开始连接..."
-    sleep 1
+    sleep 3
     log "正在连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
     sleep 3
