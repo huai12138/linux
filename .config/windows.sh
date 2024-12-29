@@ -4,7 +4,7 @@ TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
-MAX_TRIES=10
+MAX_TRIES=30
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') $1"
@@ -36,7 +36,7 @@ fi
 if sudo arping -c 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
     log "Windows 系统已启动，连接中..."
     remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    sleep 3
+    sleep 1
     log "连接成功，祝您愉快"
 else
     log "Windows 系统未启动，正在唤醒..."
