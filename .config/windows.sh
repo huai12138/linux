@@ -49,7 +49,7 @@ else
             break
         fi
         log "尝试连接 ($i/$MAX_TRIES)..."
-        sleep 0.5
+       
     done
 
     if (( i > MAX_TRIES )); then
