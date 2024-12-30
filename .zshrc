@@ -136,6 +136,9 @@ alias data="cd /home/huai/data"
 alias usb="cd /home/huai/usb"
 alias www="cd /home/huai/data/www"
 alias picomconfig="vim ~/.config/picom.conf"
+alias nas="ssh huai@nas"
+alias openwrt="ssh root@openwrt"
+alias ax6s="ssh root@ax6s"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
