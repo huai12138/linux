@@ -4,7 +4,7 @@ TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
-MAX_TRIES=5
+MAX_TRIES=6
 
 # 检查必要命令
 for cmd in arping wakeonlan remmina; do
@@ -58,7 +58,7 @@ else
         exit 1
     fi
 
-    echo "系统启动完成，开始连接..."
+    echo "开始连接..."
     sleep 5
     echo "正在连接中..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
