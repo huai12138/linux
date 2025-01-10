@@ -64,7 +64,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 # 进入 chroot 环境
 echo ">> Entering chroot environment"
-arch-chroot /mnt /bin/bash <<EOF
+arch-chroot /mnt /bin/bash
 
 # 设置时区
 echo ">> Setting timezone"
@@ -88,13 +88,24 @@ echo ">> Setting root password"
 echo "root:1" | chpasswd   # 设置 root 密码，替换 "yourpassword" 为实际密码
 
 # 安装引导程序和 CPU 微码
-echo ">> Installing GRUB bootloader and CPU microcode"
-pacman -S --noconfirm grub efibootmgr intel-ucode os-prober
+echo ">> Installing systemd-boot and CPU microcode"
+pacman -S --noconfirm efibootmgr intel-ucode
 
-# 配置 GRUB
-echo ">> Configuring GRUB"
-grub-install --target=x86_64-efi --efi-directory=/boot
-grub-mkconfig -o /boot/grub/grub.cfg
+# 安装 systemd-boot
+echo ">> Installing systemd-boot"
+bootctl install --path=/boot
+
+# 配置 systemd-boot
+echo ">> Configuring systemd-boot"
+# 获取根分区的 UUID
+ROOT_UUID=$(blkid -s UUID -o value "${DISK}p2")
+
+# 设置引导项
+echo ">> Setting up Arch Linux boot entry"
+echo "title   Arch Linux" > /boot/loader/entries/arch.conf
+echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
+echo "options root=UUID=$ROOT_UUID rw" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
 echo ">> Adding new user 'huai'"
@@ -110,8 +121,6 @@ su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
 # 配置输入法环境变量
 echo ">> Setting input method environment variables"
 echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus" >> /etc/environment
-
-EOF
 
 # 退出并重启
 echo ">> Exiting chroot and rebooting"
