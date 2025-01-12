@@ -4,7 +4,7 @@ TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
-MAX_TRIES=6
+MAX_TRIES=30
 
 # 检查必要命令
 for cmd in arping wakeonlan remmina; do
@@ -50,7 +50,7 @@ else
             break
         fi
         echo "检测系统状态 ($i/$MAX_TRIES)..."
-        sleep 5
+        sleep 1
     done
 
     if (( i > MAX_TRIES )); then
