@@ -1,8 +1,9 @@
 #!/bin/zsh
 
-google-chrome-stable &
+chromium &
 telegram-desktop &
 /bin/zsh ~/.config/wallpaperautochange.sh &
-/bin/zsh ~/.config/startwindows.sh 
-sleep 20 
-/bin/zsh ~/.config/windows.sh 
+#/bin/zsh ~/.config/startwindows.sh 
+#sleep 20 
+#/bin/zsh ~/.config/windows.sh
+dunst & 
