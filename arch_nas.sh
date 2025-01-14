@@ -57,58 +57,56 @@ pacstrap /mnt base base-devel nfs-utils linux linux-firmware vim dhcpcd zsh git 
 echo ">> Generating fstab"
 genfstab -U /mnt >> /mnt/etc/fstab
 
-# 进入 chroot 环境
+# 进入 chroot 环境并执行命令
 echo ">> Entering chroot environment"
-arch-chroot /mnt /bin/bash
+arch-chroot /mnt /bin/bash -c "
+   # 设置时区
+   echo '>> Setting timezone'
+   ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+   hwclock --systohc
 
-# 设置时区
-echo ">> Setting timezone"
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-hwclock --systohc
+   # 配置本地化
+   echo '>> Configuring localization'
+   echo -e 'en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8' > /etc/locale.gen
+   locale-gen
+   echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
-# 配置本地化
-echo ">> Configuring localization"
-echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
-locale-gen
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
+   # 网络配置
+   echo '>> Configuring network'
+   echo 'nas' > /etc/hostname
+   echo -e '127.0.0.1       localhost\n::1             localhost\n127.0.0.1       nas.localdomain  nas' > /etc/hosts
 
-# 网络配置
-echo ">> Configuring network"
-echo "nas" > /etc/hostname
-echo -e "127.0.0.1       localhost\n::1             localhost\n127.0.0.1       nas.localdomain  nas" > /etc/hosts
+   # 设置 root 密码
+   echo '>> Setting root password'
+   echo 'root:1' | chpasswd
 
-# 设置 root 密码
-echo ">> Setting root password"
-echo "root:1" | chpasswd   # 设置 root 密码，替换 "root_password" 为实际密码
+   # 安装引导程序和 CPU 微码
+   echo '>> Installing systemd-boot bootloader and CPU microcode'
+   pacman -S --noconfirm intel-ucode efibootmgr
 
-# 安装引导程序和 CPU 微码
-echo ">> Installing systemd-boot bootloader and CPU microcode"
-pacman -S --noconfirm intel-ucode efibootmgr
+   # 配置 systemd-boot
+   echo '>> Configuring systemd-boot'
+   bootctl install --path=/boot
 
-# 配置 systemd-boot
-echo ">> Configuring systemd-boot"
-bootctl install --path=/boot
+   # 配置 loader
+   echo '>> Setting up loader configuration'
+   echo 'default arch.conf' > /boot/loader/loader.conf
 
-# 配置 loader
-echo ">> Setting up loader configuration"
-echo "default arch" > /boot/loader/loader.conf
 
-# 获取根分区的 UUID
-ROOT_UUID=$(blkid -s UUID -o value "${DISK}p3")
+   # 设置 Arch Linux 启动项
+   echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
+   echo 'linux   /vmlinuz-linux' >> /boot/loader/entries/arch.conf
+   echo 'initrd  /initramfs-linux.img' >> /boot/loader/entries/arch.conf
+   echo 'options root=UUID=\$ROOT_UUID rw' >> /boot/loader/entries/arch.conf
+   echo 'options root=/dev/mmcblk0p3 rw' >> /boot/loader/entries/arch.conf
 
-# 使用 echo 写入引导配置
-echo ">> Setting up Arch Linux boot entry"
-echo "title   Arch Linux" > /boot/loader/entries/arch.conf
-echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
-echo "options root=UUID=$ROOT_UUID rw" >> /boot/loader/entries/arch.conf
-
-# 添加新用户并设置密码
-echo ">> Adding new user 'huai'"
-useradd -m -G wheel huai
-echo "huai ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-echo ">> Setting password for user 'huai'"
-echo "huai:1" | chpasswd   # 设置 huai 用户密码，替换 "huai_password" 为实际密码
+   # 添加新用户并设置密码
+   echo '>> Adding new user huai'
+   useradd -m -G wheel huai
+   echo 'huai ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
+   echo 'huai:1' | chpasswd
+   exit
+"
 
 # 退出并重启
 echo ">> Exiting chroot and rebooting"
