@@ -91,7 +91,8 @@ arch-chroot /mnt /bin/bash -c "
    # 配置 loader
    echo '>> Setting up loader configuration'
    echo 'default arch.conf' > /boot/loader/loader.conf
-
+   echo '# timeout 5' >> /boot/loader/loader.conf
+   echo '# editor no' >> /boot/loader/loader.conf
 
    # 设置 Arch Linux 启动项
    echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
@@ -105,6 +106,7 @@ arch-chroot /mnt /bin/bash -c "
    useradd -m -G wheel huai
    echo 'huai ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
    echo 'huai:1' | chpasswd
+   systemctl enable sshd dhcpcd
    exit
 "
 

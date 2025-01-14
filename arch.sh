@@ -65,6 +65,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 # 在 chroot 环境中执行命令
 echo ">> Entering chroot environment"
 arch-chroot /mnt /bin/bash -c "
+
 # 设置时区
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 hwclock --systohc
@@ -87,6 +88,12 @@ pacman -S --noconfirm efibootmgr intel-ucode
 
 # 安装 systemd-boot
 bootctl install --path=/boot
+
+# 配置 loader
+echo '>> Setting up loader configuration'
+echo 'default arch.conf' > /boot/loader/loader.conf
+echo '# timeout 5' >> /boot/loader/loader.conf
+echo '# editor no' >> /boot/loader/loader.conf
 
 # 配置 systemd-boot
 echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
