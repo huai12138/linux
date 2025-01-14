@@ -62,68 +62,54 @@ pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-fi
 echo ">> Generating fstab"
 genfstab -U /mnt >> /mnt/etc/fstab
 
-# 进入 chroot 环境
+# 在 chroot 环境中执行命令
 echo ">> Entering chroot environment"
-arch-chroot /mnt /bin/bash
-
+arch-chroot /mnt /bin/bash -c "
 # 设置时区
-echo ">> Setting timezone"
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 hwclock --systohc
 
 # 配置本地化
-echo ">> Configuring localization"
-echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
+echo -e 'en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8' > /etc/locale.gen
 locale-gen
-echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
 # 网络配置
-echo ">> Configuring network"
-echo "huai" > /etc/hostname
-echo -e "127.0.0.1       localhost\n::1             localhost\n127.0.0.1       huai.localdomain  huai" > /etc/hosts
-echo "nas:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0" >> /etc/fstab
+echo 'huai' > /etc/hostname
+echo -e '127.0.0.1       localhost\n::1             localhost\n127.0.0.1       huai.localdomain  huai' > /etc/hosts
+echo 'nas:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0' >> /etc/fstab
 
 # 设置 root 密码
-echo ">> Setting root password"
-echo "root:1" | chpasswd   # 设置 root 密码，替换 "yourpassword" 为实际密码
+echo 'root:1' | chpasswd
 
 # 安装引导程序和 CPU 微码
-echo ">> Installing systemd-boot and CPU microcode"
 pacman -S --noconfirm efibootmgr intel-ucode
 
 # 安装 systemd-boot
-echo ">> Installing systemd-boot"
 bootctl install --path=/boot
 
 # 配置 systemd-boot
-echo ">> Configuring systemd-boot"
-# 获取根分区的 UUID
-ROOT_UUID=$(blkid -s UUID -o value "${DISK}p2")
-
-# 设置引导项
-echo ">> Setting up Arch Linux boot entry"
-echo "title   Arch Linux" > /boot/loader/entries/arch.conf
-echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
-echo "options root=UUID=$ROOT_UUID rw" >> /boot/loader/entries/arch.conf
+echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
+echo 'linux   /vmlinuz-linux' >> /boot/loader/entries/arch.conf
+echo 'initrd  /initramfs-linux.img' >> /boot/loader/entries/arch.conf
+echo 'options root=/dev/nvme0n1p2' >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
-echo ">> Adding new user 'huai'"
 useradd -m -G wheel huai
-echo "huai ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-echo ">> Setting password for user 'huai'"
-echo "huai:1" | chpasswd   # 设置 huai 用户密码，替换 "yourpassword" 为实际密码
-
-# 安装 yay
-echo ">> Installing yay (AUR helper)"
-su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
+echo 'huai ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
+echo 'huai:1' | chpasswd
 
 # 配置输入法环境变量
-echo ">> Setting input method environment variables"
-echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus" >> /etc/environment
+echo -e 'GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus' >> /etc/environment
 
-# 退出并重启
-echo ">> Exiting chroot and rebooting"
+# 安装 yay
+su - huai -c 'cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data'
+systemctl enable sshd dhcpcd
+exit
+"
+
+# 清理并重启
+echo ">> Cleaning up and rebooting"
 umount -R /mnt
 reboot
 
