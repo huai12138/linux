@@ -112,7 +112,6 @@ echo -e 'GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_M
 # 安装 yay
 su - huai -c 'cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data'
 systemctl enable sshd dhcpcd
-exit
 "
 
 # 清理并重启

@@ -98,7 +98,6 @@ arch-chroot /mnt /bin/bash -c "
    echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
    echo 'linux   /vmlinuz-linux' >> /boot/loader/entries/arch.conf
    echo 'initrd  /initramfs-linux.img' >> /boot/loader/entries/arch.conf
-   echo 'options root=UUID=\$ROOT_UUID rw' >> /boot/loader/entries/arch.conf
    echo 'options root=/dev/mmcblk0p3 rw' >> /boot/loader/entries/arch.conf
 
    # 添加新用户并设置密码
@@ -107,7 +106,6 @@ arch-chroot /mnt /bin/bash -c "
    echo 'huai ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
    echo 'huai:1' | chpasswd
    systemctl enable sshd dhcpcd
-   exit
 "
 
 # 退出并重启
