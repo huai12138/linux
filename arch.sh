@@ -56,32 +56,35 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd zsh git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl
+pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd zsh git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc
 
 # 生成 fstab
 echo ">> Generating fstab"
 genfstab -U /mnt >> /mnt/etc/fstab
-
+# 获取根分区的 UUID
+ROOT_UUID=$(blkid -s UUID -o value "${DISK}p2")
 # 在 chroot 环境中执行命令
 echo ">> Entering chroot environment"
-arch-chroot /mnt /bin/bash -c "
+arch-chroot /mnt env ROOT_UUID="$ROOT_UUID" /bin/bash -c '
+echo "The root UUID is: $ROOT_UUID"
+sleep 10
 
 # 设置时区
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 hwclock --systohc
 
 # 配置本地化
-echo -e 'en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8' > /etc/locale.gen
+echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
 locale-gen
-echo 'LANG=en_US.UTF-8' > /etc/locale.conf
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
 # 网络配置
-echo 'huai' > /etc/hostname
-echo -e '127.0.0.1       localhost\n::1             localhost\n127.0.0.1       huai.localdomain  huai' > /etc/hosts
-echo 'nas:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0' >> /etc/fstab
+echo "huai" > /etc/hostname
+echo -e "127.0.0.1       localhost\n::1             localhost\n127.0.0.1       huai.localdomain  huai" > /etc/hosts
+echo "nas:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0" >> /etc/fstab
 
 # 设置 root 密码
-echo 'root:1' | chpasswd
+echo "root:1" | chpasswd
 
 # 安装引导程序和 CPU 微码
 pacman -S --noconfirm efibootmgr intel-ucode
@@ -90,29 +93,30 @@ pacman -S --noconfirm efibootmgr intel-ucode
 bootctl install --path=/boot
 
 # 配置 loader
-echo '>> Setting up loader configuration'
-echo 'default arch.conf' > /boot/loader/loader.conf
-echo '# timeout 5' >> /boot/loader/loader.conf
-echo '# editor no' >> /boot/loader/loader.conf
+echo ">> Setting up loader configuration"
+echo "default arch.conf" > /boot/loader/loader.conf
+echo "# timeout 5" >> /boot/loader/loader.conf
+echo "# editor no" >> /boot/loader/loader.conf
 
 # 配置 systemd-boot
-echo 'title   Arch Linux' > /boot/loader/entries/arch.conf
-echo 'linux   /vmlinuz-linux' >> /boot/loader/entries/arch.conf
-echo 'initrd  /initramfs-linux.img' >> /boot/loader/entries/arch.conf
-echo 'options root=/dev/nvme0n1p2' >> /boot/loader/entries/arch.conf
+echo "title   Arch Linux" > /boot/loader/entries/arch.conf
+echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
+echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
+echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
 useradd -m -G wheel huai
-echo 'huai ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers
-echo 'huai:1' | chpasswd
+echo "huai ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+echo "huai:1" | chpasswd
 
 # 配置输入法环境变量
-echo -e 'GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus' >> /etc/environment
+echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus" >> /etc/environment
 
 # 安装 yay
-su - huai -c 'cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data'
+su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
 systemctl enable sshd dhcpcd
-"
+'
 
 # 清理并重启
 echo ">> Cleaning up and rebooting"
