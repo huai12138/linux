@@ -1,8 +1,7 @@
 sw_volume: 100
 audio_device_state:1:alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo
-state: play
-current: 61
-time: 119.841000
+state: stop
+current: 127
 random: 1
 repeat: 1
 single: 1
