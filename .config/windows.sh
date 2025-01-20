@@ -32,8 +32,7 @@ fi
 if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
     echo "Windows 系统已启动，连接中..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    sleep 5
-    echo "连接成功，祝您愉快"
+    echo "连接中，请稍候..."
 else
     echo "Windows 系统未启动，正在唤醒..."
     if wakeonlan "$MAC_ADDRESS" > /dev/null 2>&1; then
@@ -62,6 +61,5 @@ else
     sleep 5
     echo "正在连接中..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    sleep 5
-    echo "连接成功，祝您愉快"
+    echo "连接中，请稍候..."
 fi
