@@ -140,7 +140,7 @@ alias singbox="cd /home/huai/data/appdata/sing-box-subscribe/config_template"
 alias nas="ssh huai@nas"
 alias openwrt="ssh root@openwrt"
 alias ax6s="ssh root@ax6s"
-alias cc="clear"
+alias c="clear"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
