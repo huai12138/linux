@@ -141,6 +141,7 @@ alias nas="ssh huai@nas"
 alias openwrt="ssh root@openwrt"
 alias ax6s="ssh root@ax6s"
 alias c="clear"
+alias clash="cd /home/huai/data/appdata/clash"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      
