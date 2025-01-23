@@ -48,8 +48,6 @@ else
             echo "系统已上线"
             break
         fi
-        echo "检测系统状态 ($i/$MAX_TRIES)..."
-        sleep 1
     done
 
     if (( i > MAX_TRIES )); then
@@ -58,8 +56,6 @@ else
     fi
 
     echo "开始连接..."
-    sleep 5
-    echo "正在连接中..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
     echo "连接中，请稍候..."
 fi
