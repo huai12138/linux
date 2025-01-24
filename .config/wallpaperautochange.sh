@@ -1,6 +1,6 @@
 #!/bin/zsh
 
 while true; do
-  /bin/zsh ~/.config/wallpaperchange.sh
+  feh --bg-fill --randomize /home/huai/Pictures
   sleep 1m
 done
