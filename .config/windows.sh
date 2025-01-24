@@ -1,61 +1,66 @@
 #!/bin/bash
 
+# 目标主机信息
 TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
 MAX_TRIES=30
 
-# 检查必要命令
-for cmd in arping wakeonlan remmina; do
-    command -v "$cmd" >/dev/null || { echo "$cmd 未安装，请先安装它。"; exit 1; }
+# 检查必要命令是否安装
+for cmd in arping wakeonlan remmina notify-send; do
+    if ! command -v "$cmd" &>/dev/null; then
+        notify-send "错误" "$cmd 未安装，请先安装它。"
+        exit 1
+    fi
 done
 
 # 解析主机名为 IP 地址
 TARGET_IP=$(getent ahosts "$TARGET_HOST" | awk '$1 ~ /^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/ {print $1; exit}')
 if [[ -z "$TARGET_IP" ]]; then
-    echo "无法解析主机名 '$TARGET_HOST'，请检查 /etc/hosts 或 DNS 设置。"
+    notify-send "错误" "无法解析主机名 $TARGET_HOST，请检查 /etc/hosts 或 DNS 设置。"
     exit 1
 fi
 
-#echo "目标主机名：$TARGET_HOST"
-#echo "目标 IP 地址：$TARGET_IP"
-#echo "使用接口：$INTERFACE"
+# notify-send "检查配置" "目标主机名：$TARGET_HOST\n目标 IP 地址：$TARGET_IP\n使用接口：$INTERFACE"
 
-# 检查配置文件是否存在
+# 检查 Remmina 配置文件是否存在
 if [[ ! -f "$REMmina_CONFIG" ]]; then
-    echo "Remmina 配置文件不存在，请检查路径：$REMmina_CONFIG"
+    notify-send "错误" "Remmina 配置文件不存在：$REMmina_CONFIG"
     exit 1
 fi
 
-# 使用 arping 检查目标主机是否可达
+# 检查目标主机是否在线
 if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
-    echo "Windows 系统已启动，连接中..."
+    notify-send "远程连接" "Windows 系统已启动，正在连接..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    echo "连接中，请稍候..."
+    notify-send "尝试连接" "请稍候..."
 else
-    echo "Windows 系统未启动，正在唤醒..."
+    notify-send "唤醒主机" "Windows 系统未启动，尝试唤醒中..."
     if wakeonlan "$MAC_ADDRESS" > /dev/null 2>&1; then
-        echo "唤醒数据包已发送。"
+        notify-send "WOL 成功" "唤醒数据包已发送。"
     else
-        echo "发送唤醒数据包失败！"
+        notify-send "WOL 失败" "发送唤醒数据包失败，请检查网络。"
         exit 1
     fi
 
-    echo "正在等待系统启动..."
+    notify-send "系统启动" "正在等待系统上线..."
     for ((i=1; i<=MAX_TRIES; i++)); do
         if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
-            echo "系统已上线"
+            notify-send "系统已启动" "主机 $TARGET_HOST 已上线。"
             break
         fi
+        notify-send "等待中" "第 $i/$MAX_TRIES 次尝试..."
+        sleep 1
     done
 
     if (( i > MAX_TRIES )); then
-        echo "等待 $MAX_TRIES 次尝试后，连接超时，请检查网络或目标主机。"
+        notify-send "超时" "尝试 $MAX_TRIES 次后，未能连接到 $TARGET_HOST。"
         exit 1
     fi
 
-    echo "开始连接..."
+    notify-send "开始连接" "Remmina 正在启动，请稍候..."
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    echo "连接中，请稍候..."
+    notify-send "连接中" "请稍候..."
 fi
+
