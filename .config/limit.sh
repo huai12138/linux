@@ -86,16 +86,16 @@ while true; do
             TOTAL_TIME=$((DAILY_TIME + SESSION_TIME))
             
             if [ $TOTAL_TIME -ge $MAX_PLAY_TIME ]; then
-                play ~/.config/dunst/max_warn.mp3 && notify-send -u critical "星露谷物语" "今日游戏时间已达上限，你还有 1 分钟来保存，游戏将强制退出！"
+                notify-send -u critical "星露谷物语" "今日游戏时间已达上限，你还有 1 分钟来保存，游戏将强制退出！" && play ~/.config/dunst/max_warn.mp3
                 sleep 60
                 if check_game; then
                     pkill -f "[S]tardew Valley"
                 fi
                 GAME_EXITED=true
             elif [ $TOTAL_TIME -ge $WARNING_TIME ] && [ $TOTAL_TIME -lt $((WARNING_TIME + 30)) ] && [ $((TOTAL_TIME - SESSION_TIME)) -lt $WARNING_TIME ]; then
-                play ~/.config/dunst/60_warn.mp3 && notify-send -u critical "星露谷物语" "今日游戏时间已达 1 小时，请注意休息！"
+                notify-send -u critical "星露谷物语" "今日游戏时间已达 1 小时，请注意休息！" && play ~/.config/dunst/60_warn.mp3
             elif [ $TOTAL_TIME -ge $MID_WARNING_TIME ] && [ $TOTAL_TIME -lt $((MID_WARNING_TIME + 30)) ] && [ $((TOTAL_TIME - SESSION_TIME)) -lt $MID_WARNING_TIME ]; then
-                play ~/.config/dunst/30_warn.mp3 && notify-send -u normal "星露谷物语" "今日游戏时间已达 30 分钟！"
+                notify-send -u normal "星露谷物语" "今日游戏时间已达 30 分钟！" && play ~/.config/dunst/30_warn.mp3
             fi
             
             if ! check_game; then
