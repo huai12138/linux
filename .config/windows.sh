@@ -32,11 +32,11 @@ fi
 
 # 检查目标主机是否在线
 if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
-    notify-send "远程连接" "Windows 系统已启动，正在连接..." && play ~/.config/dunst/system_online.mp3
+    notify-send "远程连接" "Windows 系统已启动，正在连接..." && play ~/.config/dunst/system_online.mp3 > /dev/null 2>&1
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3
+    notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 else
-    notify-send "唤醒主机" "Windows 系统未启动，正在唤醒..." && play ~/.config/dunst/wol.mp3
+    notify-send "唤醒主机" "Windows 系统未启动，正在唤醒..." && play ~/.config/dunst/wol.mp3 > /dev/null 2>&1
     if wakeonlan "$MAC_ADDRESS" > /dev/null 2>&1; then
         notify-send "WOL 成功" "唤醒数据包已发送。"
     else
@@ -44,10 +44,10 @@ else
         exit 1
     fi
 
-    notify-send "系统启动" "正在等待系统上线..." && play ~/.config/dunst/starting.mp3
+    notify-send "系统启动" "正在等待系统上线..." && play ~/.config/dunst/starting.mp3 > /dev/null 2>&1	
     for ((i=1; i<=MAX_TRIES; i++)); do
         if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
-            notify-send "系统已启动" "主机 $TARGET_HOST 已上线。" && play ~/.config/dunst/system_online.mp3
+            notify-send "系统已启动" "主机 $TARGET_HOST 已上线。" && play ~/.config/dunst/system_online.mp3 > /dev/null 2>&1
             break
         fi
         notify-send "等待中" "正在检测系统状态..."
@@ -59,8 +59,8 @@ else
         exit 1
     fi
 
-    notify-send "开始连接" "Remmina 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3
+    notify-send "开始连接" "Remmina 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3
+    notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 fi
 
