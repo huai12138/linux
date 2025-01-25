@@ -93,7 +93,7 @@ while true; do
                 fi
                 GAME_EXITED=true
             elif [ $TOTAL_TIME -ge $WARNING_TIME ] && [ $TOTAL_TIME -lt $((WARNING_TIME + 30)) ] && [ $((TOTAL_TIME - SESSION_TIME)) -lt $WARNING_TIME ]; then
-                notify-send -u critical "星露谷物语" "今日游戏时间已达 1 小时，请注意休息！" && play ~/.config/dunst/60_warn.mp3
+                notify-send -u normal "星露谷物语" "今日游戏时间已达 1 小时，请注意休息！" && play ~/.config/dunst/60_warn.mp3
             elif [ $TOTAL_TIME -ge $MID_WARNING_TIME ] && [ $TOTAL_TIME -lt $((MID_WARNING_TIME + 30)) ] && [ $((TOTAL_TIME - SESSION_TIME)) -lt $MID_WARNING_TIME ]; then
                 notify-send -u normal "星露谷物语" "今日游戏时间已达 30 分钟！" && play ~/.config/dunst/30_warn.mp3
             fi
