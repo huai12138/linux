@@ -50,7 +50,7 @@ else
             notify-send "系统已启动" "主机 $TARGET_HOST 已上线。"
             break
         fi
-        notify-send "等待中" "第 $i/$MAX_TRIES 次尝试..."
+        notify-send "等待中" "正在检测系统状态..."
         sleep 1
     done
 
