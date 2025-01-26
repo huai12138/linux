@@ -66,6 +66,7 @@ else
 fi
 
 # 等待3秒确保日志写入完成
-sleep 333-f windows.log
+sleep 3
+rm -f windows.log
 ) > windows.log 2>&1 &
 
