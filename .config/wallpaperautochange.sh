@@ -1,6 +1,6 @@
 #!/bin/zsh
 
 while true; do
-  /bin/zsh /home/huai/config/wallpaperchange.sh
+  /bin/zsh /home/huai/.config/wallpaperchange.sh
   sleep 1m
 done
