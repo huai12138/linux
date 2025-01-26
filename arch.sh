@@ -111,7 +111,7 @@ echo "huai ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 echo "huai:1" | chpasswd
 
 # 配置输入法环境变量
-echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=ibus" >> /etc/environment
+echo -e "GTK_IM_MODULE=fcitx5\nQT_IM_MODULE=fcitx5\nXMODIFIERS=@im=fcitx5\nSDL_IM_MODULE=fcitx5\nGLFW_IM_MODULE=fcitx5" >> /etc/environment
 
 # 安装 yay
 su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
