@@ -51,7 +51,7 @@ else
             notify-send "系统已启动" "主机 $TARGET_HOST 已上线。" && play ~/.config/dunst/system_online.mp3 > /dev/null 2>&1
             break
         fi
-        notify-send "等待中" "正在检测系统状态..." && play ~/.config/dunst/waiting.mp3 > /dev/null 2>&1  
+        notify-send "等待中" "正在检测系统状态..."   
         sleep 1
     done
 
@@ -66,7 +66,6 @@ else
 fi
 
 # 等待3秒确保日志写入完成
-sleep 60
-rm -f windows.log
+sleep 333-f windows.log
 ) > windows.log 2>&1 &
 
