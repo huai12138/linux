@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
 
+(
 # 目标主机信息
 TARGET_HOST="huai-PC"
 MAC_ADDRESS="00:23:24:67:DF:14"
@@ -63,4 +64,9 @@ else
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 fi
+
+# 等待3秒确保日志写入完成
+sleep 60
+rm -f windows.log
+) > windows.log 2>&1 &
 
