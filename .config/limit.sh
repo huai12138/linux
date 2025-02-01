@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 GAME_PROCESS="Stardew Valley"
 MAX_PLAY_TIME=$((120 * 60))  # 120 分钟（以秒为单位）
