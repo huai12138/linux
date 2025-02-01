@@ -2,9 +2,9 @@
 
 chromium &
 telegram-desktop &
-/bin/zsh ~/.config/wallpaperautochange.sh &
-/bin/zsh ~/.config/limit.sh &
-#/bin/zsh ~/.config/startwindows.sh 
+/bin/bash ~/.config/wallpaperautochange.sh &
+/bin/bash ~/.config/limit.sh &
+#/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
-#/bin/zsh ~/.config/windows.sh
+#/bin/bash ~/.config/windows.sh
 dunst & 
