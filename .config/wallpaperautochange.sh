@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 while true; do
   /bin/zsh /home/huai/.config/wallpaperchange.sh
