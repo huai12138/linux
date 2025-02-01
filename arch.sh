@@ -56,7 +56,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd zsh git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan 
+pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan 
 
 # 生成 fstab
 echo ">> Generating fstab"
