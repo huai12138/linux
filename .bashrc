@@ -38,5 +38,7 @@ alias openwrt="ssh root@openwrt"
 alias ax6s="ssh root@ax6s"
 alias c="clear"
 alias clash="cd /home/huai/data/appdata/clash"
+alias gaa="git add --all"
+alias gc="git commit -v"
+alias ggpush="git push origin main"
 PS1='\[\e[1;32m\]\h\[\e[0m\] \u:\w\$ '
-
