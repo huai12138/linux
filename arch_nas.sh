@@ -51,7 +51,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils linux linux-firmware vim dhcpcd zsh git rsync openssh polkit p7zip ranger curl samba mdadm
+pacstrap /mnt base base-devel nfs-utils linux linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm
 
 # 生成 fstab
 echo ">> Generating fstab"
