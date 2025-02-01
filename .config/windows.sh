@@ -65,8 +65,6 @@ else
     notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 fi
 
-# 等待3秒确保日志写入完成
-sleep 3
 rm -f windows.log
 ) > windows.log 2>&1 &
 
