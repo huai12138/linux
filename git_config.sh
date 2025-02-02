@@ -4,3 +4,17 @@ git config --global user.email "huaihuaidehuaihuai@gmail.com" # git config --glo
 git config --global user.name "huai12138"  # git config --global user.name "yourname"
 git config --global credential.helper store # store password
 
+# echo "# ceshi" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/huai12138/linux.git
+# git push -u origin main
+
+
+# git remote add origin https://github.com/huai12138/linux.git
+# git branch -M main
+# git push -u origin main
+
+
