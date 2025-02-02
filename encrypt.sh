@@ -9,5 +9,5 @@ find . -type f -name "*.sh" | while read -r file; do
   # 使用 shc 对脚本进行加密并生成可执行文件，允许运行时移植
   shc -r -f "$file" -o "$dir_name/$base_name"
   # 删除生成的 .x.c 文件
-  rm "$dir_name/${base_name}.x.c"
+  rm "$file.x.c"
 done
