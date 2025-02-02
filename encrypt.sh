@@ -6,4 +6,6 @@ for file in *.sh; do
   base_name=$(basename "$file" .sh)
   # 使用 shc 对脚本进行加密并生成可执行文件，允许运行时移植
   shc -r -f "$file" -o "$base_name"
+  # 删除生成的 .x.c 文件
+  rm "${file}.x.c"
 done
