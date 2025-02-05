@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chromium &
+firefox &
 telegram-desktop &
 /bin/bash ~/.config/wallpaperautochange.sh &
 /bin/bash ~/.config/limit.sh &
