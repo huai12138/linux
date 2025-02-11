@@ -1,6 +1,6 @@
 #!/bin/bash
-
-firefox &
+play ~/.config/dunst/xp.wav &
+chromium &
 telegram-desktop &
 /bin/bash ~/.config/wallpaperautochange.sh &
 /bin/bash ~/.config/limit.sh &
