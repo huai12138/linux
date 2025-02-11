@@ -62,7 +62,7 @@ else
 
     notify-send "开始连接" "Remmina 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
-    notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
+    notify-send "连接中" "请稍候..." > /dev/null 2>&1
 fi
 
 rm -f windows.log
