@@ -30,6 +30,7 @@ def format_notification_type(notification_type):
         "system.resumed": "系统恢复",
         "system.update.available": "系统更新可用",
         "system.update.installed": "系统更新完成",
+        "system.serverrestartrequired": "服务器需要重启",  # 新增
         
         # 库相关
         "library.new": "新增媒体",
@@ -65,7 +66,10 @@ def format_notification_type(notification_type):
         # 转码相关
         "transcoding.start": "开始转码",
         "transcoding.end": "转码完成",
-        "transcoding.error": "转码错误"
+        "transcoding.error": "转码错误",
+        
+        # 插件相关
+        "plugins.pluginupdated": "插件已更新"  # 新增
     }
     return type_mapping.get(notification_type, f"未知事件({notification_type})")
 
