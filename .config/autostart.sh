@@ -1,6 +1,5 @@
 #!/bin/bash
 play ~/.config/dunst/xp.wav &
-
 # 检查是否安装了 Firefox
 if which firefox >/dev/null 2>&1; then
     firefox &
@@ -14,7 +13,6 @@ telegram-desktop &
 #/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
 #/bin/bash ~/.config/windows.sh
-slstatus &
 numlockx &
 picom -b
 fcitx5 &
