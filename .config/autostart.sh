@@ -14,4 +14,8 @@ telegram-desktop &
 #/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
 #/bin/bash ~/.config/windows.sh
+slstatus &
+numlockx &
+picom -b
+fcitx5 &
 dunst &
