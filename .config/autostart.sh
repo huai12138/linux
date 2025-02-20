@@ -1,10 +1,17 @@
 #!/bin/bash
 play ~/.config/dunst/xp.wav &
-chromium &
+
+# 检查是否安装了 Firefox
+if which firefox >/dev/null 2>&1; then
+    firefox &
+else
+    chromium &
+fi
+
 telegram-desktop &
 /bin/bash ~/.config/wallpaperautochange.sh &
 /bin/bash ~/.config/limit.sh &
 #/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
 #/bin/bash ~/.config/windows.sh
-dunst & 
+dunst &
