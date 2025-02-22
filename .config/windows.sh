@@ -64,7 +64,7 @@ else
     nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." > /dev/null 2>&1
 fi
-
+sleep 3
 rm -f windows.log
 ) > windows.log 2>&1 &
 
