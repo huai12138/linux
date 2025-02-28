@@ -1,7 +1,21 @@
 #!/bin/bash
 
+# 添加错误处理函数
+set -e  # 任何命令失败立即退出
+error_handler() {
+    echo "错误发生在第 $1 行"
+    exit 1
+}
+trap 'error_handler ${LINENO}' ERR
+
 # 配置磁盘变量
 DISK="/dev/nvme0n1"   # 请根据你的硬盘设备名称修改此变量
+
+# 在脚本开始处添加硬盘设备检查
+if [ ! -b "$DISK" ]; then
+    echo "错误：设备 $DISK 不存在"
+    exit 1
+fi
 
 # 设置时间同步
 echo ">> Enabling NTP time synchronization"
@@ -67,7 +81,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan unzip 
+pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit mpv libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan unzip firefox
 
 # 生成 fstab
 echo ">> Generating fstab"
