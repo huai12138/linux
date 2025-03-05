@@ -3,6 +3,7 @@
 (
 # 目标主机信息
 TARGET_HOST="huai-PC"
+TARGET_IP="10.0.0.15"  # 直接指定 IP 地址
 MAC_ADDRESS="00:23:24:67:DF:14"
 REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
@@ -15,13 +16,6 @@ for cmd in arping wakeonlan remmina notify-send; do
         exit 1
     fi
 done
-
-# 解析主机名为 IP 地址
-TARGET_IP=$(getent ahosts "$TARGET_HOST" | awk '$1 ~ /^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/ {print $1; exit}')
-if [[ -z "$TARGET_IP" ]]; then
-    notify-send "错误" "无法解析主机名 $TARGET_HOST，请检查 /etc/hosts 或 DNS 设置。"
-    exit 1
-fi
 
 # notify-send "检查配置" "目标主机名：$TARGET_HOST\n目标 IP 地址：$TARGET_IP\n使用接口：$INTERFACE"
 
