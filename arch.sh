@@ -106,7 +106,7 @@ echo "LANG=en_US.UTF-8" > /etc/locale.conf
 # 网络配置
 echo "huai" > /etc/hostname
 echo -e "127.0.0.1       localhost\n::1             localhost\n127.0.0.1       huai.localdomain  huai" > /etc/hosts
-echo "nas:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0" >> /etc/fstab
+echo "10.0.0.21:/mnt/user/data /home/huai/data nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0" >> /etc/fstab
 
 # 设置 root 密码
 echo "root:1" | chpasswd
