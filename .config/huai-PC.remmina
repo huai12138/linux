@@ -1,5 +1,5 @@
 [remmina]
-password=fRU7CiYXKq73D1tMQU2b1g==
+password=75Lj2hMvmZ9pcTxqkAwkVA==
 gateway_username=
 notes_text=
 window_height=1044
@@ -21,7 +21,7 @@ postcommand=
 left-handed=0
 multitransport=0
 group=
-server=huai-PC
+server=10.0.0.15
 viewonly=0
 ssh_tunnel_certfile=
 glyph-cache=0
