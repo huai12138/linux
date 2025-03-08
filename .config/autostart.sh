@@ -15,5 +15,5 @@ telegram-desktop &
 #/bin/bash ~/.config/windows.sh
 numlockx &
 picom -b
-fcitx5 &
+fcitx5 -d
 dunst &
