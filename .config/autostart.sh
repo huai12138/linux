@@ -9,6 +9,7 @@ fi
 
 telegram-desktop &
 /bin/bash  ~/.config/wallpaperautochange.sh &
+/bin/bash  ~/.config/dwm_status.sh &
 /bin/bash  ~/.config/limit.sh &
 #/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
