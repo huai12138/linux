@@ -19,7 +19,8 @@ while true; do
     
     # 音频信息
     volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}')
-    music=$(mpc current 2>/dev/null || echo "Stop")
+    music=$(mpc current 2>/dev/null)
+    music=${music:-"Stop"}
     
     # 输入法状态
     fcitx5_status=$(fcitx5-remote 2>/dev/null)
@@ -43,13 +44,13 @@ while true; do
         RX1=$RX2
         TX1=$TX2
 
-        net_speed=" ${RX_SPEED}KB/s  ${TX_SPEED}KB/s"
+        net_speed=" ${RX_SPEED}KB/s  ${TX_SPEED}KB/s"
     else
         net_speed="Error"
     fi
 
     # 设置 xsetroot 显示
-    xsetroot -name "󰣇 $arch | ♫ $music |  $temp | $cpu | $mem |  $volume | $net_speed | 󰃰 $time | $fcitx5_display"
+    xsetroot -name "󰣇 $arch | ♫ $music |  $temp | $cpu | $mem |  $volume | $net_speed | 󰃰 $time | $fcitx5_display"
 
     # 固定更新间隔
     sleep 1
