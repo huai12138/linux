@@ -9,7 +9,6 @@ fi
 
 telegram-desktop &
 /bin/bash  ~/.config/wallpaperautochange.sh &
-/bin/bash  ~/.config/dwm_status.sh &
 /bin/bash  ~/.config/limit.sh &
 #/bin/bash ~/.config/startwindows.sh 
 #sleep 20 
@@ -18,3 +17,5 @@ numlockx &
 picom -b
 fcitx5 -d
 dunst &
+sleep 5	
+/bin/bash  ~/.config/dwm_status.sh &
