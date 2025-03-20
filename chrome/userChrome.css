@@ -1,0 +1,41 @@
+/* 强制修改 Firefox 标签栏高度 */
+#titlebar {
+  max-height: 30px !important;
+  min-height: 30px !important;
+}
+
+#TabsToolbar {
+  max-height: 30px !important;
+  min-height: 30px !important;
+  padding: 0 !important;
+}
+
+/* 确保标签栏和标签页的高度一致 */
+#tabbrowser-tabs {
+  max-height: 30px !important;
+  min-height: 30px !important;
+}
+
+/* 确保单个标签页的高度一致且靠下 */
+.tabbrowser-tab {
+  max-height: 26px !important; /* 减小高度 */
+  min-height: 26px !important;
+  margin-top: 4px !important; /* 上边距 */
+}
+
+/* 改进标签内容的布局 */
+.tab-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important; /* 左对齐 */
+  height: 100% !important;
+  padding-top: 0 !important;
+  padding-bottom: 11px !important;
+  padding-left: 3px !important; /* 添加左侧内边距 */
+}
+
+/* 调整新标签按钮位置使其靠下 */
+#tabs-newtab-button {
+  padding-top: 13px !important;
+  height: 26px !important; /* 与标签页保持一致的高度 */
+}
