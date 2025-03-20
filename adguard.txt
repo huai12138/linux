@@ -1,4 +1,4 @@
 bilibili.com##.bili-danmaku-x-vote.bili-danmaku-x-show
 bilibili.com##.bili-danmaku-x-guide-all.bili-danmaku-x-guide.bili-danmaku-x-show
-bilibili.com##.bili-danmaku-x-guide-all
+
 
