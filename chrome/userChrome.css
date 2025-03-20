@@ -42,34 +42,68 @@
 
 /* 设置地址栏高度为30px */
 #nav-bar {
-  max-height: 30px !important;
-  min-height: 30px !important;
+  max-height: 26px !important;
+  min-height: 26px !important;
   padding: 0 !important;
 }
 
-/* URL输入框调整 */
-#urlbar-container {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-#urlbar {
-  min-height: 24px !important;
-  max-height: 24px !important;
-}
-
-/* 设置书签栏高度为30px */
+/* 设置书签栏高度为26px */
 #PersonalToolbar {
-  max-height: 30px !important;
-  min-height: 30px !important;
+  max-height: 26px !important;
+  min-height: 26px !important;
   padding-top: 1px !important;
   padding-bottom: 1px !important;
 }
 
 /* 调整工具栏按钮大小 */
-#nav-bar toolbarbutton, 
+#nav-bar toolbarbutton,
 #PersonalToolbar toolbarbutton {
   padding: 0 4px !important;
+}
+
+/* 地址栏输入修正 */
+#urlbar-container {
+  padding: 0 !important;
+  height: 26px !important;
+  /* 缩短地址栏宽度 */
+  max-width: 40% !important; /* 从60%减小到40% */
+  min-width: 250px !important; /* 从300px减小到250px */
+}
+
+/* 让地址栏容器在导航栏中更灵活地缩放 */
+#nav-bar-customization-target {
+  width: 100% !important;
+}
+
+/* 平衡地址栏和按钮的布局 */
+#nav-bar toolbarspring {
+  max-width: none !important; /* 允许弹性空间 */
+}
+
+#urlbar {
+  min-height: 24px !important;
+  max-height: 24px !important;
+  margin: 1px 0 !important;
+  padding: 0 2px !important;
+}
+
+#urlbar-input-container {
+  height: 24px !important;
+  align-items: center !important;
+}
+
+#urlbar-input {
+  padding: 0 !important;
+  margin-left: 4px !important;
+  font-size: 12px !important; /* 调整字体大小 */
+  line-height: 24px !important;
+}
+
+/* 调整地址栏中的图标大小 */
+#urlbar-container .urlbar-icon {
+  width: 16px !important;
+  height: 16px !important;
+  padding: 4px !important;
 }
 
 /* 调整书签项目高度 */
