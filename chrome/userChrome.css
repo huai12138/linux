@@ -39,3 +39,43 @@
   padding-top: 13px !important;
   height: 26px !important; /* 与标签页保持一致的高度 */
 }
+
+/* 设置地址栏高度为30px */
+#nav-bar {
+  max-height: 30px !important;
+  min-height: 30px !important;
+  padding: 0 !important;
+}
+
+/* URL输入框调整 */
+#urlbar-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#urlbar {
+  min-height: 24px !important;
+  max-height: 24px !important;
+}
+
+/* 设置书签栏高度为30px */
+#PersonalToolbar {
+  max-height: 30px !important;
+  min-height: 30px !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+}
+
+/* 调整工具栏按钮大小 */
+#nav-bar toolbarbutton, 
+#PersonalToolbar toolbarbutton {
+  padding: 0 4px !important;
+}
+
+/* 调整书签项目高度 */
+.bookmark-item {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
