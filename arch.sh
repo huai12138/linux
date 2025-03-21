@@ -21,16 +21,7 @@ fi
 echo ">> Enabling NTP time synchronization"
 timedatectl set-ntp true
 
-# 检查并安装 reflector
-echo ">> Checking and installing reflector"
-if ! command -v reflector &> /dev/null; then
-    echo "reflector 未安装，正在安装..."
-    pacman -S --noconfirm reflector
-fi
 
-# 更新镜像列表
-echo ">> Updating mirror list"
-reflector --country China --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # 分区磁盘
 echo ">> Partitioning disk $DISK"
@@ -69,9 +60,16 @@ mkfs.ext4 "${DISK}p4"                # /home分区
 mkswap "${DISK}p3"                   # Swap分区
 swapon "${DISK}p3"                   # 启用Swap
 
-# 配置镜像源
-# echo ">> Configuring mirrorlist"
-# echo 'Server = http://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+# 检查并安装 reflector
+echo ">> Checking and installing reflector"
+if ! command -v reflector &> /dev/null; then
+    echo "reflector 未安装，正在安装..."
+    pacman -S --noconfirm reflector
+fi
+
+# 更新镜像列表
+echo ">> Updating mirror list"
+reflector --country China --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"

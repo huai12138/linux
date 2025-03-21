@@ -7,6 +7,8 @@ DISK="/dev/mmcblk0"  # 请根据实际硬盘设备修改
 echo ">> Enabling NTP time synchronization"
 timedatectl set-ntp true
 
+
+
 # 分区磁盘
 echo ">> Partitioning disk $DISK"
 (
@@ -40,9 +42,16 @@ swapon "${DISK}p2"
 mkfs.ext4 "${DISK}p3"
 echo ">> Disk setup completed successfully!"
 
-# 配置镜像源
-echo ">> Configuring mirrorlist"
-echo 'Server = http://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+# 检查并安装 reflector
+echo ">> Checking and installing reflector"
+if ! command -v reflector &> /dev/null; then
+    echo "reflector 未安装，正在安装..."
+    pacman -S --noconfirm reflector
+fi
+
+# 更新镜像列表
+echo ">> Updating mirror list"
+reflector --country China --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"
@@ -100,8 +109,8 @@ echo "#editor no" >> /boot/loader/loader.conf
 # 设置 Arch Linux 启动项
 echo "title   Arch Linux" > /boot/loader/entries/arch.conf
 echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
 echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
 echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
