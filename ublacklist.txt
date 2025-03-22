@@ -1,4 +1,7 @@
 *://*.csdn.net/*
 *://csdn.net/*
 *://*.csdn.com/*
+*://csdn.com/*
 *://*.csdnimg.cn/*
+*://csdnimg.cn/*
+
