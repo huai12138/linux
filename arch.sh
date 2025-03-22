@@ -69,7 +69,7 @@ fi
 
 # 更新镜像列表
 echo ">> Updating mirror list"
-reflector --country China --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+reflector --country China --age 12 --protocol https --sort rate --score 5 --save /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"
