@@ -7,4 +7,4 @@ if ! command -v reflector &> /dev/null; then
 fi
 
 # 更新镜像列表
-sudo reflector --country China --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --country China --age 12 --protocol https --sort rate --score 5 --save /etc/pacman.d/mirrorlist
