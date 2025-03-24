@@ -15,8 +15,8 @@
     "modules-right": [
         "cpu",
         "memory",
-        "mpd",
         "network",
+        "mpd",
         "pulseaudio",
         "temperature",
         "clock",
