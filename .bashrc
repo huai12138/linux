@@ -9,6 +9,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias x='startx'
+alias x='hyprland'
 alias P='sudo shutdown now'
 alias R='sudo systemctl reboot'
 alias w='sh /home/huai/.config/windows.sh'
