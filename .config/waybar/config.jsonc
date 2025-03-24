@@ -16,8 +16,8 @@
         "cpu",
         "memory",
         "mpd",
-        "pulseaudio",
         "network",
+        "pulseaudio",
         "temperature",
         "clock",
         "tray"
