@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        "hyprland/window",
+        "hyprland/window"
     ],
     "modules-center": [
     ],
@@ -20,7 +20,7 @@
         "memory",
         "temperature",
         "clock",
-        "tray",
+        "tray"
     ],
     "mpd": {
 //        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -33,7 +33,7 @@
             "on": " "
         },
         "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ",
+            "off": "",
             "on": " "
         },
         "repeat-icons": {
