@@ -4,7 +4,7 @@
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 24, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 1, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
@@ -13,11 +13,11 @@
     "modules-center": [
     ],
     "modules-right": [
+        "cpu",
+        "memory",
         "mpd",
         "pulseaudio",
         "network",
-        "cpu",
-        "memory",
         "temperature",
         "clock",
         "tray"
@@ -59,7 +59,7 @@
         "interval": 1,
         "timezone": "Asia/Shanghai",
         "tooltip": false,
-        "format": "\uf133 {:L%Y-%m-%d %H:%M:%S %A}",
+        "format": "\uf133 {:L%Y-%m-%d %H:%M %A}"
     },
     "cpu": {
         "interval": 1,
@@ -74,7 +74,7 @@
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "interval": 1,
-        "critical-threshold": 80,
+        "critical-threshold": 70,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": ["", "", ""]
