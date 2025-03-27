@@ -30,7 +30,7 @@ window#waybar.hidden {
 
 #workspaces button {
     border: none;
-    padding: 0 10px;
+    padding: 0 6px;
     background-color: transparent;
     color: #ffffff;
 }
@@ -52,18 +52,12 @@ window#waybar.hidden {
     background-color: #eb4d4b;
 }
 
-#mode {
-    background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
-}
-
 #clock,
 #cpu,
 #memory,
 #network,
 #pulseaudio,
 #tray,
-#mode,
 #mpd,
 #temperature,
 #window {
