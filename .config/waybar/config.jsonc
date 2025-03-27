@@ -84,8 +84,8 @@
         "interval": 1,
         "format": " {usage}%",
         "states": {
-            "warning": 50,
-            "critical": 70
+            "warning": 60,
+            "critical": 85
         },
         "tooltip": false
     },
