@@ -83,18 +83,23 @@
     "cpu": {
         "interval": 1,
         "format": " {usage}%",
+        "states": {
+            "warning": 50,
+            "critical": 70
+        },
         "tooltip": false
     },
     "memory": {
         "interval": 1,
-        "format": "{}% "
+        "format": " {}%"
     },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "interval": 1,
-        "critical-threshold": 70,
-        "format-critical": "{temperatureC}°C {icon}",
+	"warning-threshold": 60,
+	"critical-threshold": 80,
+        "format-critical": "{temperatureC}°C",
         "format": "{temperatureC}°C",
         "format-icons": ["", "", ""]
     },

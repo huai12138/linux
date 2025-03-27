@@ -87,11 +87,23 @@ window#waybar.hidden {
     color: #000000;
 }
 
+/* 基本CPU样式 - 默认状态 */
 #cpu {
-    background-color: #FE968B;
+    background-color: #2ecc71;  /* 绿色 - 正常状态 */
     color: #000000;
 }
 
+/* CPU警告状态 - 使用率超过50% */
+#cpu.warning {
+    background-color: #FF4500;  /* 橙色 - 警告状态 */
+    color: #000000;
+}
+
+/* CPU严重状态 - 使用率超过70% */
+#cpu.critical {
+    background-color:  	#FF0000;  /* 红色 - 严重状态 */
+    color: #ffffff;
+}
 #memory {
     background-color: #FFEAAA;
     color: #000000;
@@ -112,8 +124,16 @@ window#waybar.hidden {
 }
 
 #temperature {
-    background-color: #87ddff;
+    background-color: #2ecc71;
     color: #000000;
+}
+#temperature.warning {
+    background-color: #FF4500;
+    color: #000000;
+}
+#temperature.critical {
+    background-color: #FF0000;
+    color: #ffffff;
 }
 #tray {
     background-color: rgba(16, 20, 24, 0.5);
