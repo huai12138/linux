@@ -50,7 +50,7 @@ while true; do
     fi
 
     # 设置 xsetroot 显示
-    xsetroot -name "󰣇 $arch | ♫ $music |  $temp | $cpu | $mem |  $volume | $net_speed | 󰃰 $time | $fcitx5_display"
+    xsetroot -name "󰣇 $arch | ♫ $music |  $temp |  $cpu |   $mem |  $volume | $net_speed | 󰃰 $time | $fcitx5_display"
 
     # 固定更新间隔
     sleep 1
