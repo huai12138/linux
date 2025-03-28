@@ -51,7 +51,7 @@ window#waybar.hidden {
 #workspaces button.urgent {
     background-color: #eb4d4b;
 }
-
+#custom-arch,
 #clock,
 #cpu,
 #memory,
@@ -81,6 +81,10 @@ window#waybar.hidden {
     color: #000000;
 }
 
+#custom-arch {
+    background-color: #eefff1;
+    color: #000000;
+}
 /* 基本CPU样式 - 默认状态 */
 #cpu {
     background-color: #2ecc71;  /* 绿色 - 正常状态 */

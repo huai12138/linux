@@ -13,6 +13,7 @@
     "modules-center": [
     ],
     "modules-right": [
+        "custom/arch",
         "cpu",
         "memory",
         "network",
@@ -41,6 +42,14 @@
             "default": ""
         }
     },
+    "custom/arch": {
+          "format": "󰣇 {}",
+          "exec": "uname -r",
+          "interval": "60"
+    },
+
+
+
     "mpd": {
 //        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {title} ⸨{songPosition}|{queueLength}⸩ ",
