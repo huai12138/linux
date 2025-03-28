@@ -51,7 +51,7 @@ fi
 
 # 更新镜像列表
 echo ">> Updating mirror list"
-reflector --country China --age 12 --protocol https --sort rate --score 5 --save /etc/pacman.d/mirrorlist
+reflector --country China --age 12 --protocol https --sort rate --score 3 --save /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"
@@ -60,7 +60,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils linux linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm unzip
+pacstrap /mnt base base-devel nfs-utils linux-lts linux-lts-headers linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm unzip
 
 # 生成 fstab
 echo ">> Generating fstab"
@@ -71,7 +71,7 @@ ROOT_UUID=$(blkid -s UUID -o value "${DISK}p3")
 echo ">> Entering chroot environment"
 arch-chroot /mnt env ROOT_UUID="$ROOT_UUID" /bin/bash -c '
 echo "The root UUID is: $ROOT_UUID"
-sleep 10
+sleep 5
 # 设置时区
 echo ">> Setting timezone"
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -108,9 +108,9 @@ echo "#editor no" >> /boot/loader/loader.conf
 
 # 设置 Arch Linux 启动项
 echo "title   Arch Linux" > /boot/loader/entries/arch.conf
-echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
+echo "linux   /vmlinuz-linux-lts" >> /boot/loader/entries/arch.conf
 echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux-lts.img" >> /boot/loader/entries/arch.conf
 echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
