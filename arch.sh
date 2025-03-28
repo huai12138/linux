@@ -69,7 +69,7 @@ fi
 
 # 更新镜像列表
 echo ">> Updating mirror list"
-reflector --country China --age 12 --protocol https --sort rate --score 5 --save /etc/pacman.d/mirrorlist
+reflector --country China --age 12 --protocol https --sort rate --score 3 --save /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"
@@ -79,7 +79,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan unzip firefox ttf-liberation dunst sox fuzzel libva-utils reflector hyprland 
+pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan unzip firefox ttf-liberation dunst sox fuzzel libva-utils reflector hyprland swww waybar telegram-desktop
 
 # 生成 fstab
 echo ">> Generating fstab"
