@@ -60,7 +60,7 @@ mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils linux-lts linux-lts-headers linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm unzip
+pacstrap /mnt base base-devel nfs-utils linux-lts linux-lts-headers linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm unzip ufw docker docker-compose
 
 # 生成 fstab
 echo ">> Generating fstab"
