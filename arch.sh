@@ -31,16 +31,12 @@ echo n                      # 创建新的分区 1 (EFI 分区)
 echo 1                      # 分区号
 echo                        # 默认起始扇区
 echo +512m                  # 大小 512m
-echo n                      # 创建新的分区 2 (根分区)
-echo 2
-echo
-echo +61440M                # 大小 60GB
 echo n                      # 创建新的分区 3 (Swap 分区)
 echo 3
-echo
+echo                        # 默认起始扇区
 echo +16384M                # 大小 16GB
-echo n                      # 创建新的分区 4 (/home 分区)
-echo 4
+echo n                      # 创建新的分区 2 (根分区)
+echo 2
 echo                        # 默认起始扇区
 echo                        # 使用剩余所有空间
 echo t                      # 修改分区类型
@@ -52,13 +48,12 @@ echo 19                     # 选择 Linux swap 类型
 echo w                      # 写入分区表并退出
 ) | fdisk $DISK
 
-# 格式化分区
+# 格式化分区，使用非交互式选项
 echo ">> Formatting partitions"
-mkfs.fat -F32 "${DISK}p1"            # EFI分区
-mkfs.ext4 "${DISK}p2"                # 根分区
-mkfs.ext4 "${DISK}p4"                # /home分区
-mkswap "${DISK}p3"                   # Swap分区
-swapon "${DISK}p3"                   # 启用Swap
+mkfs.fat -F32 "${DISK}p1" -f            # EFI分区，强制格式化
+mkfs.ext4 "${DISK}p2" -F                # 根分区，强制格式化
+mkswap "${DISK}p3" -f                   # Swap分区，强制格式化
+swapon "${DISK}p3"                      # 启用Swap
 
 # 检查并安装 reflector
 echo ">> Checking and installing reflector"
@@ -74,13 +69,20 @@ reflector --country China --age 12 --protocol https --sort rate --score 3 --save
 # 挂载分区
 echo ">> Mounting partitions"
 mount "${DISK}p2" /mnt
-mkdir -p /mnt/home && mount "${DISK}p4" /mnt/home
 mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel nfs-utils fastfetch picom wakeonlan linux-lts linux-lts-headers linux-firmware vim dhcpcd git alacritty rofi pipewire pipewire-alsa pipewire-pulse pavucontrol feh noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji numlockx fcitx5 fcitx5-rime fcitx5-configtool rsync mpd mpc openssh polkit libnotify p7zip ranger ntfs-3g xorg xorg-server xorg-xinit remmina freerdp curl xf86-video-intel libva libva-intel-driver vlc arp-scan unzip chromium ttf-liberation dunst sox fuzzel libva-utils reflector hyprland swww waybar telegram-desktop firejail ufw 
+pacstrap /mnt base base-devel linux-lts linux-lts-headers linux-firmware vim dhcpcd git
 
+echo ">> Installing desktop environment"
+pacstrap /mnt xorg xorg-server xorg-xinit alacritty rofi picom feh numlockx dunst polkit
+
+echo ">> Installing utilities and applications"
+pacstrap /mnt nfs-utils fastfetch pipewire pipewire-alsa pipewire-pulse pavucontrol fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh
+
+echo ">> Installing multimedia and additional software"
+pacstrap /mnt mpd mpc remmina freerdp xf86-video-intel libva libva-intel-driver vlc arp-scan unzip chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop firejail ufw
 
 # 生成 fstab
 echo ">> Generating fstab"
@@ -91,7 +93,7 @@ ROOT_UUID=$(blkid -s UUID -o value "${DISK}p2")
 echo ">> Entering chroot environment"
 arch-chroot /mnt env ROOT_UUID="$ROOT_UUID" /bin/bash -c '
 echo "The root UUID is: $ROOT_UUID"
-sleep 10
+sleep 5
 
 # 设置时区
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -136,11 +138,27 @@ echo "huai:1" | chpasswd
 
 # 配置输入法环境变量
 echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
-
+# 配置pacman彩色输出和并行下载
+sed -i 's/#Color/Color/' /etc/pacman.conf
+sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
 # 安装 yay
-su - huai -c "cd ~ && git clone https://aur.archlinux.org/yay.git && mkdir data"
-systemctl enable sshd dhcpcd
+su - huai -c "cd ~ &&  mkdir data"
+systemctl enable sshd dhcpcd ufw 
 '
+
+# 在脚本结束前添加
+echo "
+====================================
+    INSTALLATION COMPLETED!
+====================================
+
+System has been installed successfully.
+
+Enjoy your minimal Arch Linux system!
+====================================
+"
+# 给用户一些时间来阅读信息
+sleep 10
 
 # 清理并重启
 echo ">> Cleaning up and rebooting"
