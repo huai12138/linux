@@ -44,7 +44,7 @@
     },
     "custom/arch": {
           "format": "󰣇 {}",
-          "exec": "uname -r",
+          "exec": "uname -r | cut -d '-' -f 1",
           "interval": "60"
     },
 
