@@ -70,7 +70,10 @@ reflector --country China --age 12 --protocol https --sort rate --score 3 --save
 echo ">> Mounting partitions"
 mount "${DISK}p2" /mnt
 mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
+
+# 初始化 pacman 密钥环
 pacman-key --init
+# 添加 Arch Linux 官方签名密钥到本地密钥环
 pacman-key --populate archlinux
 # 安装基本系统
 echo ">> Installing base system"
@@ -145,8 +148,11 @@ sed -i 's/#Color/Color/' /etc/pacman.conf
 sed -i 's/ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
 
 # 创建必要目录
-su - huai -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir -p /usr/local/share/fonts && mkdir data && mkdir Pictures %% mkdir Music && mkdir .config"
-systemctl enable sshd dhcpcd ufw 
+su - huai -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir -p /usr/local/share/fonts && mkdir data && mkdir Pictures && mkdir Music && mkdir .config && mkdir .ssh"
+
+echo ">> Enabling system services"
+systemctl enable dhcpcd
+systemctl enable ufw 
 '
 
 # 在脚本结束前添加
