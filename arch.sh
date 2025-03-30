@@ -143,15 +143,12 @@ echo "huai:1" | chpasswd
 # 配置输入法环境变量
 echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
 
-# 配置pacman彩色输出和并行下载
-sed -i 's/#Color/Color/' /etc/pacman.conf
-sed -i 's/ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
-
 # 创建必要目录
-su - huai -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir -p /usr/local/share/fonts && mkdir data && mkdir Pictures && mkdir Music && mkdir .config && mkdir .ssh"
+su - huai -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir data && mkdir Pictures && mkdir Music"
 
 echo ">> Enabling system services"
 systemctl enable dhcpcd
+ufw enable
 systemctl enable ufw 
 '
 
