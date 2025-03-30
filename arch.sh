@@ -50,9 +50,9 @@ echo w                      # 写入分区表并退出
 
 # 格式化分区，使用非交互式选项
 echo ">> Formatting partitions"
-mkfs.fat -F32 "${DISK}p1" -f            # EFI分区，强制格式化
+mkfs.fat -F32 "${DISK}p1"               # EFI分区，强制格式化
 mkfs.ext4 "${DISK}p2" -F                # 根分区，强制格式化
-mkswap "${DISK}p3" -f                   # Swap分区，强制格式化
+mkswap "${DISK}p3"                      # Swap分区，强制格式化
 swapon "${DISK}p3"                      # 启用Swap
 
 # 检查并安装 reflector
@@ -70,7 +70,8 @@ reflector --country China --age 12 --protocol https --sort rate --score 3 --save
 echo ">> Mounting partitions"
 mount "${DISK}p2" /mnt
 mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
-
+pacman-key --init
+pacman-key --populate archlinux
 # 安装基本系统
 echo ">> Installing base system"
 pacstrap /mnt base base-devel linux-lts linux-lts-headers linux-firmware vim dhcpcd git
@@ -79,7 +80,7 @@ echo ">> Installing desktop environment"
 pacstrap /mnt xorg xorg-server xorg-xinit alacritty rofi picom feh numlockx dunst polkit
 
 echo ">> Installing utilities and applications"
-pacstrap /mnt nfs-utils fastfetch pipewire pipewire-alsa pipewire-pulse pavucontrol fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh
+pacstrap /mnt nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh
 
 echo ">> Installing multimedia and additional software"
 pacstrap /mnt mpd mpc remmina freerdp xf86-video-intel libva libva-intel-driver vlc arp-scan unzip chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop firejail ufw
@@ -138,11 +139,13 @@ echo "huai:1" | chpasswd
 
 # 配置输入法环境变量
 echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
+
 # 配置pacman彩色输出和并行下载
 sed -i 's/#Color/Color/' /etc/pacman.conf
-sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
-# 安装 yay
-su - huai -c "cd ~ &&  mkdir data"
+sed -i 's/ParallelDownloads = 5/ParallelDownloads = 10/' /etc/pacman.conf
+
+# 创建必要目录
+su - huai -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir -p /usr/local/share/fonts && mkdir data && mkdir Pictures %% mkdir Music && mkdir .config"
 systemctl enable sshd dhcpcd ufw 
 '
 
