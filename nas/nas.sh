@@ -58,6 +58,12 @@ echo ">> Mounting partitions"
 mount "${DISK}p3" /mnt
 mkdir -p /mnt/boot && mount "${DISK}p1" /mnt/boot
 
+# 初始化 pacman 密钥环
+pacman-key --init
+
+# 添加 Arch Linux 官方签名密钥到本地密钥环
+pacman-key --populate archlinux
+
 # 安装基本系统
 echo ">> Installing base system"
 pacstrap /mnt base base-devel nfs-utils linux-lts linux-lts-headers linux-firmware vim dhcpcd git rsync openssh polkit p7zip ranger curl samba mdadm unzip ufw docker docker-compose

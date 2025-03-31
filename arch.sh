@@ -86,7 +86,7 @@ echo ">> Installing utilities and applications"
 pacstrap /mnt nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh
 
 echo ">> Installing multimedia and additional software"
-pacstrap /mnt mpd mpc remmina freerdp xf86-video-intel libva libva-intel-driver vlc arp-scan unzip chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop firejail ufw
+pacstrap /mnt mpd mpc remmina freerdp xf86-video-intel libva libva-intel-driver vlc arp-scan unzip chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop ufw
 
 # 生成 fstab
 echo ">> Generating fstab"
@@ -132,7 +132,7 @@ echo "# editor no" >> /boot/loader/loader.conf
 echo "title   Arch Linux" > /boot/loader/entries/arch.conf
 echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
 echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux" >> /boot/loader/entries/arch.conf
 echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
