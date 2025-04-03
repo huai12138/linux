@@ -5,30 +5,21 @@
 TARGET_HOST="huai-PC"
 TARGET_IP="10.0.0.15"  # 直接指定 IP 地址
 MAC_ADDRESS="00:23:24:67:DF:14"
-REMmina_CONFIG="$HOME/.config/huai-PC.remmina"
 INTERFACE="enp0s31f6"
 MAX_TRIES=30
 
 # 检查必要命令是否安装
-for cmd in arping wakeonlan remmina notify-send; do
+for cmd in arping wakeonlan xfreerdp3 notify-send; do
     if ! command -v "$cmd" &>/dev/null; then
         notify-send "错误" "$cmd 未安装，请先安装它。"
         exit 1
     fi
 done
 
-# notify-send "检查配置" "目标主机名：$TARGET_HOST\n目标 IP 地址：$TARGET_IP\n使用接口：$INTERFACE"
-
-# 检查 Remmina 配置文件是否存在
-if [[ ! -f "$REMmina_CONFIG" ]]; then
-    notify-send "错误" "Remmina 配置文件不存在：$REMmina_CONFIG"
-    exit 1
-fi
-
 # 检查目标主机是否在线
 if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
     notify-send "远程连接" "Windows 系统已启动，正在连接..." && play ~/.config/dunst/system_online.mp3 > /dev/null 2>&1
-    nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
+    nohup xfreerdp3 /v:10.0.0.15 /u:huai /p:110 /sound /dynamic-resolution > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 else
     notify-send "唤醒主机" "Windows 系统未启动，正在唤醒..." && play ~/.config/dunst/wol.mp3 > /dev/null 2>&1
@@ -54,8 +45,8 @@ else
         exit 1
     fi
 
-    notify-send "开始连接" "Remmina 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
-    nohup remmina -c "$REMmina_CONFIG" > /dev/null 2>&1 &
+    notify-send "开始连接" "FreeRDP 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
+    nohup xfreerdp3 /v:10.0.0.15 /u:huai /p:110 /sound /dynamic-resolution > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." > /dev/null 2>&1
 fi
 sleep 3
