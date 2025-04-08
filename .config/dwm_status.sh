@@ -43,8 +43,16 @@ while true; do
         # 更新基准值用于下次计算
         RX1=$RX2
         TX1=$TX2
+        # 格式化网速输出
+	# 单位使用MB/s
+        RX_SPEED=$(printf "%0.2f\n" $(echo "$RX_SPEED / 1024" | bc))
+        TX_SPEED=$(printf "%0.2f\n" $(echo "$TX_SPEED / 1024" | bc))
 
-        net_speed=" ${RX_SPEED}KB/s  ${TX_SPEED}KB/s"
+#	RX_SPEED=$(echo "scale=2; $RX_SPEED/1024" | bc)
+#	TX_SPEED=$(echo "scale=2; $TX_SPEED/1024" | bc)
+        net_speed=" ${RX_SPEED}MB/s  ${TX_SPEED}MB/s"
+	 
+        # net_speed=" ${RX_SPEED}KB/s  ${TX_SPEED}KB/s"
     else
         net_speed="Error"
     fi
