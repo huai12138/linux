@@ -20,7 +20,7 @@ while true; do
     # 音频信息
     volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}')
     music=$(mpc current 2>/dev/null)
-    music=${music:-"Stop"}
+    music=${music:-""}
     
     # 输入法状态
     fcitx5_status=$(fcitx5-remote 2>/dev/null)
