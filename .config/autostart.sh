@@ -1,12 +1,10 @@
 #!/bin/bash
 play ~/.config/dunst/xp.wav &
-# 检查是否安装了 Firefox
-if which firefox >/dev/null 2>&1; then
-    firefox &
+start ="chromium"
+if [ "$start" = "firefox" ]; then
+	firefox &
 else
-    chromium &
-fi
-
+	chromium &
 telegram-desktop &
 /bin/bash  ~/.config/wallpaperautochange.sh &
 /bin/bash  ~/.config/limit.sh &
