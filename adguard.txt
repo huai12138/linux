@@ -2,5 +2,6 @@ bilibili.com##.bili-danmaku-x-vote.bili-danmaku-x-show
 bilibili.com##.bili-danmaku-x-guide-all.bili-danmaku-x-guide.bili-danmaku-x-show
 bilibili.com##.bili-danmaku-x-score
 bilibili.com##.bpx-player-cmd-dm-wrap .bili-danmaku-x-link.bili-danmaku-x-show
+bilibili.com##.bpx-player-cmd-dm-inside .bili-danmaku-x-reserve.bili-danmaku-x-show
 
 
