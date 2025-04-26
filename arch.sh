@@ -86,7 +86,7 @@ echo ">> Installing utilities and applications"
 pacstrap /mnt nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh
 
 echo ">> Installing multimedia and additional software"
-pacstrap /mnt mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip firefox chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop ufw
+pacstrap /mnt mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip firefox chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji sox libva-utils telegram-desktop ufw bc
 
 # 生成 fstab
 echo ">> Generating fstab"
@@ -164,7 +164,7 @@ Enjoy your minimal Arch Linux system!
 ====================================
 "
 # 给用户一些时间来阅读信息
-sleep 10
+sleep 3
 
 # 清理并重启
 echo ">> Cleaning up and rebooting"
