@@ -1,6 +1,6 @@
 #!/bin/bash
 play ~/.config/dunst/xp.wav &
-start="chromium"
+start="firefox"
 if [ "$start" = "firefox" ]; then
 	firefox &
 else
