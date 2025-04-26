@@ -132,7 +132,7 @@ echo "# editor no" >> /boot/loader/loader.conf
 echo "title   Arch Linux" > /boot/loader/entries/arch.conf
 echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
 echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
 echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
