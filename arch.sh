@@ -55,16 +55,9 @@ mkfs.ext4 "${DISK}p2" -F                # 根分区，强制格式化
 mkswap "${DISK}p3"                      # Swap分区，强制格式化
 swapon "${DISK}p3"                      # 启用Swap
 
-# 检查并安装 reflector
-echo ">> Checking and installing reflector"
-if ! command -v reflector &> /dev/null; then
-    echo "reflector 未安装，正在安装..."
-    pacman -S --noconfirm reflector
-fi
-
 # 更新镜像列表
 echo ">> Updating mirror list"
-reflector --country China --age 12 --protocol https --sort rate --score 3 --save /etc/pacman.d/mirrorlist
+echo "Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/\$repo/os/\$arch" | tee /etc/pacman.d/mirrorlist
 
 # 挂载分区
 echo ">> Mounting partitions"
