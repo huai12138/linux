@@ -70,7 +70,7 @@ pacman-key --init
 pacman-key --populate archlinux
 # 安装基本系统
 echo ">> Installing base system"
-pacstrap /mnt base base-devel linux linux-firmware vim dhcpcd git
+pacstrap /mnt base base-devel linux-lts linux-lts-headers linux-firmware vim dhcpcd git
 
 echo ">> Installing desktop environment"
 pacstrap /mnt xorg xorg-server xorg-xinit alacritty rofi picom feh numlockx dunst polkit
@@ -123,9 +123,9 @@ echo "# editor no" >> /boot/loader/loader.conf
 
 # 配置 systemd-boot
 echo "title   Arch Linux" > /boot/loader/entries/arch.conf
-echo "linux   /vmlinuz-linux" >> /boot/loader/entries/arch.conf
+echo "linux   /vmlinuz-linux-lts" >> /boot/loader/entries/arch.conf
 echo "initrd  /intel-ucode.img" >> /boot/loader/entries/arch.conf
-echo "initrd  /initramfs-linux.img" >> /boot/loader/entries/arch.conf
+echo "initrd  /initramfs-linux-lts.img" >> /boot/loader/entries/arch.conf
 echo "options root=UUID=$ROOT_UUID rw quiet" >> /boot/loader/entries/arch.conf
 
 # 添加新用户并设置密码
