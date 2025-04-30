@@ -49,3 +49,5 @@ alias ggpush='git push origin main'
 alias ..='cd ..'
 alias ~='cd ~'
 PS1='\[\e[1;32m\]\h\[\e[0m\] \u:\w\$ '
+export TERM=xterm-256color
+export EDITOR=vim
