@@ -1,5 +1,6 @@
 from flask import Flask
 import os
+import threading
 from datetime import datetime  # 添加datetime模块
 
 # 关闭开发服务器警告
@@ -7,8 +8,14 @@ os.environ['WERKZEUG_RUN_MAIN'] = 'true'
 
 app = Flask(__name__)
 
-# 提取文件名为常量变量
+# 提取常量变量
 SHUTDOWN_FILENAME = 'shutdown'
+AUTO_DELETE_DELAY_MINUTES = 10  # 自动删除的延迟时间（分钟）
+
+# 用于延迟删除文件的函数
+def delayed_delete(filename, delay_minutes):
+    """在指定分钟后删除文件"""
+    threading.Timer(delay_minutes * 60, lambda: os.remove(filename) if os.path.exists(filename) else None).start()
 
 @app.route('/s')
 def create_shutdown_file():
@@ -33,6 +40,22 @@ def delete_shutdown_file():
             return f"[{current_time}] {SHUTDOWN_FILENAME}文件不存在", 404
     except Exception as e:
         return f"[{current_time}] 删除{SHUTDOWN_FILENAME}文件失败: {str(e)}", 500
+
+@app.route('/auto')
+def auto_create_and_delete():
+    """创建shutdown文件并在指定分钟后自动删除"""
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    try:
+        # 创建文件
+        with open(SHUTDOWN_FILENAME, 'w') as f:
+            pass
+        
+        # 设置自动删除
+        delayed_delete(SHUTDOWN_FILENAME, AUTO_DELETE_DELAY_MINUTES)
+        
+        return f"[{current_time}] 成功创建{SHUTDOWN_FILENAME}文件，将在{AUTO_DELETE_DELAY_MINUTES}分钟后自动删除"
+    except Exception as e:
+        return f"[{current_time}] 操作失败: {str(e)}", 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5008, debug=True)
