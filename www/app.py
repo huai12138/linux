@@ -3,8 +3,6 @@ import os
 import threading
 from datetime import datetime  # 添加datetime模块
 
-# 关闭开发服务器警告
-os.environ['WERKZEUG_RUN_MAIN'] = 'true'
 
 app = Flask(__name__)
 
