@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 监测URL是否存在，存在则关机，不存在则5分钟后再检测
-URL="http://10.0.0.21/shutdown"
+URL="http://10.0.0.21:8080/shutdown"
 
 while true; do
     # 减少超时参数：连接超时2秒，总操作时间不超过5秒
