@@ -133,7 +133,7 @@ install_packages() {
     pacman-key --populate archlinux
 
     pacstrap /mnt base base-devel iptables-nft linux-lts linux-lts-headers linux-firmware vim dhcpcd git \
-        xorg xorg-server xorg-xinit alacritty rofi picom feh numlockx dunst polkit \
+        hyprland waybar swww mako alacritty feh polkit \
         nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
         fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh \
         mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip \
@@ -168,7 +168,7 @@ configure_system() {
     ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
     hwclock --systohc
 
-    echo -e "en_US.UTF-8 UTF-8\nzh_CN.UTF-8 UTF-8" > /etc/locale.gen
+    echo -e "en_US.UTF-8 UTF-8" > /etc/locale.gen
     locale-gen
     echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
@@ -198,7 +198,7 @@ configure_system() {
 
     echo -e "GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
 
-    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && git clone https://github.com/huai12138/dwm.git && mkdir data && mkdir Pictures && mkdir Music"
+    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && mkdir data && mkdir Pictures && mkdir Music"
 
     echo ">> Enabling system services"
     systemctl enable dhcpcd
