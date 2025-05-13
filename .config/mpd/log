@@ -3708,3 +3708,912 @@ Mar 17 13:51:35 : update: removing F4/流星雨/F4 - 流星雨.flac
 Mar 17 13:51:35 : update: removing Craig Smart/Promo Only Canada Mainstream Radio January 2011/Craig Smart - I Miss You.ogg
 Mar 17 13:51:35 : update: removing CoCo李玟/碰碰看爱情/CoCo李玟 - 想你的365天.flac
 Mar 17 13:56:00 : player: played "萧全 - 社会摇.mp3"
+2025-05-14T03:48:05 config: option "command" on line 354 was not recognized
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/花儿乐队 - 穷开心.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 穷开心.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "花儿乐队 - 穷开心.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/李玉刚 - 刚好遇见你.mp3"; Failed to open "/home/huai/Music/李玉刚 - 刚好遇见你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "李玉刚 - 刚好遇见你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/花儿乐队 - 我们能不能不分手.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 我们能不能不分手.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "花儿乐队 - 我们能不能不分手.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/水木年华 - 在他乡.mp3"; Failed to open "/home/huai/Music/水木年华 - 在他乡.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "水木年华 - 在他乡.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/阿吉太组合 - 阿衣莫.mp3"; Failed to open "/home/huai/Music/阿吉太组合 - 阿衣莫.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "阿吉太组合 - 阿衣莫.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/林俊杰 - 美人鱼.mp3"; Failed to open "/home/huai/Music/林俊杰 - 美人鱼.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "林俊杰 - 美人鱼.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/六哲 - 如果没有他你还爱我吗.mp3"; Failed to open "/home/huai/Music/六哲 - 如果没有他你还爱我吗.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "六哲 - 如果没有他你还爱我吗.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3"; Failed to open "/home/huai/Music/任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 发如雪.mp3"; Failed to open "/home/huai/Music/周杰伦 - 发如雪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 发如雪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/萧全 - 海草舞.mp3"; Failed to open "/home/huai/Music/萧全 - 海草舞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "萧全 - 海草舞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/崔子格 - 卜卦.mp3"; Failed to open "/home/huai/Music/崔子格 - 卜卦.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "崔子格 - 卜卦.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/慕容晓晓 - 爱情买卖.mp3"; Failed to open "/home/huai/Music/慕容晓晓 - 爱情买卖.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "慕容晓晓 - 爱情买卖.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/徐良 _ 小凌 - 客官不可以.mp3"; Failed to open "/home/huai/Music/徐良 _ 小凌 - 客官不可以.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "徐良 _ 小凌 - 客官不可以.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈旭 - 哥只是个传说.mp3"; Failed to open "/home/huai/Music/陈旭 - 哥只是个传说.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈旭 - 哥只是个传说.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/飞轮海 _ 田馥甄 - 只对你有感觉.mp3"; Failed to open "/home/huai/Music/飞轮海 _ 田馥甄 - 只对你有感觉.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "飞轮海 _ 田馥甄 - 只对你有感觉.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/pro - 等不来花开.mp3"; Failed to open "/home/huai/Music/pro - 等不来花开.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "pro - 等不来花开.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张韶涵 - 隐形的翅膀.mp3"; Failed to open "/home/huai/Music/张韶涵 - 隐形的翅膀.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张韶涵 - 隐形的翅膀.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/马旭东 - 入戏太深.mp3"; Failed to open "/home/huai/Music/马旭东 - 入戏太深.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "马旭东 - 入戏太深.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/少女时代 (소녀시대) - Mr_Taxi.mp3"; Failed to open "/home/huai/Music/少女时代 (소녀시대) - Mr_Taxi.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "少女时代 (소녀시대) - Mr_Taxi.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/上官红燕 - 玛尼情歌.mp3"; Failed to open "/home/huai/Music/上官红燕 - 玛尼情歌.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "上官红燕 - 玛尼情歌.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘亦菲 - 毛毛雨.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 毛毛雨.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘亦菲 - 毛毛雨.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 东风破.mp3"; Failed to open "/home/huai/Music/周杰伦 - 东风破.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 东风破.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄龄 - 痒.mp3"; Failed to open "/home/huai/Music/黄龄 - 痒.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄龄 - 痒.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/欧得洋 - 孤单北半球.mp3"; Failed to open "/home/huai/Music/欧得洋 - 孤单北半球.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "欧得洋 - 孤单北半球.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 简单爱.mp3"; Failed to open "/home/huai/Music/周杰伦 - 简单爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 简单爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/马旭东 - 最美的烟火.mp3"; Failed to open "/home/huai/Music/马旭东 - 最美的烟火.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "马旭东 - 最美的烟火.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 - 伤心太平洋.mp3"; Failed to open "/home/huai/Music/任贤齐 - 伤心太平洋.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 - 伤心太平洋.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/高姗 - 和你遇到.mp3"; Failed to open "/home/huai/Music/高姗 - 和你遇到.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "高姗 - 和你遇到.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/光良 - 童话.mp3"; Failed to open "/home/huai/Music/光良 - 童话.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "光良 - 童话.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘亦菲 - 放飞美丽.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 放飞美丽.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘亦菲 - 放飞美丽.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周华健 - 朋友.mp3"; Failed to open "/home/huai/Music/周华健 - 朋友.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周华健 - 朋友.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 - 我是一只鱼.mp3"; Failed to open "/home/huai/Music/任贤齐 - 我是一只鱼.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 - 我是一只鱼.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/SING女团 - 神谕法则.mp3"; Failed to open "/home/huai/Music/SING女团 - 神谕法则.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "SING女团 - 神谕法则.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王麟 _ 老猫 - 伤不起.mp3"; Failed to open "/home/huai/Music/王麟 _ 老猫 - 伤不起.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王麟 _ 老猫 - 伤不起.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/袁成杰 _ 戚薇 - 外滩十八号.mp3"; Failed to open "/home/huai/Music/袁成杰 _ 戚薇 - 外滩十八号.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "袁成杰 _ 戚薇 - 外滩十八号.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/青鸟飞鱼 - 此生不换.mp3"; Failed to open "/home/huai/Music/青鸟飞鱼 - 此生不换.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "青鸟飞鱼 - 此生不换.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刀郎 - 西海情歌.mp3"; Failed to open "/home/huai/Music/刀郎 - 西海情歌.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刀郎 - 西海情歌.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/林俊杰 - 她说.mp3"; Failed to open "/home/huai/Music/林俊杰 - 她说.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "林俊杰 - 她说.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/阿牛 - 桃花朵朵开.mp3"; Failed to open "/home/huai/Music/阿牛 - 桃花朵朵开.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "阿牛 - 桃花朵朵开.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/金志文 - 难以启齿的柔弱.mp3"; Failed to open "/home/huai/Music/金志文 - 难以启齿的柔弱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "金志文 - 难以启齿的柔弱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/大欢 - 化风行万里.mp3"; Failed to open "/home/huai/Music/大欢 - 化风行万里.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "大欢 - 化风行万里.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/林俊杰 - 一千年以后.mp3"; Failed to open "/home/huai/Music/林俊杰 - 一千年以后.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "林俊杰 - 一千年以后.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/徐誉滕 - 做我老婆好不好.mp3"; Failed to open "/home/huai/Music/徐誉滕 - 做我老婆好不好.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "徐誉滕 - 做我老婆好不好.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈奕迅 - 十年.mp3"; Failed to open "/home/huai/Music/陈奕迅 - 十年.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈奕迅 - 十年.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/许巍 - 曾经的你.mp3"; Failed to open "/home/huai/Music/许巍 - 曾经的你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "许巍 - 曾经的你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 最炫民族风.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 最炫民族风.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 最炫民族风.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/梁静茹 - 宁夏.mp3"; Failed to open "/home/huai/Music/梁静茹 - 宁夏.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "梁静茹 - 宁夏.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 浮生记.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 浮生记.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 浮生记.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/伍佰 & China Blue - 挪威的森林.mp3"; Failed to open "/home/huai/Music/伍佰 & China Blue - 挪威的森林.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "伍佰 & China Blue - 挪威的森林.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黑龙 - 38度6.mp3"; Failed to open "/home/huai/Music/黑龙 - 38度6.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黑龙 - 38度6.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/郑智化 - 水手.mp3"; Failed to open "/home/huai/Music/郑智化 - 水手.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "郑智化 - 水手.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/美美jocie - 不怕不怕.mp3"; Failed to open "/home/huai/Music/美美jocie - 不怕不怕.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "美美jocie - 不怕不怕.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 菊花台.mp3"; Failed to open "/home/huai/Music/周杰伦 - 菊花台.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 菊花台.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王心凌 - 爱你.mp3"; Failed to open "/home/huai/Music/王心凌 - 爱你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王心凌 - 爱你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/乌兰托娅 - 套马杆.mp3"; Failed to open "/home/huai/Music/乌兰托娅 - 套马杆.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "乌兰托娅 - 套马杆.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蒙面哥 - 一亿个伤心.mp3"; Failed to open "/home/huai/Music/蒙面哥 - 一亿个伤心.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蒙面哥 - 一亿个伤心.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张杰 - 逆战.mp3"; Failed to open "/home/huai/Music/张杰 - 逆战.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张杰 - 逆战.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张韶涵 - 亲爱的，那不是爱情.mp3"; Failed to open "/home/huai/Music/张韶涵 - 亲爱的，那不是爱情.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张韶涵 - 亲爱的，那不是爱情.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/徐誉滕 - 等一分钟.mp3"; Failed to open "/home/huai/Music/徐誉滕 - 等一分钟.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "徐誉滕 - 等一分钟.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/欢子 - 愚爱.mp3"; Failed to open "/home/huai/Music/欢子 - 愚爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "欢子 - 愚爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/代理仁 - 预谋.mp3"; Failed to open "/home/huai/Music/代理仁 - 预谋.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "代理仁 - 预谋.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/小虎队 - 爱.mp3"; Failed to open "/home/huai/Music/小虎队 - 爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "小虎队 - 爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - Love Love Love.mp3"; Failed to open "/home/huai/Music/蔡依林 - Love Love Love.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - Love Love Love.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张禾禾 - 逃之夭夭.mp3"; Failed to open "/home/huai/Music/张禾禾 - 逃之夭夭.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张禾禾 - 逃之夭夭.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张杰 - 天下.mp3"; Failed to open "/home/huai/Music/张杰 - 天下.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张杰 - 天下.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/芭比 - 触电.mp3"; Failed to open "/home/huai/Music/芭比 - 触电.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "芭比 - 触电.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/平生不晚 - 难却.mp3"; Failed to open "/home/huai/Music/平生不晚 - 难却.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "平生不晚 - 难却.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/林俊杰 - 我还想她.mp3"; Failed to open "/home/huai/Music/林俊杰 - 我还想她.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "林俊杰 - 我还想她.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/薛之谦 - 认真的雪.mp3"; Failed to open "/home/huai/Music/薛之谦 - 认真的雪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "薛之谦 - 认真的雪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张妙格 - 我期待的不是雪 (而是有你的冬天).mp3"; Failed to open "/home/huai/Music/张妙格 - 我期待的不是雪 (而是有你的冬天).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张妙格 - 我期待的不是雪 (而是有你的冬天).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 野蛮游戏.mp3"; Failed to open "/home/huai/Music/蔡依林 - 野蛮游戏.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 野蛮游戏.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/夏天Alex - 不再联系.mp3"; Failed to open "/home/huai/Music/夏天Alex - 不再联系.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "夏天Alex - 不再联系.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/许嵩 - 城府.mp3"; Failed to open "/home/huai/Music/许嵩 - 城府.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "许嵩 - 城府.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 招牌动作.mp3"; Failed to open "/home/huai/Music/蔡依林 - 招牌动作.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 招牌动作.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/许嵩 _ 何曼婷 - 素颜.mp3"; Failed to open "/home/huai/Music/许嵩 _ 何曼婷 - 素颜.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "许嵩 _ 何曼婷 - 素颜.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/郑源 - 一万个理由.mp3"; Failed to open "/home/huai/Music/郑源 - 一万个理由.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "郑源 - 一万个理由.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/筷子兄弟 - 小苹果.mp3"; Failed to open "/home/huai/Music/筷子兄弟 - 小苹果.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "筷子兄弟 - 小苹果.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/庄心妍 - 真的不容易.mp3"; Failed to open "/home/huai/Music/庄心妍 - 真的不容易.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "庄心妍 - 真的不容易.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 你的名字.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 你的名字.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 你的名字.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 美人鱼.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 美人鱼.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 美人鱼.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/花儿乐队 - 嘻唰唰.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 嘻唰唰.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "花儿乐队 - 嘻唰唰.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/音阙诗听 _ 赵方婧 - 芒种.mp3"; Failed to open "/home/huai/Music/音阙诗听 _ 赵方婧 - 芒种.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "音阙诗听 _ 赵方婧 - 芒种.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/闻人听書_ - 一笑江湖.mp3"; Failed to open "/home/huai/Music/闻人听書_ - 一笑江湖.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "闻人听書_ - 一笑江湖.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周笔畅 - 最美的期待.mp3"; Failed to open "/home/huai/Music/周笔畅 - 最美的期待.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周笔畅 - 最美的期待.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 说好的幸福呢.mp3"; Failed to open "/home/huai/Music/周杰伦 - 说好的幸福呢.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 说好的幸福呢.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Suara (すあら) - 不安定な神様 (不安定的神明).mp3"; Failed to open "/home/huai/Music/Suara (すあら) - 不安定な神様 (不安定的神明).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Suara (すあら) - 不安定な神様 (不安定的神明).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄静美 - 爱财爱己.mp3"; Failed to open "/home/huai/Music/黄静美 - 爱财爱己.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄静美 - 爱财爱己.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/郭镐鸣 - 野摩托.mp3"; Failed to open "/home/huai/Music/郭镐鸣 - 野摩托.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "郭镐鸣 - 野摩托.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 - 心太软.mp3"; Failed to open "/home/huai/Music/任贤齐 - 心太软.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 - 心太软.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Groove Coverage - God Is a Girl (Album Version).mp3"; Failed to open "/home/huai/Music/Groove Coverage - God Is a Girl (Album Version).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Groove Coverage - God Is a Girl (Album Version).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/杨幂 - 爱的供养.mp3"; Failed to open "/home/huai/Music/杨幂 - 爱的供养.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "杨幂 - 爱的供养.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄静美 - 囚心禁爱.mp3"; Failed to open "/home/huai/Music/黄静美 - 囚心禁爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄静美 - 囚心禁爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/梁静茹 - 可惜不是你.mp3"; Failed to open "/home/huai/Music/梁静茹 - 可惜不是你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "梁静茹 - 可惜不是你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/胡杨林 - 香水有毒.mp3"; Failed to open "/home/huai/Music/胡杨林 - 香水有毒.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "胡杨林 - 香水有毒.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈慧琳 - 不如跳舞.mp3"; Failed to open "/home/huai/Music/陈慧琳 - 不如跳舞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈慧琳 - 不如跳舞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘德华 - 忘情水.mp3"; Failed to open "/home/huai/Music/刘德华 - 忘情水.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘德华 - 忘情水.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/潘玮柏 _ 张韶涵 - 快乐崇拜.mp3"; Failed to open "/home/huai/Music/潘玮柏 _ 张韶涵 - 快乐崇拜.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "潘玮柏 _ 张韶涵 - 快乐崇拜.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/许嵩 _ 莫诗旎 - 你若成风.mp3"; Failed to open "/home/huai/Music/许嵩 _ 莫诗旎 - 你若成风.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "许嵩 _ 莫诗旎 - 你若成风.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Twins - 我很想爱他.mp3"; Failed to open "/home/huai/Music/Twins - 我很想爱他.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Twins - 我很想爱他.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/叶里 - 人间惊鸿客.mp3"; Failed to open "/home/huai/Music/叶里 - 人间惊鸿客.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "叶里 - 人间惊鸿客.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 觉悟 (闪闪版).mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 觉悟 (闪闪版).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 觉悟 (闪闪版).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张韶涵 - 欧若拉.mp3"; Failed to open "/home/huai/Music/张韶涵 - 欧若拉.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张韶涵 - 欧若拉.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/李圣杰 - 痴心绝对.mp3"; Failed to open "/home/huai/Music/李圣杰 - 痴心绝对.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "李圣杰 - 痴心绝对.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张柏芝 - 星语心愿.mp3"; Failed to open "/home/huai/Music/张柏芝 - 星语心愿.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张柏芝 - 星语心愿.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/萧敬腾 - 王妃.mp3"; Failed to open "/home/huai/Music/萧敬腾 - 王妃.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "萧敬腾 - 王妃.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/孙燕姿 - 绿光.mp3"; Failed to open "/home/huai/Music/孙燕姿 - 绿光.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "孙燕姿 - 绿光.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/筷子兄弟 - 老男孩.mp3"; Failed to open "/home/huai/Music/筷子兄弟 - 老男孩.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "筷子兄弟 - 老男孩.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张信哲 - 过火.mp3"; Failed to open "/home/huai/Music/张信哲 - 过火.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张信哲 - 过火.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/乌兰托娅 - 火红的萨日朗.mp3"; Failed to open "/home/huai/Music/乌兰托娅 - 火红的萨日朗.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "乌兰托娅 - 火红的萨日朗.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3"; Failed to open "/home/huai/Music/王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/S_H_E - Super Star.mp3"; Failed to open "/home/huai/Music/S_H_E - Super Star.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "S_H_E - Super Star.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/阿木 - 有一种爱叫做放手.mp3"; Failed to open "/home/huai/Music/阿木 - 有一种爱叫做放手.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "阿木 - 有一种爱叫做放手.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄静美 - 怎么做怎么过怎么活.mp3"; Failed to open "/home/huai/Music/黄静美 - 怎么做怎么过怎么活.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄静美 - 怎么做怎么过怎么活.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/郑秀文 - 眉飞色舞.mp3"; Failed to open "/home/huai/Music/郑秀文 - 眉飞色舞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "郑秀文 - 眉飞色舞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张芸京 - 偏爱.mp3"; Failed to open "/home/huai/Music/张芸京 - 偏爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张芸京 - 偏爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/庄心妍 _ 祁隆 - 一万个舍不得.mp3"; Failed to open "/home/huai/Music/庄心妍 _ 祁隆 - 一万个舍不得.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "庄心妍 _ 祁隆 - 一万个舍不得.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 - 对面的女孩看过来.mp3"; Failed to open "/home/huai/Music/任贤齐 - 对面的女孩看过来.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 - 对面的女孩看过来.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈奕迅 - 孤勇者.mp3"; Failed to open "/home/huai/Music/陈奕迅 - 孤勇者.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈奕迅 - 孤勇者.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3"; Failed to open "/home/huai/Music/六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/崔伟立 - 战马.mp3"; Failed to open "/home/huai/Music/崔伟立 - 战马.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "崔伟立 - 战马.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/HITA - 赤伶.mp3"; Failed to open "/home/huai/Music/HITA - 赤伶.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "HITA - 赤伶.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘德华 - 今天.mp3"; Failed to open "/home/huai/Music/刘德华 - 今天.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘德华 - 今天.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王力宏 - 天地龙鳞.mp3"; Failed to open "/home/huai/Music/王力宏 - 天地龙鳞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王力宏 - 天地龙鳞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王心凌 - 睫毛弯弯.mp3"; Failed to open "/home/huai/Music/王心凌 - 睫毛弯弯.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王心凌 - 睫毛弯弯.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3"; Failed to open "/home/huai/Music/MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/李晓杰 - 老大.mp3"; Failed to open "/home/huai/Music/李晓杰 - 老大.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "李晓杰 - 老大.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/马天宇 - 该死的温柔.mp3"; Failed to open "/home/huai/Music/马天宇 - 该死的温柔.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "马天宇 - 该死的温柔.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陶喆 _ 蔡依林 - 今天你要嫁给我.mp3"; Failed to open "/home/huai/Music/陶喆 _ 蔡依林 - 今天你要嫁给我.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陶喆 _ 蔡依林 - 今天你要嫁给我.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Craig Smart - I Miss You.mp3"; Failed to open "/home/huai/Music/Craig Smart - I Miss You.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Craig Smart - I Miss You.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/顾峰 _ 斯琴高丽 - 犯错.mp3"; Failed to open "/home/huai/Music/顾峰 _ 斯琴高丽 - 犯错.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "顾峰 _ 斯琴高丽 - 犯错.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张雨生 - 大海.mp3"; Failed to open "/home/huai/Music/张雨生 - 大海.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张雨生 - 大海.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 青花瓷.mp3"; Failed to open "/home/huai/Music/周杰伦 - 青花瓷.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 青花瓷.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/赵雷 - 成都.mp3"; Failed to open "/home/huai/Music/赵雷 - 成都.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "赵雷 - 成都.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/伊格赛听 _ 叶里 - 谪仙.mp3"; Failed to open "/home/huai/Music/伊格赛听 _ 叶里 - 谪仙.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "伊格赛听 _ 叶里 - 谪仙.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Twins - 莫斯科没有眼泪.mp3"; Failed to open "/home/huai/Music/Twins - 莫斯科没有眼泪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Twins - 莫斯科没有眼泪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 荷塘月色.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 荷塘月色.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 荷塘月色.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 _ 周杰伦 - 布拉格广场.mp3"; Failed to open "/home/huai/Music/蔡依林 _ 周杰伦 - 布拉格广场.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 _ 周杰伦 - 布拉格广场.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/六哲 - 给我个理由.mp3"; Failed to open "/home/huai/Music/六哲 - 给我个理由.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "六哲 - 给我个理由.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/梁静茹 - 分手快乐.mp3"; Failed to open "/home/huai/Music/梁静茹 - 分手快乐.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "梁静茹 - 分手快乐.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/兰雨 - 最后一次的温柔.mp3"; Failed to open "/home/huai/Music/兰雨 - 最后一次的温柔.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "兰雨 - 最后一次的温柔.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 自由飞翔.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 自由飞翔.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 自由飞翔.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/谢安琪 - 我们都被忘了.mp3"; Failed to open "/home/huai/Music/谢安琪 - 我们都被忘了.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "谢安琪 - 我们都被忘了.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王冰洋 - 飞舞.mp3"; Failed to open "/home/huai/Music/王冰洋 - 飞舞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王冰洋 - 飞舞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 日不落.mp3"; Failed to open "/home/huai/Music/蔡依林 - 日不落.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 日不落.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 万重浪.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 万重浪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 万重浪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/胡歌 - 六月的雨.mp3"; Failed to open "/home/huai/Music/胡歌 - 六月的雨.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "胡歌 - 六月的雨.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/誓言 - 求佛.mp3"; Failed to open "/home/huai/Music/誓言 - 求佛.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "誓言 - 求佛.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Katie Herzig - Forevermore.mp3"; Failed to open "/home/huai/Music/Katie Herzig - Forevermore.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Katie Herzig - Forevermore.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/于洋 - 一开始说陪你到老的人现在他还在吗.mp3"; Failed to open "/home/huai/Music/于洋 - 一开始说陪你到老的人现在他还在吗.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "于洋 - 一开始说陪你到老的人现在他还在吗.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周传雄 - 寂寞沙洲冷.mp3"; Failed to open "/home/huai/Music/周传雄 - 寂寞沙洲冷.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周传雄 - 寂寞沙洲冷.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3"; Failed to open "/home/huai/Music/陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王不醒 - 月老掉线.mp3"; Failed to open "/home/huai/Music/王不醒 - 月老掉线.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王不醒 - 月老掉线.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 月亮之上.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 月亮之上.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 月亮之上.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/F4 - 流星雨.mp3"; Failed to open "/home/huai/Music/F4 - 流星雨.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "F4 - 流星雨.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/深海鱼子酱 - 千千万万.mp3"; Failed to open "/home/huai/Music/深海鱼子酱 - 千千万万.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "深海鱼子酱 - 千千万万.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/烟把儿乐队 - 纸短情长.mp3"; Failed to open "/home/huai/Music/烟把儿乐队 - 纸短情长.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "烟把儿乐队 - 纸短情长.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张韶涵 - 香水百合.mp3"; Failed to open "/home/huai/Music/张韶涵 - 香水百合.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张韶涵 - 香水百合.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张栋梁 - 北极星的眼泪.mp3"; Failed to open "/home/huai/Music/张栋梁 - 北极星的眼泪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张栋梁 - 北极星的眼泪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 全是爱.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 全是爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 全是爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/少女时代 - Oh!.mp3"; Failed to open "/home/huai/Music/少女时代 - Oh!.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "少女时代 - Oh!.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/陈雅森 - 下辈子不一定还能遇见你.mp3"; Failed to open "/home/huai/Music/陈雅森 - 下辈子不一定还能遇见你.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "陈雅森 - 下辈子不一定还能遇见你.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张敬轩 - 断点.mp3"; Failed to open "/home/huai/Music/张敬轩 - 断点.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张敬轩 - 断点.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/白小白 - 爱不得忘不舍.mp3"; Failed to open "/home/huai/Music/白小白 - 爱不得忘不舍.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "白小白 - 爱不得忘不舍.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/庄心妍 - 放过自己.mp3"; Failed to open "/home/huai/Music/庄心妍 - 放过自己.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "庄心妍 - 放过自己.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/魏新雨 - 恋人心.mp3"; Failed to open "/home/huai/Music/魏新雨 - 恋人心.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "魏新雨 - 恋人心.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/Matteo - Panama.mp3"; Failed to open "/home/huai/Music/Matteo - Panama.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "Matteo - Panama.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/大张伟 - 倍儿爽.mp3"; Failed to open "/home/huai/Music/大张伟 - 倍儿爽.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "大张伟 - 倍儿爽.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 星晴.mp3"; Failed to open "/home/huai/Music/周杰伦 - 星晴.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 星晴.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/孙晨 - 拜托.mp3"; Failed to open "/home/huai/Music/孙晨 - 拜托.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "孙晨 - 拜托.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/少女时代 - Gee.mp3"; Failed to open "/home/huai/Music/少女时代 - Gee.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "少女时代 - Gee.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 - 七里香.mp3"; Failed to open "/home/huai/Music/周杰伦 - 七里香.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 - 七里香.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/海鸣威 _ 吴琼 - 老人与海.mp3"; Failed to open "/home/huai/Music/海鸣威 _ 吴琼 - 老人与海.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "海鸣威 _ 吴琼 - 老人与海.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王蓉 - 爸爸妈妈.mp3"; Failed to open "/home/huai/Music/王蓉 - 爸爸妈妈.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王蓉 - 爸爸妈妈.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/六哲 - 被伤过的心还可以爱谁.mp3"; Failed to open "/home/huai/Music/六哲 - 被伤过的心还可以爱谁.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "六哲 - 被伤过的心还可以爱谁.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/迪克牛仔 - 有多少爱可以重来.mp3"; Failed to open "/home/huai/Music/迪克牛仔 - 有多少爱可以重来.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "迪克牛仔 - 有多少爱可以重来.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/李荣浩 - 李白.mp3"; Failed to open "/home/huai/Music/李荣浩 - 李白.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "李荣浩 - 李白.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王冰洋 - 因为想你才寂寞.mp3"; Failed to open "/home/huai/Music/王冰洋 - 因为想你才寂寞.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王冰洋 - 因为想你才寂寞.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/吴雨霏 - 生生世世爱.mp3"; Failed to open "/home/huai/Music/吴雨霏 - 生生世世爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "吴雨霏 - 生生世世爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/胡歌 - 忘记时间.mp3"; Failed to open "/home/huai/Music/胡歌 - 忘记时间.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "胡歌 - 忘记时间.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/火箭少女101 - 卡路里.mp3"; Failed to open "/home/huai/Music/火箭少女101 - 卡路里.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "火箭少女101 - 卡路里.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/井胧 _ 井迪儿 - 骁.mp3"; Failed to open "/home/huai/Music/井胧 _ 井迪儿 - 骁.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "井胧 _ 井迪儿 - 骁.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/齐晨 - 咱们结婚吧.mp3"; Failed to open "/home/huai/Music/齐晨 - 咱们结婚吧.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "齐晨 - 咱们结婚吧.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/徐良 _ Britneylee小暖 - 和平分手.mp3"; Failed to open "/home/huai/Music/徐良 _ Britneylee小暖 - 和平分手.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "徐良 _ Britneylee小暖 - 和平分手.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘亦菲 - 一克拉的眼泪.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 一克拉的眼泪.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘亦菲 - 一克拉的眼泪.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/小阿七 - 不谓侠.mp3"; Failed to open "/home/huai/Music/小阿七 - 不谓侠.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "小阿七 - 不谓侠.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 爱情三十六计.mp3"; Failed to open "/home/huai/Music/蔡依林 - 爱情三十六计.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 爱情三十六计.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王蓉 - 哎呀.mp3"; Failed to open "/home/huai/Music/王蓉 - 哎呀.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王蓉 - 哎呀.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王绎龙 - 午夜DJ (DJ版).mp3"; Failed to open "/home/huai/Music/王绎龙 - 午夜DJ (DJ版).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王绎龙 - 午夜DJ (DJ版).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 舞娘.mp3"; Failed to open "/home/huai/Music/蔡依林 - 舞娘.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 舞娘.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄龄 _ Tăng Duy Tân - 叹.mp3"; Failed to open "/home/huai/Music/黄龄 _ Tăng Duy Tân - 叹.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄龄 _ Tăng Duy Tân - 叹.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/PSY (朴载相) - 강남스타일 (江南Style).mp3"; Failed to open "/home/huai/Music/PSY (朴载相) - 강남스타일 (江南Style).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "PSY (朴载相) - 강남스타일 (江南Style).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/白嘉峻 - 想某人.mp3"; Failed to open "/home/huai/Music/白嘉峻 - 想某人.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "白嘉峻 - 想某人.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/林俊杰 - 江南.mp3"; Failed to open "/home/huai/Music/林俊杰 - 江南.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "林俊杰 - 江南.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/CoCo李玟 - 想你的365天.mp3"; Failed to open "/home/huai/Music/CoCo李玟 - 想你的365天.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "CoCo李玟 - 想你的365天.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/潘玮柏 _ 弦子 - 不得不爱.mp3"; Failed to open "/home/huai/Music/潘玮柏 _ 弦子 - 不得不爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "潘玮柏 _ 弦子 - 不得不爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 时光背面的我.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 时光背面的我.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 时光背面的我.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王忻辰 _ 苏星婕 - 清空.mp3"; Failed to open "/home/huai/Music/王忻辰 _ 苏星婕 - 清空.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王忻辰 _ 苏星婕 - 清空.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/任贤齐 - 橘子香水.mp3"; Failed to open "/home/huai/Music/任贤齐 - 橘子香水.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "任贤齐 - 橘子香水.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/程响 - 人间烟火.mp3"; Failed to open "/home/huai/Music/程响 - 人间烟火.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "程响 - 人间烟火.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张宇 - 月亮惹的祸.mp3"; Failed to open "/home/huai/Music/张宇 - 月亮惹的祸.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张宇 - 月亮惹的祸.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/周杰伦 _ 费玉清 - 千里之外.mp3"; Failed to open "/home/huai/Music/周杰伦 _ 费玉清 - 千里之外.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "周杰伦 _ 费玉清 - 千里之外.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"; Failed to open "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/少女时代 - 소원을 말해봐 (Genie).mp3"; Failed to open "/home/huai/Music/少女时代 - 소원을 말해봐 (Genie).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "少女时代 - 소원을 말해봐 (Genie).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 看我72变.mp3"; Failed to open "/home/huai/Music/蔡依林 - 看我72变.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 看我72变.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/展展与罗罗 - 沙漠骆驼.mp3"; Failed to open "/home/huai/Music/展展与罗罗 - 沙漠骆驼.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "展展与罗罗 - 沙漠骆驼.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/萧亚轩 - 爱的主打歌.mp3"; Failed to open "/home/huai/Music/萧亚轩 - 爱的主打歌.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "萧亚轩 - 爱的主打歌.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/PSY - Gentleman.mp3"; Failed to open "/home/huai/Music/PSY - Gentleman.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "PSY - Gentleman.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘亦菲 - 心悸.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 心悸.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘亦菲 - 心悸.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/朴树 - 平凡之路.mp3"; Failed to open "/home/huai/Music/朴树 - 平凡之路.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "朴树 - 平凡之路.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/苏打绿 - 小情歌 (苏打绿版).mp3"; Failed to open "/home/huai/Music/苏打绿 - 小情歌 (苏打绿版).mp3": No such file or directory
+2025-05-14T03:48:21 player: played "苏打绿 - 小情歌 (苏打绿版).mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/郑智化 - 星星点灯.mp3"; Failed to open "/home/huai/Music/郑智化 - 星星点灯.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "郑智化 - 星星点灯.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/就是南方凯 - 列车开往春天.mp3"; Failed to open "/home/huai/Music/就是南方凯 - 列车开往春天.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "就是南方凯 - 列车开往春天.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 奢香夫人.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 奢香夫人.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "凤凰传奇 - 奢香夫人.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3"; Failed to open "/home/huai/Music/萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/王力宏 - 大城小爱.mp3"; Failed to open "/home/huai/Music/王力宏 - 大城小爱.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "王力宏 - 大城小爱.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/萧全 - 社会摇.mp3"; Failed to open "/home/huai/Music/萧全 - 社会摇.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "萧全 - 社会摇.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 青春没有售价.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 青春没有售价.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "鱼闪闪BLING - 青春没有售价.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/黄勇 _ 任书怀 - 你看到的我.mp3"; Failed to open "/home/huai/Music/黄勇 _ 任书怀 - 你看到的我.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "黄勇 _ 任书怀 - 你看到的我.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/三叔说 - 海市蜃楼.mp3"; Failed to open "/home/huai/Music/三叔说 - 海市蜃楼.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "三叔说 - 海市蜃楼.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/欢子 - 心痛2009.mp3"; Failed to open "/home/huai/Music/欢子 - 心痛2009.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "欢子 - 心痛2009.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张震岳 - 爱的初体验.mp3"; Failed to open "/home/huai/Music/张震岳 - 爱的初体验.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张震岳 - 爱的初体验.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/柯柯柯啊 - 姑娘别哭泣.mp3"; Failed to open "/home/huai/Music/柯柯柯啊 - 姑娘别哭泣.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "柯柯柯啊 - 姑娘别哭泣.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/刘亦菲 - 幸运草.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 幸运草.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "刘亦菲 - 幸运草.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/蔡依林 - 日不落.mp3"; Failed to open "/home/huai/Music/蔡依林 - 日不落.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "蔡依林 - 日不落.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/少女时代 - Gee.mp3"; Failed to open "/home/huai/Music/少女时代 - Gee.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "少女时代 - Gee.mp3"
+2025-05-14T03:48:21 exception: Failed to decode "/home/huai/Music/张杰 - 天下.mp3"; Failed to open "/home/huai/Music/张杰 - 天下.mp3": No such file or directory
+2025-05-14T03:48:21 player: played "张杰 - 天下.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/大张伟 - 倍儿爽.mp3"; Failed to open "/home/huai/Music/大张伟 - 倍儿爽.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "大张伟 - 倍儿爽.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/潘玮柏 _ 弦子 - 不得不爱.mp3"; Failed to open "/home/huai/Music/潘玮柏 _ 弦子 - 不得不爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "潘玮柏 _ 弦子 - 不得不爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周笔畅 - 最美的期待.mp3"; Failed to open "/home/huai/Music/周笔畅 - 最美的期待.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周笔畅 - 最美的期待.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 简单爱.mp3"; Failed to open "/home/huai/Music/周杰伦 - 简单爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 简单爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/谢安琪 - 我们都被忘了.mp3"; Failed to open "/home/huai/Music/谢安琪 - 我们都被忘了.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "谢安琪 - 我们都被忘了.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/阿木 - 有一种爱叫做放手.mp3"; Failed to open "/home/huai/Music/阿木 - 有一种爱叫做放手.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "阿木 - 有一种爱叫做放手.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄静美 - 怎么做怎么过怎么活.mp3"; Failed to open "/home/huai/Music/黄静美 - 怎么做怎么过怎么活.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄静美 - 怎么做怎么过怎么活.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄静美 - 囚心禁爱.mp3"; Failed to open "/home/huai/Music/黄静美 - 囚心禁爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄静美 - 囚心禁爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄静美 - 囚心禁爱.mp3"; Failed to open "/home/huai/Music/黄静美 - 囚心禁爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄静美 - 囚心禁爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/上官红燕 - 玛尼情歌.mp3"; Failed to open "/home/huai/Music/上官红燕 - 玛尼情歌.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "上官红燕 - 玛尼情歌.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 奢香夫人.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 奢香夫人.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 奢香夫人.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蒙面哥 - 一亿个伤心.mp3"; Failed to open "/home/huai/Music/蒙面哥 - 一亿个伤心.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蒙面哥 - 一亿个伤心.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/马天宇 - 该死的温柔.mp3"; Failed to open "/home/huai/Music/马天宇 - 该死的温柔.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "马天宇 - 该死的温柔.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 招牌动作.mp3"; Failed to open "/home/huai/Music/蔡依林 - 招牌动作.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 招牌动作.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/萧全 - 海草舞.mp3"; Failed to open "/home/huai/Music/萧全 - 海草舞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "萧全 - 海草舞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王绎龙 - 午夜DJ (DJ版).mp3"; Failed to open "/home/huai/Music/王绎龙 - 午夜DJ (DJ版).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王绎龙 - 午夜DJ (DJ版).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/程响 - 人间烟火.mp3"; Failed to open "/home/huai/Music/程响 - 人间烟火.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "程响 - 人间烟火.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/吴雨霏 - 生生世世爱.mp3"; Failed to open "/home/huai/Music/吴雨霏 - 生生世世爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "吴雨霏 - 生生世世爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/许巍 - 曾经的你.mp3"; Failed to open "/home/huai/Music/许巍 - 曾经的你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "许巍 - 曾经的你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张韶涵 - 亲爱的，那不是爱情.mp3"; Failed to open "/home/huai/Music/张韶涵 - 亲爱的，那不是爱情.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张韶涵 - 亲爱的，那不是爱情.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 觉悟 (闪闪版).mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 觉悟 (闪闪版).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 觉悟 (闪闪版).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3"; Failed to open "/home/huai/Music/萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "萧人凤 _ 贾卓伦 _ 骆集益 - 仙剑问情.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/F4 - 流星雨.mp3"; Failed to open "/home/huai/Music/F4 - 流星雨.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "F4 - 流星雨.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/夏天Alex - 不再联系.mp3"; Failed to open "/home/huai/Music/夏天Alex - 不再联系.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "夏天Alex - 不再联系.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 青花瓷.mp3"; Failed to open "/home/huai/Music/周杰伦 - 青花瓷.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 青花瓷.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/马旭东 - 最美的烟火.mp3"; Failed to open "/home/huai/Music/马旭东 - 最美的烟火.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "马旭东 - 最美的烟火.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/袁成杰 _ 戚薇 - 外滩十八号.mp3"; Failed to open "/home/huai/Music/袁成杰 _ 戚薇 - 外滩十八号.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "袁成杰 _ 戚薇 - 外滩十八号.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/白小白 - 爱不得忘不舍.mp3"; Failed to open "/home/huai/Music/白小白 - 爱不得忘不舍.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "白小白 - 爱不得忘不舍.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 青春没有售价.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 青春没有售价.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 青春没有售价.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/马旭东 - 入戏太深.mp3"; Failed to open "/home/huai/Music/马旭东 - 入戏太深.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "马旭东 - 入戏太深.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周传雄 - 寂寞沙洲冷.mp3"; Failed to open "/home/huai/Music/周传雄 - 寂寞沙洲冷.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周传雄 - 寂寞沙洲冷.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/芭比 - 触电.mp3"; Failed to open "/home/huai/Music/芭比 - 触电.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "芭比 - 触电.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/花儿乐队 - 嘻唰唰.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 嘻唰唰.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "花儿乐队 - 嘻唰唰.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Twins - 我很想爱他.mp3"; Failed to open "/home/huai/Music/Twins - 我很想爱他.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Twins - 我很想爱他.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 说好的幸福呢.mp3"; Failed to open "/home/huai/Music/周杰伦 - 说好的幸福呢.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 说好的幸福呢.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/六哲 - 被伤过的心还可以爱谁.mp3"; Failed to open "/home/huai/Music/六哲 - 被伤过的心还可以爱谁.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "六哲 - 被伤过的心还可以爱谁.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张妙格 - 我期待的不是雪 (而是有你的冬天).mp3"; Failed to open "/home/huai/Music/张妙格 - 我期待的不是雪 (而是有你的冬天).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张妙格 - 我期待的不是雪 (而是有你的冬天).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 最炫民族风.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 最炫民族风.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 最炫民族风.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王不醒 - 月老掉线.mp3"; Failed to open "/home/huai/Music/王不醒 - 月老掉线.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王不醒 - 月老掉线.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/欢子 - 愚爱.mp3"; Failed to open "/home/huai/Music/欢子 - 愚爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "欢子 - 愚爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/叶里 - 人间惊鸿客.mp3"; Failed to open "/home/huai/Music/叶里 - 人间惊鸿客.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "叶里 - 人间惊鸿客.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/水木年华 - 在他乡.mp3"; Failed to open "/home/huai/Music/水木年华 - 在他乡.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "水木年华 - 在他乡.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王忻辰 _ 苏星婕 - 清空.mp3"; Failed to open "/home/huai/Music/王忻辰 _ 苏星婕 - 清空.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王忻辰 _ 苏星婕 - 清空.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/徐誉滕 - 等一分钟.mp3"; Failed to open "/home/huai/Music/徐誉滕 - 等一分钟.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "徐誉滕 - 等一分钟.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/六哲 - 给我个理由.mp3"; Failed to open "/home/huai/Music/六哲 - 给我个理由.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "六哲 - 给我个理由.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 - 心太软.mp3"; Failed to open "/home/huai/Music/任贤齐 - 心太软.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 - 心太软.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈奕迅 - 十年.mp3"; Failed to open "/home/huai/Music/陈奕迅 - 十年.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈奕迅 - 十年.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈旭 - 哥只是个传说.mp3"; Failed to open "/home/huai/Music/陈旭 - 哥只是个传说.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈旭 - 哥只是个传说.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/徐誉滕 - 做我老婆好不好.mp3"; Failed to open "/home/huai/Music/徐誉滕 - 做我老婆好不好.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "徐誉滕 - 做我老婆好不好.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 - 伤心太平洋.mp3"; Failed to open "/home/huai/Music/任贤齐 - 伤心太平洋.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 - 伤心太平洋.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈雅森 - 下辈子不一定还能遇见你.mp3"; Failed to open "/home/huai/Music/陈雅森 - 下辈子不一定还能遇见你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈雅森 - 下辈子不一定还能遇见你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/乌兰托娅 - 火红的萨日朗.mp3"; Failed to open "/home/huai/Music/乌兰托娅 - 火红的萨日朗.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "乌兰托娅 - 火红的萨日朗.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张杰 - 天下.mp3"; Failed to open "/home/huai/Music/张杰 - 天下.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张杰 - 天下.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 - 对面的女孩看过来.mp3"; Failed to open "/home/huai/Music/任贤齐 - 对面的女孩看过来.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 - 对面的女孩看过来.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/林俊杰 - 江南.mp3"; Failed to open "/home/huai/Music/林俊杰 - 江南.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "林俊杰 - 江南.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/齐晨 - 咱们结婚吧.mp3"; Failed to open "/home/huai/Music/齐晨 - 咱们结婚吧.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "齐晨 - 咱们结婚吧.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 - 我是一只鱼.mp3"; Failed to open "/home/huai/Music/任贤齐 - 我是一只鱼.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 - 我是一只鱼.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/平生不晚 - 难却.mp3"; Failed to open "/home/huai/Music/平生不晚 - 难却.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "平生不晚 - 难却.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Suara (すあら) - 不安定な神様 (不安定的神明).mp3"; Failed to open "/home/huai/Music/Suara (すあら) - 不安定な神様 (不安定的神明).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Suara (すあら) - 不安定な神様 (不安定的神明).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘亦菲 - 放飞美丽.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 放飞美丽.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘亦菲 - 放飞美丽.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张韶涵 - 欧若拉.mp3"; Failed to open "/home/huai/Music/张韶涵 - 欧若拉.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张韶涵 - 欧若拉.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王蓉 - 哎呀.mp3"; Failed to open "/home/huai/Music/王蓉 - 哎呀.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王蓉 - 哎呀.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/梁静茹 - 分手快乐.mp3"; Failed to open "/home/huai/Music/梁静茹 - 分手快乐.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "梁静茹 - 分手快乐.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/誓言 - 求佛.mp3"; Failed to open "/home/huai/Music/誓言 - 求佛.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "誓言 - 求佛.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张雨生 - 大海.mp3"; Failed to open "/home/huai/Music/张雨生 - 大海.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张雨生 - 大海.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/萧敬腾 - 王妃.mp3"; Failed to open "/home/huai/Music/萧敬腾 - 王妃.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "萧敬腾 - 王妃.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Craig Smart - I Miss You.mp3"; Failed to open "/home/huai/Music/Craig Smart - I Miss You.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Craig Smart - I Miss You.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/徐良 _ 小凌 - 客官不可以.mp3"; Failed to open "/home/huai/Music/徐良 _ 小凌 - 客官不可以.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "徐良 _ 小凌 - 客官不可以.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/薛之谦 - 认真的雪.mp3"; Failed to open "/home/huai/Music/薛之谦 - 认真的雪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "薛之谦 - 认真的雪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/林俊杰 - 我还想她.mp3"; Failed to open "/home/huai/Music/林俊杰 - 我还想她.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "林俊杰 - 我还想她.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/烟把儿乐队 - 纸短情长.mp3"; Failed to open "/home/huai/Music/烟把儿乐队 - 纸短情长.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "烟把儿乐队 - 纸短情长.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘亦菲 - 一克拉的眼泪.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 一克拉的眼泪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘亦菲 - 一克拉的眼泪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周华健 - 朋友.mp3"; Failed to open "/home/huai/Music/周华健 - 朋友.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周华健 - 朋友.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/闻人听書_ - 一笑江湖.mp3"; Failed to open "/home/huai/Music/闻人听書_ - 一笑江湖.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "闻人听書_ - 一笑江湖.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 你的名字.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 你的名字.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 你的名字.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/郑智化 - 星星点灯.mp3"; Failed to open "/home/huai/Music/郑智化 - 星星点灯.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "郑智化 - 星星点灯.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 美人鱼.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 美人鱼.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 美人鱼.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Matteo - Panama.mp3"; Failed to open "/home/huai/Music/Matteo - Panama.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Matteo - Panama.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/大欢 - 化风行万里.mp3"; Failed to open "/home/huai/Music/大欢 - 化风行万里.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "大欢 - 化风行万里.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张韶涵 - 隐形的翅膀.mp3"; Failed to open "/home/huai/Music/张韶涵 - 隐形的翅膀.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张韶涵 - 隐形的翅膀.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/梁静茹 - 宁夏.mp3"; Failed to open "/home/huai/Music/梁静茹 - 宁夏.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "梁静茹 - 宁夏.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈奕迅 - 孤勇者.mp3"; Failed to open "/home/huai/Music/陈奕迅 - 孤勇者.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈奕迅 - 孤勇者.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/美美jocie - 不怕不怕.mp3"; Failed to open "/home/huai/Music/美美jocie - 不怕不怕.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "美美jocie - 不怕不怕.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 七里香.mp3"; Failed to open "/home/huai/Music/周杰伦 - 七里香.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 七里香.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 东风破.mp3"; Failed to open "/home/huai/Music/周杰伦 - 东风破.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 东风破.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄勇 _ 任书怀 - 你看到的我.mp3"; Failed to open "/home/huai/Music/黄勇 _ 任书怀 - 你看到的我.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄勇 _ 任书怀 - 你看到的我.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王冰洋 - 因为想你才寂寞.mp3"; Failed to open "/home/huai/Music/王冰洋 - 因为想你才寂寞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王冰洋 - 因为想你才寂寞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/海鸣威 _ 吴琼 - 老人与海.mp3"; Failed to open "/home/huai/Music/海鸣威 _ 吴琼 - 老人与海.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "海鸣威 _ 吴琼 - 老人与海.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/柯柯柯啊 - 姑娘别哭泣.mp3"; Failed to open "/home/huai/Music/柯柯柯啊 - 姑娘别哭泣.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "柯柯柯啊 - 姑娘别哭泣.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/朴树 - 平凡之路.mp3"; Failed to open "/home/huai/Music/朴树 - 平凡之路.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "朴树 - 平凡之路.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/井胧 _ 井迪儿 - 骁.mp3"; Failed to open "/home/huai/Music/井胧 _ 井迪儿 - 骁.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "井胧 _ 井迪儿 - 骁.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/小虎队 - 爱.mp3"; Failed to open "/home/huai/Music/小虎队 - 爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "小虎队 - 爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/徐良 _ Britneylee小暖 - 和平分手.mp3"; Failed to open "/home/huai/Music/徐良 _ Britneylee小暖 - 和平分手.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "徐良 _ Britneylee小暖 - 和平分手.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/乌兰托娅 - 套马杆.mp3"; Failed to open "/home/huai/Music/乌兰托娅 - 套马杆.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "乌兰托娅 - 套马杆.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/SING女团 - 神谕法则.mp3"; Failed to open "/home/huai/Music/SING女团 - 神谕法则.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "SING女团 - 神谕法则.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张宇 - 月亮惹的祸.mp3"; Failed to open "/home/huai/Music/张宇 - 月亮惹的祸.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张宇 - 月亮惹的祸.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/少女时代 - Gee.mp3"; Failed to open "/home/huai/Music/少女时代 - Gee.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "少女时代 - Gee.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/林俊杰 - 她说.mp3"; Failed to open "/home/huai/Music/林俊杰 - 她说.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "林俊杰 - 她说.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/梁静茹 - 可惜不是你.mp3"; Failed to open "/home/huai/Music/梁静茹 - 可惜不是你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "梁静茹 - 可惜不是你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/孙燕姿 - 绿光.mp3"; Failed to open "/home/huai/Music/孙燕姿 - 绿光.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "孙燕姿 - 绿光.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/青鸟飞鱼 - 此生不换.mp3"; Failed to open "/home/huai/Music/青鸟飞鱼 - 此生不换.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "青鸟飞鱼 - 此生不换.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/庄心妍 - 真的不容易.mp3"; Failed to open "/home/huai/Music/庄心妍 - 真的不容易.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "庄心妍 - 真的不容易.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/六哲 - 如果没有他你还爱我吗.mp3"; Failed to open "/home/huai/Music/六哲 - 如果没有他你还爱我吗.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "六哲 - 如果没有他你还爱我吗.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/CoCo李玟 - 想你的365天.mp3"; Failed to open "/home/huai/Music/CoCo李玟 - 想你的365天.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "CoCo李玟 - 想你的365天.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 万重浪.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 万重浪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 万重浪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/李玉刚 - 刚好遇见你.mp3"; Failed to open "/home/huai/Music/李玉刚 - 刚好遇见你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "李玉刚 - 刚好遇见你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王心凌 - 爱你.mp3"; Failed to open "/home/huai/Music/王心凌 - 爱你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王心凌 - 爱你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王力宏 - 天地龙鳞.mp3"; Failed to open "/home/huai/Music/王力宏 - 天地龙鳞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王力宏 - 天地龙鳞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘亦菲 - 幸运草.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 幸运草.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘亦菲 - 幸运草.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/郑智化 - 水手.mp3"; Failed to open "/home/huai/Music/郑智化 - 水手.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "郑智化 - 水手.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘亦菲 - 毛毛雨.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 毛毛雨.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘亦菲 - 毛毛雨.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 月亮之上.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 月亮之上.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 月亮之上.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 浮生记.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 浮生记.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 浮生记.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刀郎 - 西海情歌.mp3"; Failed to open "/home/huai/Music/刀郎 - 西海情歌.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刀郎 - 西海情歌.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3"; Failed to open "/home/huai/Music/陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈楚生 - 有没有人告诉你 (1_7 Concert Live).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陶喆 _ 蔡依林 - 今天你要嫁给我.mp3"; Failed to open "/home/huai/Music/陶喆 _ 蔡依林 - 今天你要嫁给我.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陶喆 _ 蔡依林 - 今天你要嫁给我.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/李晓杰 - 老大.mp3"; Failed to open "/home/huai/Music/李晓杰 - 老大.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "李晓杰 - 老大.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3"; Failed to open "/home/huai/Music/王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王宇宙Leto _ 乔浚丞 - 若月亮没来 (若是月亮还没来).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/展展与罗罗 - 沙漠骆驼.mp3"; Failed to open "/home/huai/Music/展展与罗罗 - 沙漠骆驼.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "展展与罗罗 - 沙漠骆驼.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/林俊杰 - 美人鱼.mp3"; Failed to open "/home/huai/Music/林俊杰 - 美人鱼.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "林俊杰 - 美人鱼.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/胡歌 - 六月的雨.mp3"; Failed to open "/home/huai/Music/胡歌 - 六月的雨.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "胡歌 - 六月的雨.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/许嵩 _ 何曼婷 - 素颜.mp3"; Failed to open "/home/huai/Music/许嵩 _ 何曼婷 - 素颜.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "许嵩 _ 何曼婷 - 素颜.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/潘玮柏 _ 张韶涵 - 快乐崇拜.mp3"; Failed to open "/home/huai/Music/潘玮柏 _ 张韶涵 - 快乐崇拜.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "潘玮柏 _ 张韶涵 - 快乐崇拜.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/兰雨 - 最后一次的温柔.mp3"; Failed to open "/home/huai/Music/兰雨 - 最后一次的温柔.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "兰雨 - 最后一次的温柔.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/慕容晓晓 - 爱情买卖.mp3"; Failed to open "/home/huai/Music/慕容晓晓 - 爱情买卖.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "慕容晓晓 - 爱情买卖.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/迪克牛仔 - 有多少爱可以重来.mp3"; Failed to open "/home/huai/Music/迪克牛仔 - 有多少爱可以重来.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "迪克牛仔 - 有多少爱可以重来.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/白嘉峻 - 想某人.mp3"; Failed to open "/home/huai/Music/白嘉峻 - 想某人.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "白嘉峻 - 想某人.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄静美 - 爱财爱己.mp3"; Failed to open "/home/huai/Music/黄静美 - 爱财爱己.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄静美 - 爱财爱己.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/光良 - 童话.mp3"; Failed to open "/home/huai/Music/光良 - 童话.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "光良 - 童话.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 爱情三十六计.mp3"; Failed to open "/home/huai/Music/蔡依林 - 爱情三十六计.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 爱情三十六计.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/深海鱼子酱 - 千千万万.mp3"; Failed to open "/home/huai/Music/深海鱼子酱 - 千千万万.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "深海鱼子酱 - 千千万万.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/郑秀文 - 眉飞色舞.mp3"; Failed to open "/home/huai/Music/郑秀文 - 眉飞色舞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "郑秀文 - 眉飞色舞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张芸京 - 偏爱.mp3"; Failed to open "/home/huai/Music/张芸京 - 偏爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张芸京 - 偏爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/高姗 - 和你遇到.mp3"; Failed to open "/home/huai/Music/高姗 - 和你遇到.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "高姗 - 和你遇到.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 发如雪.mp3"; Failed to open "/home/huai/Music/周杰伦 - 发如雪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 发如雪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/萧全 - 社会摇.mp3"; Failed to open "/home/huai/Music/萧全 - 社会摇.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "萧全 - 社会摇.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘亦菲 - 心悸.mp3"; Failed to open "/home/huai/Music/刘亦菲 - 心悸.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘亦菲 - 心悸.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/胡歌 - 忘记时间.mp3"; Failed to open "/home/huai/Music/胡歌 - 忘记时间.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "胡歌 - 忘记时间.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/赵雷 - 成都.mp3"; Failed to open "/home/huai/Music/赵雷 - 成都.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "赵雷 - 成都.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/苏打绿 - 小情歌 (苏打绿版).mp3"; Failed to open "/home/huai/Music/苏打绿 - 小情歌 (苏打绿版).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "苏打绿 - 小情歌 (苏打绿版).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Twins - 莫斯科没有眼泪.mp3"; Failed to open "/home/huai/Music/Twins - 莫斯科没有眼泪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Twins - 莫斯科没有眼泪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - Love Love Love.mp3"; Failed to open "/home/huai/Music/蔡依林 - Love Love Love.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - Love Love Love.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Groove Coverage - God Is a Girl (Album Version).mp3"; Failed to open "/home/huai/Music/Groove Coverage - God Is a Girl (Album Version).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Groove Coverage - God Is a Girl (Album Version).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张杰 - 逆战.mp3"; Failed to open "/home/huai/Music/张杰 - 逆战.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张杰 - 逆战.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张禾禾 - 逃之夭夭.mp3"; Failed to open "/home/huai/Music/张禾禾 - 逃之夭夭.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张禾禾 - 逃之夭夭.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/少女时代 - 소원을 말해봐 (Genie).mp3"; Failed to open "/home/huai/Music/少女时代 - 소원을 말해봐 (Genie).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "少女时代 - 소원을 말해봐 (Genie).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王麟 _ 老猫 - 伤不起.mp3"; Failed to open "/home/huai/Music/王麟 _ 老猫 - 伤不起.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王麟 _ 老猫 - 伤不起.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张震岳 - 爱的初体验.mp3"; Failed to open "/home/huai/Music/张震岳 - 爱的初体验.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张震岳 - 爱的初体验.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 看我72变.mp3"; Failed to open "/home/huai/Music/蔡依林 - 看我72变.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 看我72变.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/于洋 - 一开始说陪你到老的人现在他还在吗.mp3"; Failed to open "/home/huai/Music/于洋 - 一开始说陪你到老的人现在他还在吗.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "于洋 - 一开始说陪你到老的人现在他还在吗.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/欢子 - 心痛2009.mp3"; Failed to open "/home/huai/Music/欢子 - 心痛2009.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "欢子 - 心痛2009.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/陈慧琳 - 不如跳舞.mp3"; Failed to open "/home/huai/Music/陈慧琳 - 不如跳舞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "陈慧琳 - 不如跳舞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 自由飞翔.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 自由飞翔.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 自由飞翔.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3"; Failed to open "/home/huai/Music/任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 _ 阿牛 _ 光良 - 浪花一朵朵.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/李荣浩 - 李白.mp3"; Failed to open "/home/huai/Music/李荣浩 - 李白.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "李荣浩 - 李白.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/阿牛 - 桃花朵朵开.mp3"; Failed to open "/home/huai/Music/阿牛 - 桃花朵朵开.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "阿牛 - 桃花朵朵开.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/伊格赛听 _ 叶里 - 谪仙.mp3"; Failed to open "/home/huai/Music/伊格赛听 _ 叶里 - 谪仙.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "伊格赛听 _ 叶里 - 谪仙.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"; Failed to open "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"; Failed to open "/home/huai/Music/小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "小潘潘（潘柚彤） _ 小峰峰（陈峰） - 学猫叫.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/林俊杰 - 一千年以后.mp3"; Failed to open "/home/huai/Music/林俊杰 - 一千年以后.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "林俊杰 - 一千年以后.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/阿吉太组合 - 阿衣莫.mp3"; Failed to open "/home/huai/Music/阿吉太组合 - 阿衣莫.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "阿吉太组合 - 阿衣莫.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张敬轩 - 断点.mp3"; Failed to open "/home/huai/Music/张敬轩 - 断点.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张敬轩 - 断点.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/S_H_E - Super Star.mp3"; Failed to open "/home/huai/Music/S_H_E - Super Star.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "S_H_E - Super Star.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/许嵩 - 城府.mp3"; Failed to open "/home/huai/Music/许嵩 - 城府.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "许嵩 - 城府.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/崔伟立 - 战马.mp3"; Failed to open "/home/huai/Music/崔伟立 - 战马.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "崔伟立 - 战马.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/代理仁 - 预谋.mp3"; Failed to open "/home/huai/Music/代理仁 - 预谋.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "代理仁 - 预谋.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/三叔说 - 海市蜃楼.mp3"; Failed to open "/home/huai/Music/三叔说 - 海市蜃楼.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "三叔说 - 海市蜃楼.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 菊花台.mp3"; Failed to open "/home/huai/Music/周杰伦 - 菊花台.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 菊花台.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/筷子兄弟 - 老男孩.mp3"; Failed to open "/home/huai/Music/筷子兄弟 - 老男孩.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "筷子兄弟 - 老男孩.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/PSY - Gentleman.mp3"; Failed to open "/home/huai/Music/PSY - Gentleman.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "PSY - Gentleman.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王蓉 - 爸爸妈妈.mp3"; Failed to open "/home/huai/Music/王蓉 - 爸爸妈妈.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王蓉 - 爸爸妈妈.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/杨幂 - 爱的供养.mp3"; Failed to open "/home/huai/Music/杨幂 - 爱的供养.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "杨幂 - 爱的供养.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/HITA - 赤伶.mp3"; Failed to open "/home/huai/Music/HITA - 赤伶.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "HITA - 赤伶.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄龄 _ Tăng Duy Tân - 叹.mp3"; Failed to open "/home/huai/Music/黄龄 _ Tăng Duy Tân - 叹.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄龄 _ Tăng Duy Tân - 叹.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/PSY (朴载相) - 강남스타일 (江南Style).mp3"; Failed to open "/home/huai/Music/PSY (朴载相) - 강남스타일 (江南Style).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "PSY (朴载相) - 강남스타일 (江南Style).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黄龄 - 痒.mp3"; Failed to open "/home/huai/Music/黄龄 - 痒.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黄龄 - 痒.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/郑源 - 一万个理由.mp3"; Failed to open "/home/huai/Music/郑源 - 一万个理由.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "郑源 - 一万个理由.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张栋梁 - 北极星的眼泪.mp3"; Failed to open "/home/huai/Music/张栋梁 - 北极星的眼泪.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张栋梁 - 北极星的眼泪.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张韶涵 - 香水百合.mp3"; Failed to open "/home/huai/Music/张韶涵 - 香水百合.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张韶涵 - 香水百合.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 日不落.mp3"; Failed to open "/home/huai/Music/蔡依林 - 日不落.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 日不落.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/李圣杰 - 痴心绝对.mp3"; Failed to open "/home/huai/Music/李圣杰 - 痴心绝对.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "李圣杰 - 痴心绝对.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/pro - 等不来花开.mp3"; Failed to open "/home/huai/Music/pro - 等不来花开.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "pro - 等不来花开.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/少女时代 - Oh!.mp3"; Failed to open "/home/huai/Music/少女时代 - Oh!.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "少女时代 - Oh!.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 荷塘月色.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 荷塘月色.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 荷塘月色.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/凤凰传奇 - 全是爱.mp3"; Failed to open "/home/huai/Music/凤凰传奇 - 全是爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "凤凰传奇 - 全是爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 舞娘.mp3"; Failed to open "/home/huai/Music/蔡依林 - 舞娘.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 舞娘.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/金志文 - 难以启齿的柔弱.mp3"; Failed to open "/home/huai/Music/金志文 - 难以启齿的柔弱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "金志文 - 难以启齿的柔弱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 - 野蛮游戏.mp3"; Failed to open "/home/huai/Music/蔡依林 - 野蛮游戏.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 - 野蛮游戏.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/许嵩 _ 莫诗旎 - 你若成风.mp3"; Failed to open "/home/huai/Music/许嵩 _ 莫诗旎 - 你若成风.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "许嵩 _ 莫诗旎 - 你若成风.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘德华 - 忘情水.mp3"; Failed to open "/home/huai/Music/刘德华 - 忘情水.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘德华 - 忘情水.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/魏新雨 - 恋人心.mp3"; Failed to open "/home/huai/Music/魏新雨 - 恋人心.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "魏新雨 - 恋人心.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/萧亚轩 - 爱的主打歌.mp3"; Failed to open "/home/huai/Music/萧亚轩 - 爱的主打歌.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "萧亚轩 - 爱的主打歌.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/欧得洋 - 孤单北半球.mp3"; Failed to open "/home/huai/Music/欧得洋 - 孤单北半球.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "欧得洋 - 孤单北半球.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3"; Failed to open "/home/huai/Music/六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "六哲 _ 贺敬轩 - 让全世界知道我爱你.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张信哲 - 过火.mp3"; Failed to open "/home/huai/Music/张信哲 - 过火.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张信哲 - 过火.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING _ 前男友 - 踏雪 (新版).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 _ 费玉清 - 千里之外.mp3"; Failed to open "/home/huai/Music/周杰伦 _ 费玉清 - 千里之外.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 _ 费玉清 - 千里之外.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/黑龙 - 38度6.mp3"; Failed to open "/home/huai/Music/黑龙 - 38度6.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "黑龙 - 38度6.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/飞轮海 _ 田馥甄 - 只对你有感觉.mp3"; Failed to open "/home/huai/Music/飞轮海 _ 田馥甄 - 只对你有感觉.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "飞轮海 _ 田馥甄 - 只对你有感觉.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/郭镐鸣 - 野摩托.mp3"; Failed to open "/home/huai/Music/郭镐鸣 - 野摩托.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "郭镐鸣 - 野摩托.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/Katie Herzig - Forevermore.mp3"; Failed to open "/home/huai/Music/Katie Herzig - Forevermore.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "Katie Herzig - Forevermore.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/火箭少女101 - 卡路里.mp3"; Failed to open "/home/huai/Music/火箭少女101 - 卡路里.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "火箭少女101 - 卡路里.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/任贤齐 - 橘子香水.mp3"; Failed to open "/home/huai/Music/任贤齐 - 橘子香水.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "任贤齐 - 橘子香水.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/就是南方凯 - 列车开往春天.mp3"; Failed to open "/home/huai/Music/就是南方凯 - 列车开往春天.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "就是南方凯 - 列车开往春天.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/孙晨 - 拜托.mp3"; Failed to open "/home/huai/Music/孙晨 - 拜托.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "孙晨 - 拜托.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3"; Failed to open "/home/huai/Music/MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3": No such file or directory
+2025-05-14T03:50:12 player: played "MOMOLAND (모모랜드) - 뿜뿜 (BBoom BBoom).mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/刘德华 - 今天.mp3"; Failed to open "/home/huai/Music/刘德华 - 今天.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "刘德华 - 今天.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/鱼闪闪BLING - 时光背面的我.mp3"; Failed to open "/home/huai/Music/鱼闪闪BLING - 时光背面的我.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "鱼闪闪BLING - 时光背面的我.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张柏芝 - 星语心愿.mp3"; Failed to open "/home/huai/Music/张柏芝 - 星语心愿.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张柏芝 - 星语心愿.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/音阙诗听 _ 赵方婧 - 芒种.mp3"; Failed to open "/home/huai/Music/音阙诗听 _ 赵方婧 - 芒种.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "音阙诗听 _ 赵方婧 - 芒种.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王心凌 - 睫毛弯弯.mp3"; Failed to open "/home/huai/Music/王心凌 - 睫毛弯弯.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王心凌 - 睫毛弯弯.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/少女时代 (소녀시대) - Mr_Taxi.mp3"; Failed to open "/home/huai/Music/少女时代 (소녀시대) - Mr_Taxi.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "少女时代 (소녀시대) - Mr_Taxi.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/伍佰 & China Blue - 挪威的森林.mp3"; Failed to open "/home/huai/Music/伍佰 & China Blue - 挪威的森林.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "伍佰 & China Blue - 挪威的森林.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/庄心妍 _ 祁隆 - 一万个舍不得.mp3"; Failed to open "/home/huai/Music/庄心妍 _ 祁隆 - 一万个舍不得.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "庄心妍 _ 祁隆 - 一万个舍不得.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/庄心妍 - 放过自己.mp3"; Failed to open "/home/huai/Music/庄心妍 - 放过自己.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "庄心妍 - 放过自己.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/周杰伦 - 星晴.mp3"; Failed to open "/home/huai/Music/周杰伦 - 星晴.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "周杰伦 - 星晴.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/花儿乐队 - 我们能不能不分手.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 我们能不能不分手.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "花儿乐队 - 我们能不能不分手.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/崔子格 - 卜卦.mp3"; Failed to open "/home/huai/Music/崔子格 - 卜卦.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "崔子格 - 卜卦.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/蔡依林 _ 周杰伦 - 布拉格广场.mp3"; Failed to open "/home/huai/Music/蔡依林 _ 周杰伦 - 布拉格广场.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "蔡依林 _ 周杰伦 - 布拉格广场.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/顾峰 _ 斯琴高丽 - 犯错.mp3"; Failed to open "/home/huai/Music/顾峰 _ 斯琴高丽 - 犯错.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "顾峰 _ 斯琴高丽 - 犯错.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/胡杨林 - 香水有毒.mp3"; Failed to open "/home/huai/Music/胡杨林 - 香水有毒.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "胡杨林 - 香水有毒.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/筷子兄弟 - 小苹果.mp3"; Failed to open "/home/huai/Music/筷子兄弟 - 小苹果.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "筷子兄弟 - 小苹果.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王冰洋 - 飞舞.mp3"; Failed to open "/home/huai/Music/王冰洋 - 飞舞.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王冰洋 - 飞舞.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/小阿七 - 不谓侠.mp3"; Failed to open "/home/huai/Music/小阿七 - 不谓侠.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "小阿七 - 不谓侠.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/花儿乐队 - 穷开心.mp3"; Failed to open "/home/huai/Music/花儿乐队 - 穷开心.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "花儿乐队 - 穷开心.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/王力宏 - 大城小爱.mp3"; Failed to open "/home/huai/Music/王力宏 - 大城小爱.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "王力宏 - 大城小爱.mp3"
+2025-05-14T03:50:12 exception: Failed to decode "/home/huai/Music/张信哲 - 过火.mp3"; Failed to open "/home/huai/Music/张信哲 - 过火.mp3": No such file or directory
+2025-05-14T03:50:12 player: played "张信哲 - 过火.mp3"
