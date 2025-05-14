@@ -33,6 +33,14 @@ else
     echo ">> Custom .zshrc file not found, skipping"
 fi
 
+# 如果自定义p10k配置文件存在则复制，否则跳过
+if [ -f ~/linux/.p10k.zsh ]; then
+    echo ">> Copying custom .p10k.zsh file"
+    cp ~/linux/.p10k.zsh ~
+else
+    echo ">> Custom .p10k.zsh file not found, skipping"
+fi
+
 # 提示完成
 echo "Installation completed! Please restart your terminal or run 'source ~/.zshrc' to apply changes."
 
