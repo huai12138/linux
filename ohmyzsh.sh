@@ -49,6 +49,41 @@ else
     sed -i '/plugins=(git)/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' ~/.zshrc
 fi
 
+# Add environment variables to .zshrc (only if not already added)
+echo ">> Checking and adding environment variables"
+
+# Add LANG environment variable
+if grep -q 'export LANG=en_US.UTF-8' ~/.zshrc; then
+    echo ">> LANG environment variable already set, skipping"
+else
+    echo ">> Adding LANG environment variable"
+    echo 'export LANG=en_US.UTF-8' >> ~/.zshrc
+fi
+
+# Add VISUAL environment variable
+if grep -q 'export VISUAL=vim' ~/.zshrc; then
+    echo ">> VISUAL environment variable already set, skipping"
+else
+    echo ">> Adding VISUAL environment variable"
+    echo 'export VISUAL=vim' >> ~/.zshrc
+fi
+
+# Add EDITOR environment variable
+if grep -q 'export EDITOR=vim' ~/.zshrc; then
+    echo ">> EDITOR environment variable already set, skipping"
+else
+    echo ">> Adding EDITOR environment variable"
+    echo 'export EDITOR=vim' >> ~/.zshrc
+fi
+
+# Add TERM environment variable
+if grep -q 'export TERM=xterm-256color' ~/.zshrc; then
+    echo ">> TERM environment variable already set, skipping"
+else
+    echo ">> Adding TERM environment variable"
+    echo 'export TERM=xterm-256color' >> ~/.zshrc
+fi
+
 # Copy custom config file if it exists, otherwise skip
 if [ -f ~/linux/.zshrc ]; then
     if cmp -s ~/linux/.zshrc ~/.zshrc; then
