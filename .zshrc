@@ -110,46 +110,61 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="ranger ~/.oh-my-zsh"
+
+# 按功能对别名进行分组
+# 系统操作
+alias c="clear"
 alias update="sudo pacman -Syyu"
 alias x="startx"
-alias P="shutdown now"
+alias P="sleep 300 && shutdown now"
 alias R="systemctl reboot"
-alias w="sh /home/huai/.config/windows.sh"
-alias repo="sh /home/huai/.config/repo.sh"
-alias np="sh /home/huai/.config/swww.sh"
-alias 0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
-alias 1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
+alias rsyncdir="rsync -avzh --delete"  # 同步目录，删除目标端多余文件
+
+# 配置文件编辑
+alias zshconfig="vim ~/.zshrc"
+alias picomconfig="vim ~/.config/picom.conf"
+alias ohmyzsh="ranger ~/.oh-my-zsh"
+
+# 目录导航
+alias cdconfig="cd /home/huai/.config"
+alias cdfree="cd /home/huai/free"
+alias cdlinux="cd /home/huai/linux"
+alias cdstacks="cd /home/huai/stacks"
+alias cddata="cd /home/huai/data"
+alias cdappdata="cd /home/huai/data/appdata"
+alias cdusb="cd /home/huai/usb"
+alias cdwww="cd /home/huai/data/www"
+alias cdsingbox="cd /home/huai/data/appdata/singbox"
+alias cdclash="cd /home/huai/data/appdata/clash"
+
+# 音频控制
+alias audio0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
+alias audio1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
 alias vol='pactl set-sink-volume @DEFAULT_SINK@'
 alias volup="pactl set-sink-volume @DEFAULT_SINK@ +10%"
 alias voldown="pactl set-sink-volume @DEFAULT_SINK@ -10%"
 alias volmute="pactl set-sink-mute @DEFAULT_SINK@ toggle"
-alias s="mpc stop"
-alias p="mpc play"
-alias nm="mpc next"
-alias pause="mpc pause"
-alias pl="vim /home/huai/.config/mpd/playlists/all.m3u"
-alias h="Hyprland"
-alias config="cd /home/huai/.config"
-#alias free="cd /home/huai/free"
-alias linux="cd /home/huai/linux"
-alias stacks="cd /home/huai/stacks"
-alias data="cd /home/huai/data"
-alias appdata="cd /home/huai/data/appdata"
-alias usb="cd /home/huai/usb"
-alias www="cd /home/huai/data/www"
-alias picomconfig="vim ~/.config/picom.conf"
-alias singbox="cd /home/huai/data/appdata/singbox"
-alias nas="ssh huai@10.0.0.21"
+
+# MPD控制
+alias mstop="mpc stop"
+alias mplay="mpc play" 
+alias mnext="mpc next"
+alias mpause="mpc pause"
+alias mpl="vim /home/huai/.config/mpd/playlists/all.m3u"
+
+# 远程连接
+alias nas="ssh admin@10.0.0.21"
 alias cloud="ssh root@ssh.202309.xyz -p 2086"
-alias mc="ssh root@ssh.082500.xyz -p 2086"
+alias sshmc="ssh root@ssh.082500.xyz -p 2086"
 alias openwrt="ssh root@10.0.0.1"
 alias ax6s="ssh root@10.0.0.2"
-alias c="clear"
-alias clash="cd /home/huai/data/appdata/clash"
+
+# 脚本和程序
+alias hypr="Hyprland"
+alias win="sh /home/huai/.config/windows.sh"
+alias repo="sh /home/huai/.config/repo.sh"
+alias np="sh /home/huai/.config/swww.sh"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
      

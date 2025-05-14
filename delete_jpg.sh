@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# 定义两个路径选项
+# Define two path options
 path1="/home/huai/data/media/downloads/mv"
 path2="/home/huai/data/media/downloads/h"
 
-# 提示用户选择路径
-echo "请选择要删除 .jpg 文件的目录："
+# Prompt user to select a path
+echo "Please select the directory to delete .jpg files from:"
 echo "1. $path1"
 echo "2. $path2"
-read -p "请输入选项 (1 或 2): " choice
+read -p "Enter option (1 or 2): " choice
 
-# 根据用户选择设置删除路径
+# Set deletion path based on user choice
 case $choice in
   1)
     delete_dir="$path1"
@@ -19,12 +19,12 @@ case $choice in
     delete_dir="$path2"
     ;;
   *)
-    echo "输入无效，请重新输入。"
+    echo "Invalid input, please try again."
     exit 1
     ;;
 esac
 
-# 查找并删除指定目录及其子目录下的所有 .jpg 文件
+# Find and delete all .jpg files in the specified directory and its subdirectories
 find "$delete_dir" -type f -name "*.jpg" -delete
 
-echo "删除完成。"
+echo "Deletion complete."
