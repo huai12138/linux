@@ -154,8 +154,8 @@ alias mpl="vim /home/huai/.config/mpd/playlists/all.m3u"
 
 # 远程连接
 alias nas="ssh admin@10.0.0.21"
-alias cloud="ssh root@ssh.202309.xyz -p 2086"
-alias sshmc="ssh root@ssh.082500.xyz -p 2086"
+alias cloud="ssh root@ssh.202309.xyz"
+alias sshmc="ssh root@ssh.082500.xyz"
 alias openwrt="ssh root@10.0.0.1"
 alias ax6s="ssh root@10.0.0.2"
 
