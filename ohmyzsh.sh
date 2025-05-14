@@ -2,7 +2,7 @@
 
 # 安装 oh-my-zsh
 echo ">> Installing oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # 安装 powerlevel10k 主题
 echo ">> Installing powerlevel10k theme"
@@ -24,6 +24,14 @@ sed -i 's/ZSH_THEME=".*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
 
 # 添加插件到 .zshrc
 sed -i '/plugins=(git)/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' ~/.zshrc
+
+# 如果配置文件存在则复制，否则跳过
+if [ -f ~/linux/.zshrc ]; then
+    echo ">> Copying custom .zshrc file"
+    cp ~/linux/.zshrc ~
+else
+    echo ">> Custom .zshrc file not found, skipping"
+fi
 
 # 提示完成
 echo "Installation completed! Please restart your terminal or run 'source ~/.zshrc' to apply changes."

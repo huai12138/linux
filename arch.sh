@@ -133,7 +133,7 @@ install_packages() {
     pacman-key --populate archlinux
 
     pacstrap /mnt base base-devel iptables-nft linux-lts linux-lts-headers linux-firmware vim dhcpcd git \
-        hyprland fuzzel waybar swww mako alacritty feh polkit \
+        hyprland fuzzel waybar swww mako alacritty feh zsh polkit \
         nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
         fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh \
         mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip \
