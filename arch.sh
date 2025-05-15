@@ -125,7 +125,7 @@ setup_partitions() {
         pacman -Sy --noconfirm reflector
     fi
     echo ">> Updating mirror list"
-    reflector --country China --age 12 --protocol https --sort rate --score 3 --save /etc/pacman.d/mirrorlist
+    sudo reflector -c China -a 12 -p https --score 5 --sort rate -n 3 --ipv4 --save /etc/pacman.d/mirrorlist
 
     # Show the updated mirror list
     echo ">> Updated mirrors:"
