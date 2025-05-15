@@ -16,7 +16,7 @@ echo "Setting up numlock..."
 cd ~/linux/numlock && /bin/bash numlock.sh
 
 echo "Configuring SSH..."
-cp ~/data/linux/.ssh/id_id25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_id25519
+cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
 
 echo "All configurations completed successfully!"
 
