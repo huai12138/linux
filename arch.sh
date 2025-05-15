@@ -141,7 +141,7 @@ install_packages() {
     pacman-key --init
     pacman-key --populate archlinux
 
-    pacstrap /mnt base base-devel iptables-nft linux-lts linux-lts-headers linux-firmware vim dhcpcd git \
+    pacstrap /mnt base base-devel iptables-nft linux-lts linux-lts-headers linux-firmware vim dhcpcd git less \
         hyprland fuzzel waybar swww mako alacritty feh polkit \
         nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
         fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh \
