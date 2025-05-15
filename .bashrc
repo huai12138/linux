@@ -6,48 +6,70 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# 系统操作
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias x='startx'
-alias P='sudo shutdown now'
-alias R='sudo systemctl reboot'
-alias w='sh /home/huai/.config/windows.sh'
-alias xlg='~/.steam/steamapps/common/Stardew\ Valley/StardewValley > /dev/null 2>&1'
-alias np='sh /home/huai/.config/wallpaperchange.sh'
-alias repo='sh /home/huai/.config/repo.sh'
-alias nm='mpc next'
-alias 0='pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo'
-alias 1='pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo'
+alias c="clear"
+alias x="startx"
+alias P="sleep 300 && shutdown now"
+alias R="systemctl reboot"
+alias update="sudo pacman -Syyu"
+alias rsyncdir="rsync -avzh --delete"  # 同步目录，删除目标端多余文件
+
+# 配置文件编辑
+alias bashconfig="vim ~/.bashrc"
+
+
+
+# 目录导航
+alias cdconfig="cd /home/huai/.config"
+alias cdlinux="cd /home/huai/linux"
+alias cdstacks="cd /home/huai/stacks"
+alias cddata="cd /home/huai/data"
+alias cdappdata="cd /home/huai/data/appdata"
+alias cdusb="cd /home/huai/usb"
+alias cdwww="cd /home/huai/data/www"
+alias cdfree="cd /home/huai/free"
+alias cdclash="cd /home/huai/data/appdata/clash"
+alias ..='cd ..'
+alias ~='cd ~'
+
+# 音频控制
+alias audio0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
+alias audio1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
 alias vol='pactl set-sink-volume @DEFAULT_SINK@'
-alias volup='pactl set-sink-volume @DEFAULT_SINK@ +10%'
-alias voldown='pactl set-sink-volume @DEFAULT_SINK@ -10%'
-alias volmute='pactl set-sink-mute @DEFAULT_SINK@ toggle'
-alias s='mpc stop'
-alias p='mpc play'
-alias pause='mpc pause'
-alias pl='vim /home/huai/.config/mpd/playlists/all.m3u'
-alias h='Hyprland'
-alias config='cd /home/huai/.config'
-#alias free='cd /home/huai/free'
-alias linux='cd /home/huai/linux'
-alias stacks='cd /home/huai/stacks'
-alias data='cd /home/huai/data'
-alias usb='cd /home/huai/usb'
-alias www='cd /home/huai/data/www'
-alias picomconfig='vim ~/.config/picom.conf'
-alias singbox='cd /home/huai/data/appdata/singbox'
-alias appdata='cd /home/huai/data/appdata'
-alias nas='ssh huai@10.0.0.21'
-alias cloud='ssh root@35.212.234.24 -p 9022'
-alias openwrt='ssh root@10.0.0.1'
-alias ax6s='ssh root@10.0.0.2'
-alias c='clear'
-alias clash='cd /home/huai/data/appdata/clash'
+alias volup="pactl set-sink-volume @DEFAULT_SINK@ +10%"
+alias voldown="pactl set-sink-volume @DEFAULT_SINK@ -10%"
+alias volmute="pactl set-sink-mute @DEFAULT_SINK@ toggle"
+
+# MPD控制
+alias mstop="mpc stop"
+alias mplay="mpc play"
+alias mnext="mpc next"
+alias mpause="mpc pause"
+alias mpl="vim /home/huai/.config/mpd/playlists/all.m3u"
+
+# 远程连接
+alias nas="ssh admin@10.0.0.21"
+alias cloud="ssh root@ssh.202309.xyz"
+alias sshmc="ssh root@ssh.082500.xyz"
+alias openwrt="ssh root@10.0.0.1"
+alias ax6s="ssh root@10.0.0.2"
+
+# 脚本和程序
+alias hypr="Hyprland"
+alias win="sh /home/huai/.config/windows.sh"
+alias np="sh /home/huai/.config/swww.sh"
+alias repo="sh /home/huai/.config/repo.sh"
+
+
+# Git相关
 alias gaa='git add --all'
 alias gc='git commit -v'
 alias ggpush='git push origin main'
-alias ..='cd ..'
-alias ~='cd ~'
+
 PS1='\[\e[1;32m\]\h\[\e[0m\] \u:\w\$ '
-export TERM=xterm-256color
+export LANG=en_US.UTF-8
+export VISUAL=vim
 export EDITOR=vim
+export TERM=xterm-256color

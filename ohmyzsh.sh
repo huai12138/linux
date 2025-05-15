@@ -1,5 +1,38 @@
 #!/bin/bash
 
+# Check if zsh is installed
+if command -v zsh &>/dev/null; then
+    echo ">> zsh is already installed, skipping installation"
+else
+    echo ">> Installing zsh"
+    # Detect package manager and install zsh
+    if command -v apt &>/dev/null; then
+        # Debian, Ubuntu, etc.
+        sudo apt update && sudo apt install -y zsh
+    elif command -v dnf &>/dev/null; then
+        # Fedora
+        sudo dnf install -y zsh
+    elif command -v yum &>/dev/null; then
+        # RHEL, CentOS
+        sudo yum install -y zsh
+    elif command -v zypper &>/dev/null; then
+        # openSUSE
+        sudo zypper install -y zsh
+    elif command -v pacman &>/dev/null; then
+        # Arch Linux
+        sudo pacman -S --noconfirm zsh
+    else
+        echo ">> Could not detect package manager. Please install zsh manually."
+        exit 1
+    fi
+fi
+
+# Set zsh as default shell if it's not already
+if [[ "$SHELL" != *"zsh"* ]]; then
+    echo ">> Setting zsh as default shell"
+    chsh -s $(which zsh)
+fi
+
 # Install oh-my-zsh
 if [ -d ~/.oh-my-zsh ]; then
     echo ">> oh-my-zsh is already installed, skipping installation"
