@@ -20,4 +20,4 @@ cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
 
 echo "All configurations completed successfully!"
 
-
+rsync -avzh --delete ~/data/media/downloads/Music/ ~/Music && rsync -avzh --delete ~/data/media/downloads/Pictures/ ~/Pictures
