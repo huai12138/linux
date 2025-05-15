@@ -25,7 +25,7 @@ cp -r ~/linux/.config ~
 
 echo "   Copying .bashrc to home folder..."
 
-cp ~ /linux/.bashrc ~
+cp ~/linux/.bashrc ~
 echo "   Copying .bashrc to home folder..."
 
 echo "Configuration files copied successfully."
@@ -40,6 +40,8 @@ sleep 1
 # Tools configuration (important but lower priority)
 echo "Configuring SSH..."
 echo "   Copying SSH key and setting appropriate permissions..."
+cd ~/data
+sleep 2
 cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
 echo "SSH configuration completed."
 sleep 1
