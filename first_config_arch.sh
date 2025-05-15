@@ -26,7 +26,6 @@ cp -r ~/linux/.config ~
 echo "   Copying .bashrc to home folder..."
 
 cp ~/linux/.bashrc ~
-echo "   Copying .bashrc to home folder..."
 
 echo "Configuration files copied successfully."
 sleep 1
