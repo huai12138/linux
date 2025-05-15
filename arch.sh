@@ -119,8 +119,17 @@ setup_partitions() {
     mkswap "${DISK}${PART_PREFIX}2"         # Swap partition (changed from 3 to 2)
     swapon "${DISK}${PART_PREFIX}2"         # Enable Swap (changed from 3 to 2)
 
+    echo ">> checking and installing reflector"
+    if ! command -v reflector &> /dev/null; then
+        echo "Installing reflector..."
+        pacman -Sy --noconfirm reflector
+    fi
     echo ">> Updating mirror list"
-    echo "Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/\$repo/os/\$arch" | tee /etc/pacman.d/mirrorlist
+    reflector --country China --age 12 --protocol https --sort rate --score 3 --save /etc/pacman.d/mirrorlist
+
+    # Show the updated mirror list
+    echo ">> Updated mirrors:"
+    cat /etc/pacman.d/mirrorlist
 
     echo ">> Mounting partitions"
     mount "${DISK}${PART_PREFIX}3" /mnt     
