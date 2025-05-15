@@ -32,6 +32,8 @@ echo "   Copying SSH key and setting appropriate permissions..."
 cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
 echo "SSH configuration completed."
 systemctl --user enable mpd --now
+sudo timedatectl set-ntp true
+
 echo "All configurations completed successfully!"
 
 echo "Syncing media files from data partition..."
