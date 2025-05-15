@@ -2,7 +2,39 @@
 
 echo "===== Starting Arch Linux initial configuration ====="
 
-# Show messages in English
+# System-level configuration (first priority)
+echo "Setting up system services..."
+echo "   Enabling network time synchronization..."
+sudo timedatectl set-ntp true
+echo "System services configuration completed."
+
+echo "Installing fonts..."
+echo "   Creating fonts directory and copying Meslo LG Nerd Font..."
+sudo mkdir -p /usr/local/share/fonts && sudo cp -r ~/linux/MesloLGNerdFont /usr/local/share/fonts && fc-cache -fv
+echo "Font installation completed."
+
+echo "Setting up numlock..."
+echo "   Running numlock configuration script..."
+cd ~/linux/numlock && /bin/bash numlock.sh
+echo "Numlock setup completed."
+
+# User configuration and environment (medium priority)
+echo "Copying configuration files..."
+echo "   Copying .config directory to home folder..."
+cp -r ~/linux/.config ~ 
+echo "Configuration files copied successfully."
+
+echo "Setting up user services..."
+echo "   Enabling and starting Music Player Daemon (MPD)..."
+systemctl --user enable mpd --now
+echo "User services configuration completed."
+
+# Tools configuration (important but lower priority)
+echo "Configuring SSH..."
+echo "   Copying SSH key and setting appropriate permissions..."
+cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
+echo "SSH configuration completed."
+
 echo "Configuring Git settings..."
 git config --global core.editor "vim" # set vim as default editor
 echo "   Setting Git editor to vim..."
@@ -12,30 +44,7 @@ git config --global user.name "huai12138"  # git config --global user.name "your
 echo "   Setting Git username..."
 echo "Git configuration completed."
 
-echo "Installing fonts..."
-echo "   Creating fonts directory and copying Meslo LG Nerd Font..."
-sudo mkdir -p /usr/local/share/fonts && sudo cp -r ~/linux/MesloLGNerdFont /usr/local/share/fonts && fc-cache -fv
-echo "Font installation completed."
-
-echo "Copying configuration files..."
-echo "   Copying .config directory to home folder..."
-cp -r ~/linux/.config ~ 
-echo "Configuration files copied successfully."
-
-echo "Setting up numlock..."
-echo "   Running numlock configuration script..."
-cd ~/linux/numlock && /bin/bash numlock.sh
-echo "Numlock setup completed."
-
-echo "Configuring SSH..."
-echo "   Copying SSH key and setting appropriate permissions..."
-cp ~/data/linux/.ssh/id_ed25519 ~/.ssh/ && sudo chmod 600 ~/.ssh/id_ed25519
-echo "SSH configuration completed."
-systemctl --user enable mpd --now
-sudo timedatectl set-ntp true
-
-echo "All configurations completed successfully!"
-
+# Data synchronization (last step)
 echo "Syncing media files from data partition..."
 echo "   Syncing Music directory..."
 rsync -avzh --delete ~/data/media/downloads/Music/ ~/Music 
@@ -43,4 +52,5 @@ echo "   Syncing Pictures directory..."
 rsync -avzh --delete ~/data/media/downloads/Pictures/ ~/Pictures
 echo "File synchronization completed."
 
+echo "All configurations completed successfully!"
 echo "===== Arch Linux initial configuration completed ====="
