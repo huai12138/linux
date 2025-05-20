@@ -207,7 +207,7 @@ configure_system() {
 
     echo -e "#GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
 
-    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && mkdir data && mkdir Pictures && mkdir Music && mkdir Downloads && git clone https://aur.archlinux.org/yay.git"
+    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && mkdir data && mkdir Pictures && mkdir Music && mkdir Downloads"
 
     echo ">> Enabling system services"
     systemctl enable dhcpcd
