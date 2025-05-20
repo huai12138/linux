@@ -146,7 +146,7 @@ install_packages() {
         nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
         fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh \
         mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip \
-        firefox chromium ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji \
+        ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji \
         sox libva-utils telegram-desktop ufw bc firejail nodejs
 
     echo ">> Generating fstab"
@@ -207,7 +207,7 @@ configure_system() {
 
     echo -e "#GTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\nSDL_IM_MODULE=fcitx\nGLFW_IM_MODULE=fcitx" >> /etc/environment
 
-    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && mkdir data && mkdir Pictures && mkdir Music && mkdir Downloads"
+    su - $USERNAME -c "cd ~ && git clone https://github.com/huai12138/linux.git && mkdir data && mkdir Pictures && mkdir Music && mkdir Downloads && git clone https://aur.archlinux.org/yay.git"
 
     echo ">> Enabling system services"
     systemctl enable dhcpcd
