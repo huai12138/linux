@@ -3,7 +3,7 @@
 # Define colors for better output visualization
 GREEN='\033[0;32m'    # Success messages
 YELLOW='\033[1;33m'   # Warnings
-RED='\033[0;31m'      # Errors
+RED='\033[0;31m'     # Errors
 BLUE='\033[0;34m'     # Section titles
 CYAN='\033[0;36m'     # Operation details
 NC='\033[0m'          # Reset color
@@ -12,7 +12,7 @@ NC='\033[0m'          # Reset color
 handle_error() {
     echo -e "${RED}Error: $1${NC}"
     echo -e "${YELLOW}Configuration may be incomplete. Check the error and try again.${NC}"
-    sleep 5  # 错误消息后sleep 5秒
+    sleep 5  # Sleep 5 seconds after error message
 }
 
 # Function to check command success
@@ -36,10 +36,37 @@ echo -e "${CYAN}   Enabling network time synchronization...${NC}"
 sudo timedatectl set-ntp true
 if ! check_command "Failed to enable network time synchronization"; then
     echo -e "${YELLOW}   Continuing with configuration despite the error...${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 echo -e "${GREEN}System services configuration completed.${NC}"
-sleep 1  # 成功消息后sleep 1秒
+sleep 1  # Sleep 1 second after success message
+
+echo -e "${BLUE}Installing yay AUR ...${NC}"
+if command -v yay >/dev/null 2>&1; then
+    echo -e "${GREEN}yay is already installed.${NC}"
+    sleep 1  # Sleep 1 second after success message
+else
+    echo -e "${CYAN}   Building and installing yay...${NC}"
+    
+    # Check if yay directory exists
+    if [ ! -d ~/yay ]; then
+        echo -e "${CYAN}   Cloning yay repository...${NC}"
+        cd ~ && git clone https://aur.archlinux.org/yay.git
+        check_command "Failed to clone yay repository"
+    fi
+    
+    # Enter directory and build/install
+    cd ~/yay || { handle_error "Cannot navigate to yay directory"; echo -e "${YELLOW}   Skipping yay installation...${NC}"; sleep 3; }
+    
+    makepkg -si --noconfirm
+    check_command "Failed to build and install yay"
+    
+    # Return to original directory
+    cd ~ || handle_error "Cannot navigate back to home directory"
+    
+    echo -e "${GREEN}yay installation completed.${NC}"
+    sleep 1  # Sleep 1 second after success message
+fi
 
 echo -e "${BLUE}Installing fonts...${NC}"
 echo -e "${CYAN}   Creating fonts directory and copying Meslo LG Nerd Font...${NC}"
@@ -53,10 +80,10 @@ if [ -d ~/linux/MesloLGNerdFont ]; then
     fc-cache -fv
     check_command "Failed to update font cache"
     echo -e "${GREEN}Font installation completed.${NC}"
-    sleep 1  # 成功消息后sleep 1秒
+    sleep 1  # Sleep 1 second after success message
 else
     echo -e "${YELLOW}   Warning: MesloLGNerdFont directory not found${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 
 echo -e "${BLUE}Setting up numlock...${NC}"
@@ -72,10 +99,10 @@ if [ -d ~/linux/numlock ]; then
     fi
 else
     echo -e "${YELLOW}   Warning: numlock directory not found, skipping...${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 echo -e "${GREEN}Numlock setup completed.${NC}"
-sleep 1  # 成功消息后sleep 1秒
+sleep 1  # Sleep 1 second after success message
 
 # User configuration and environment (medium priority)
 echo -e "${BLUE}Copying configuration files...${NC}"
@@ -85,7 +112,7 @@ if [ -d ~/linux/.config ]; then
     check_command "Failed to copy .config directory"
 else
     echo -e "${YELLOW}   Warning: .config directory not found in ~/linux/${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 
 echo -e "${CYAN}   Copying .bashrc to home folder...${NC}"
@@ -100,10 +127,10 @@ if [ -f ~/linux/.bashrc ]; then
     check_command "Failed to copy .bashrc"
 else
     echo -e "${YELLOW}   Warning: .bashrc not found in ~/linux/${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 echo -e "${GREEN}Configuration files copied successfully.${NC}"
-sleep 1  # 成功消息后sleep 1秒
+sleep 1  # Sleep 1 second after success message
 
 echo -e "${BLUE}Setting up user services...${NC}"
 echo -e "${CYAN}   Enabling and starting Music Player Daemon (MPD)...${NC}"
@@ -111,10 +138,10 @@ systemctl --user enable mpd --now
 if ! check_command "Failed to enable/start MPD service"; then
     echo -e "${YELLOW}   MPD service may not be installed or may have failed to start${NC}"
     echo -e "${YELLOW}   Continuing with configuration...${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 echo -e "${GREEN}User services configuration completed.${NC}"
-sleep 1  # 成功消息后sleep 1秒
+sleep 1  # Sleep 1 second after success message
 
 # Tools configuration (important but lower priority)
 echo -e "${BLUE}Configuring SSH...${NC}"
@@ -130,11 +157,11 @@ if [ -f ~/data/linux/.ssh/id_ed25519 ]; then
     chmod 600 id_ed25519
     check_command "Failed to set permissions on SSH key"
     echo -e "${GREEN}SSH configuration completed.${NC}"
-    sleep 1  # 成功消息后sleep 1秒
+    sleep 1  # Sleep 1 second after success message
 else
     echo -e "${YELLOW}   Warning: SSH key not found at ~/data/linux/.ssh/id_ed25519${NC}"
     echo -e "${YELLOW}   SSH configuration incomplete.${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 fi
 
 echo -e "${BLUE}Configuring Git settings...${NC}"
@@ -144,7 +171,7 @@ if command -v git >/dev/null 2>&1; then
     check_command "Failed to set Git editor"
 else
     echo -e "${YELLOW}   Warning: Git is not installed, skipping Git configuration...${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
     # Skip the rest of Git configuration if Git is not installed
     goto_data_sync=true
 fi
@@ -160,7 +187,7 @@ if [ "$goto_data_sync" != "true" ]; then
             echo -e "${CYAN}   Setting Git email from config file...${NC}"
         else
             echo -e "${YELLOW}   Warning: Could not find EMAIL in config file${NC}"
-            sleep 3  # 警告消息后sleep 3秒
+            sleep 3  # Sleep 3 seconds after warning message
         fi
         
         # Read username
@@ -171,21 +198,21 @@ if [ "$goto_data_sync" != "true" ]; then
             echo -e "${CYAN}   Setting Git username from config file...${NC}"
         else
             echo -e "${YELLOW}   Warning: Could not find USERNAME in config file${NC}"
-            sleep 3  # 警告消息后sleep 3秒
+            sleep 3  # Sleep 3 seconds after warning message
         fi
         
         # Only show completion message if both settings were applied
         if [ -n "$GIT_EMAIL" ] && [ -n "$GIT_USERNAME" ]; then
             echo -e "${GREEN}Git configuration completed successfully.${NC}"
-            sleep 1  # 成功消息后sleep 1秒
+            sleep 1  # Sleep 1 second after success message
         else
             echo -e "${YELLOW}Git configuration incomplete. Check your config file.${NC}"
-            sleep 3  # 警告消息后sleep 3秒
+            sleep 3  # Sleep 3 seconds after warning message
         fi
     else
         echo -e "${YELLOW}   Warning: Git config file not found at ~/data/linux/github.txt${NC}"
         echo -e "${YELLOW}   Skipping Git user configuration.${NC}"
-        sleep 3  # 警告消息后sleep 3秒
+        sleep 3  # Sleep 3 seconds after warning message
     fi
 fi
 
@@ -196,7 +223,7 @@ echo -e "${BLUE}Syncing media files from data partition...${NC}"
 if [ ! -d ~/data/media/downloads ]; then
     echo -e "${YELLOW}   Warning: ~/data/media/downloads directory not found${NC}"
     echo -e "${YELLOW}   Skipping file synchronization...${NC}"
-    sleep 3  # 警告消息后sleep 3秒
+    sleep 3  # Sleep 3 seconds after warning message
 else
     echo -e "${CYAN}   Syncing Music directory...${NC}"
     if [ -d ~/data/media/downloads/Music ]; then
@@ -205,7 +232,7 @@ else
         check_command "Failed to sync Music directory"
     else
         echo -e "${YELLOW}   Warning: Music directory not found in data partition${NC}"
-        sleep 3  # 警告消息后sleep 3秒
+        sleep 3  # Sleep 3 seconds after warning message
     fi
     
     echo -e "${CYAN}   Syncing Pictures directory...${NC}"
@@ -215,13 +242,13 @@ else
         check_command "Failed to sync Pictures directory"
     else
         echo -e "${YELLOW}   Warning: Pictures directory not found in data partition${NC}"
-        sleep 3  # 警告消息后sleep 3秒
+        sleep 3  # Sleep 3 seconds after warning message
     fi
     echo -e "${GREEN}File synchronization completed.${NC}"
-    sleep 1  # 成功消息后sleep 1秒
+    sleep 1  # Sleep 1 second after success message
 fi
 
 echo -e "${GREEN}All configurations completed successfully!${NC}"
-sleep 1  # 成功消息后sleep 1秒
+sleep 1  # Sleep 1 second after success message
 echo -e "${BLUE}===== Arch Linux initial configuration completed =====${NC}"
-sleep 1  # 最终消息后sleep 1秒
+sleep 1  # Sleep 1 second after final message
