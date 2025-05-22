@@ -60,6 +60,9 @@ alias hypr="Hyprland"
 alias win="sh /home/huai/.config/windows.sh"
 alias np="sh /home/huai/.config/swww.sh"
 alias repo="sh /home/huai/.config/repo.sh"
+mc() {
+    /bin/bash "$(ls ~/Downloads/HMCL-*.sh | head -n 1)"
+}
 
 
 # Git相关

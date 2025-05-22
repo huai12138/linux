@@ -163,6 +163,9 @@ alias hypr="Hyprland"
 alias win="sh /home/huai/.config/windows.sh"
 alias repo="sh /home/huai/.config/repo.sh"
 alias np="sh /home/huai/.config/swww.sh"
+mc() {
+    /bin/bash "$(ls ~/Downloads/HMCL-*.sh | head -n 1)"
+}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
