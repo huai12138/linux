@@ -5,7 +5,8 @@ def main():
     # Provide two predefined paths for user to choose from
     predefined_paths = {
         "1": "/home/huai/data/media/downloads/h",
-        "2": "/home/huai/data/media/downloads/mv"
+        "2": "/home/huai/data/media/downloads/mv",
+        "3": "/home/huai/data/media/downloads/whitenoise"
     }
 
     # Display path options
@@ -14,11 +15,11 @@ def main():
         print(f"{key}: {path}")
     
     # Get user selection
-    choice = input("Please enter option number (1 or 2): ").strip()
+    choice = input("Please enter option number (1, 2, or 3): ").strip()
 
     # Validate user input
     if choice not in predefined_paths:
-        print("Invalid option, please run the script again and select 1 or 2.")
+        print("Invalid option, please run the script again and select 1, 2, or 3.")
         return
 
     video_dir = predefined_paths[choice]
