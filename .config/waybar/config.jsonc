@@ -10,8 +10,7 @@
         "hyprland/workspaces",
         "hyprland/window"
     ],
-    "modules-center": [
-    ],
+    "modules-center": [],
     "modules-right": [
         "custom/arch",
         "cpu",
@@ -23,7 +22,7 @@
         "clock",
         "tray"
     ],
-        // Modules configuration
+    // Modules configuration
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
@@ -35,23 +34,20 @@
             "3": "󰇄",
             "4": "",
             "5": "󰝚",
-	    "6": "",
-	    "7": "",
+            "6": "",
+            "7": "",
             "urgent": "",
             "focused": "",
             "default": ""
         }
     },
     "custom/arch": {
-          "format": "󰣇 {}",
-          "exec": "uname -r | cut -d '-' -f 1",
-          "interval": "60"
+        "format": "󰣇 {}",
+        "exec": "uname -r | cut -d '-' -f 1",
+        "interval": "60"
     },
-
-
-
     "mpd": {
-//        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        //        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title} ⸨{songPosition}|{queueLength}⸩ ",
         "format-disconnected": "Disconnected ",
         "format-stopped": "",
@@ -82,7 +78,6 @@
         // "icon-size": 21,
         "spacing": 10
     },
-
     "clock": {
         "interval": 1,
         "timezone": "Asia/Shanghai",
@@ -106,17 +101,22 @@
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "interval": 1,
-	"warning-threshold": 60,
-	"critical-threshold": 80,
+        "warning-threshold": 60,
+        "critical-threshold": 80,
         "format-critical": "{temperatureC}°C",
         "format": "{temperatureC}°C",
-        "format-icons": ["", "", ""]
+        "format-icons": [
+            "",
+            "",
+            ""
+        ]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "interval": 1,
         "format-wifi": " {essid} ({signalStrength}%)",
-        "format-ethernet": "󰛶 {bandwidthUpBits} 󰛴 {bandwidthDownBits}",
+        //"format-ethernet": "󰛶 {bandwidthUpBits} 󰛴 {bandwidthDownBits}",
+        "format-ethernet": "󰛶 {bandwidthUpOctets} 󰛴 {bandwidthDownOctets}",
         "tooltip": false,
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -138,7 +138,11 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": [
+                "",
+                "",
+                ""
+            ]
         },
         "on-click": "pavucontrol"
     }
