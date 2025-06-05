@@ -4,9 +4,13 @@
 URL="http://10.0.0.21:8080/shutdown"
 
 while true; do
-    # 方案2：使用 --max-redirects 0 禁止重定向
-    if curl --output /dev/null --silent --head --fail --max-redirects 0 --connect-timeout 3 --max-time 6 "$URL"; then
-        echo "检测到关机信号，准备关机..."
+    # 获取HTTP状态码，只有200才认为是关机信号
+    HTTP_STATUS=$(curl --output /dev/null --silent --write-out "%{http_code}" --connect-timeout 3 --max-time 6 --max-redirects 0 "$URL")
+    
+    echo "HTTP状态码: $HTTP_STATUS"
+    
+    if [ "$HTTP_STATUS" = "200" ]; then
+        echo "检测到关机信号 (HTTP 200)，准备关机..."
         sudo shutdown now
         exit 0
     else
