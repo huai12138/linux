@@ -1,5 +1,6 @@
 set number
 syntax on
+set termguicolors
 set showmode
 set relativenumber
 call plug#begin('~/.vim/plugged')
