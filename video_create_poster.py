@@ -4,9 +4,9 @@ import subprocess
 def main():
     # Provide two predefined paths for user to choose from
     predefined_paths = {
-        "1": "/home/huai/data/media/downloads/h",
-        "2": "/home/huai/data/media/downloads/mv",
-        "3": "/home/huai/data/media/downloads/whitenoise"
+        "1": "/home/huai/data/Downloads/h",
+        "2": "/home/huai/data/Downloads/mv",
+        "3": "/home/huai/data/Downloads/whitenoise"
     }
 
     # Display path options

@@ -220,15 +220,15 @@ fi
 echo -e "${BLUE}Syncing media files from data partition...${NC}"
 
 # Check if data directory exists
-if [ ! -d ~/data/media/downloads ]; then
-    echo -e "${YELLOW}   Warning: ~/data/media/downloads directory not found${NC}"
+if [ ! -d ~/data/Downloads ]; then
+    echo -e "${YELLOW}   Warning: ~/data/Downloads directory not found${NC}"
     echo -e "${YELLOW}   Skipping file synchronization...${NC}"
     sleep 3  # Sleep 3 seconds after warning message
 else
     echo -e "${CYAN}   Syncing Music directory...${NC}"
-    if [ -d ~/data/media/downloads/Music ]; then
+    if [ -d ~/data/Downloads/Music ]; then
         mkdir -p ~/Music
-        rsync -avzh --delete ~/data/media/downloads/Music/ ~/Music
+        rsync -avzh --delete ~/data/Downloads/Music/ ~/Music
         check_command "Failed to sync Music directory"
     else
         echo -e "${YELLOW}   Warning: Music directory not found in data partition${NC}"
@@ -236,9 +236,9 @@ else
     fi
     
     echo -e "${CYAN}   Syncing Pictures directory...${NC}"
-    if [ -d ~/data/media/downloads/Pictures ]; then
+    if [ -d ~/data/Downloads/Pictures ]; then
         mkdir -p ~/Pictures
-        rsync -avzh --delete ~/data/media/downloads/Pictures/ ~/Pictures
+        rsync -avzh --delete ~/data/Downloads/Pictures/ ~/Pictures
         check_command "Failed to sync Pictures directory"
     else
         echo -e "${YELLOW}   Warning: Pictures directory not found in data partition${NC}"
