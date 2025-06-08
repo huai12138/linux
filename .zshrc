@@ -16,14 +16,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
-# ZSH_THEME="robbyrussell"  # 使用默认主题
-     
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -84,96 +76,19 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch $(uname -m)"
-
-# Set personal aliases, overriding those provided by Oh My Zsh libs,
-# plugins, and themes. Aliases can be placed here, though Oh My Zsh
-# users are encouraged to define aliases within a top-level file in
-# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
-# - $ZSH_CUSTOM/aliases.zsh
-# - $ZSH_CUSTOM/macos.zsh
-# For a full list of active aliases, run `alias`.
-
-# 按功能对别名进行分组
-# 系统操作
-alias c="clear"
-alias update="sudo pacman -Syyu"
-alias x="startx"
-alias P="sleep 300 && shutdown now"
-alias R="systemctl reboot"
-alias rsyncdir="rsync -avzh --delete"  # 同步目录，删除目标端多余文件
-
-# 配置文件编辑
-alias zshconfig="vim ~/.zshrc"
-alias picomconfig="vim ~/.config/picom.conf"
-alias ohmyzsh="ranger ~/.oh-my-zsh"
-
-# 目录导航
-alias cdconfig="cd /home/huai/.config"
-alias cdfree="cd /home/huai/free"
-alias cdlinux="cd /home/huai/linux"
-alias cdstacks="cd /home/huai/stacks"
-alias cddata="cd /home/huai/data"
-alias cdappdata="cd /home/huai/data/appdata"
-alias cdusb="cd /home/huai/usb"
-alias cdwww="cd /home/huai/data/www"
-alias cdsingbox="cd /home/huai/data/appdata/singbox"
-alias cdclash="cd /home/huai/data/appdata/clash"
-
-# 音频控制
-alias audio0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
-alias audio1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
-alias vol='pactl set-sink-volume @DEFAULT_SINK@'
-alias volup="pactl set-sink-volume @DEFAULT_SINK@ +10%"
-alias voldown="pactl set-sink-volume @DEFAULT_SINK@ -10%"
-alias volmute="pactl set-sink-mute @DEFAULT_SINK@ toggle"
-
-# MPD控制
-alias mstop="mpc stop"
-alias mplay="mpc play" 
-alias mnext="mpc next"
-alias mpause="mpc pause"
-alias mpl="vim /home/huai/.config/mpd/playlists/all.m3u"
-
-# 远程连接
-alias nas="ssh admin@10.0.0.21"
-alias cloud="ssh root@ssh.202309.xyz"
-alias openwrt="ssh root@10.0.0.1"
-alias ax6s="ssh root@10.0.0.2"
-
-# 脚本和程序
-alias hypr="Hyprland"
-alias win="sh /home/huai/.config/windows.sh"
-alias repo="sh /home/huai/.config/repo.sh"
-alias np="sh /home/huai/.config/swww.sh"
-mc() {
-    /bin/bash "$(ls ~/Downloads/HMCL-*.sh | head -n 1)"
-}
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-     
-
-   
-   
 export LANG=en_US.UTF-8
 export VISUAL=vim
 export EDITOR=vim
 export TERM=xterm-256color
+
+# 加载通用别名
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
