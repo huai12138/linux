@@ -6,6 +6,9 @@ sudo ufw allow from 10.0.0.15 to any port 139,445 proto tcp
 sudo ufw allow from 10.0.0.8 to any port 137,138 proto udp
 sudo ufw allow from 10.0.0.8 to any port 139,445 proto tcp
 sudo ufw allow in on docker0
+# HTTP and HTTPS ports
+sudo ufw allow 80 proto tcp    # HTTP
+sudo ufw allow 443 proto tcp   # HTTPS
 # NFSv4 only needs these ports:
 sudo ufw allow from 10.0.0.25 to any port 111 proto tcp    # rpcbind TCP (still needed for service discovery)
 sudo ufw allow from 10.0.0.25 to any port 111 proto udp    # rpcbind UDP
