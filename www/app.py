@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 import os
 import threading
 from datetime import datetime  # 添加datetime模块
@@ -15,13 +15,19 @@ def delayed_delete(filename, delay_minutes):
     """在指定分钟后删除文件"""
     threading.Timer(delay_minutes * 60, lambda: os.remove(filename) if os.path.exists(filename) else None).start()
 
+@app.route('/favicon.ico')
+def favicon():
+    """提供网页图标"""
+    return send_from_directory(os.path.dirname(os.path.abspath(__file__)), 
+                              'favicon.png', mimetype='image/png')
+
 @app.route('/s')
 def create_shutdown_file():
     """在根目录创建一个shutdown文件"""
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # 获取当前时间
     try:
         with open(SHUTDOWN_FILENAME, 'w') as f:
-            pass  # 创建空文件
+            f.write('1')  # 写入内容"1"
         return f"[{current_time}] 成功在根目录创建{SHUTDOWN_FILENAME}文件"
     except Exception as e:
         return f"[{current_time}] 创建{SHUTDOWN_FILENAME}文件失败: {str(e)}", 500
@@ -46,7 +52,7 @@ def auto_create_and_delete():
     try:
         # 创建文件
         with open(SHUTDOWN_FILENAME, 'w') as f:
-            pass
+            f.write('1')  # 写入内容"1"
         
         # 设置自动删除
         delayed_delete(SHUTDOWN_FILENAME, AUTO_DELETE_DELAY_MINUTES)
