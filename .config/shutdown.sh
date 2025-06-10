@@ -5,7 +5,14 @@ SHUTDOWN_FILE="http://10.0.0.21/shutdown"
 
 while true; do
     # 获取文件内容
-    CONTENT=$(curl --output /dev/null --silent --write-out "%{stdout}" --connect-timeout 3 --max-time 5 --location --max-redirs 1 "$SHUTDOWN_FILE" 2>/dev/null | tr -d '[:space:]')
+    CONTENT=$(curl --silent --connect-timeout 3 --max-time 5 --location --max-redirs 1 "$SHUTDOWN_FILE" 2>/dev/null | tr -d '[:space:]')
+    
+    # 检查curl是否成功执行
+    if [ $? -ne 0 ]; then
+        echo "网络请求失败，5分钟后重试..."
+        sleep 300
+        continue
+    fi
     
     echo "文件内容: '$CONTENT'"
     
