@@ -1,0 +1,1 @@
+acme.sh --install-cert -d 082500.xyz --key-file /mnt/user/data/appdata/nginx/key.pem --fullchain-file /mnt/user/data/appdata/nginx/cert.pem --reloadcmd "sudo docker restart nginx-server"

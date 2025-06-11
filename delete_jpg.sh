@@ -1,14 +1,17 @@
 #!/bin/bash
 
-# Define two path options
-path1="/home/huai/data/media/downloads/mv"
-path2="/home/huai/data/media/downloads/h"
+# Define three path options
+path1="/home/huai/data/Downloads/mv"
+path2="/home/huai/data/Downloads/h"
+path3="/home/huai/Downloads/whitenoise"
+
 
 # Prompt user to select a path
 echo "Please select the directory to delete .jpg files from:"
 echo "1. $path1"
 echo "2. $path2"
-read -p "Enter option (1 or 2): " choice
+echo "3. $path3"
+read -p "Enter option (1, 2, or 3): " choice
 
 # Set deletion path based on user choice
 case $choice in
@@ -17,6 +20,9 @@ case $choice in
     ;;
   2)
     delete_dir="$path2"
+    ;;
+  3)
+    delete_dir="$path3"
     ;;
   *)
     echo "Invalid input, please try again."
