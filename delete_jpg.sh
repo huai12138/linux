@@ -3,7 +3,7 @@
 # Define three path options
 path1="/home/huai/data/Downloads/mv"
 path2="/home/huai/data/Downloads/h"
-path3="/home/huai/Downloads/whitenoise"
+path3="/home/huai/data/Downloads/whitenoise"
 
 
 # Prompt user to select a path
