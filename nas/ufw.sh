@@ -20,3 +20,26 @@ sudo ufw allow from 10.0.0.25 to any port 20049 proto tcp  # NFS RDMA port
 # sudo ufw allow from 10.0.0.25 to any port 32766 proto tcp  # statd outgoing (NFSv3)
 # sudo ufw allow from 10.0.0.25 to any port 32767 proto tcp  # lockd (NFSv3)
 # sudo ufw allow from 10.0.0.25 to any port 32768 proto udp  # lockd (NFSv3)
+
+# Allow Podman container TCP ports
+sudo ufw allow 8096/tcp
+sudo ufw allow 5000/tcp
+sudo ufw allow 6800/tcp
+sudo ufw allow 6888/tcp
+sudo ufw allow 6880/tcp
+sudo ufw allow 5008/tcp
+sudo ufw allow 8083/tcp
+sudo ufw allow 4000/tcp
+sudo ufw allow 5900/tcp
+sudo ufw allow 8181/tcp
+sudo ufw allow 5002/tcp
+sudo ufw allow 8002/tcp
+sudo ufw allow 3001/tcp
+sudo ufw allow 8123/tcp
+sudo ufw allow 6065/tcp
+sudo ufw allow 8081/tcp
+
+# Allow Podman container UDP ports
+sudo ufw allow 1900/udp
+sudo ufw allow 5353/udp
+sudo ufw allow 6888/udp
