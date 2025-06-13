@@ -2,7 +2,7 @@
 
 # Default values
 DISK="/dev/nvme0n1"
-HOSTNAME="huai"
+HOSTNAME="Arch"
 USERNAME="huai"
 SWAP_SIZE="16384M"
 PART_PREFIX=""  # Will be set based on device type
@@ -13,7 +13,7 @@ usage() {
   echo "Usage: $0 [options]"
   echo "Options:"
   echo "  -d DEVICE   Set installation disk (default: /dev/nvme0n1)"
-  echo "  -h NAME     Set hostname (default: huai)"
+  echo "  -h NAME     Set hostname (default: Arch)"
   echo "  -u USER     Set username (default: huai)"
   echo "  -s SIZE     Set swap size (default: 16384M)"
   echo "  -?          Show this help message"
@@ -158,7 +158,7 @@ install_packages_nas() {
     pacman-key --populate archlinux
 
     pacstrap /mnt base base-devel iptables-nft nfs-utils linux-lts linux-lts-headers linux-firmware vim dhcpcd git \
-    rsync openssh polkit p7zip ranger curl samba mdadm unzip ufw docker docker-compose
+    rsync openssh polkit p7zip ranger curl samba mdadm unzip ufw podman podman-compose
 
     echo ">> Generating fstab"
     genfstab -U /mnt >> /mnt/etc/fstab
