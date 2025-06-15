@@ -12,5 +12,5 @@ numlockx &
 picom -b
 fcitx5 -d
 dunst &
-sleep 5	
+sleep 3	
 /bin/bash  ~/.config/dwm_status.sh &
