@@ -37,22 +37,32 @@ while true; do
         RX2=$(cat /sys/class/net/$INTERFACE/statistics/rx_bytes)
         TX2=$(cat /sys/class/net/$INTERFACE/statistics/tx_bytes)
 
-        RX_SPEED=$(( (RX2 - RX1) / 1024 ))  # 单位 KB/s
-        TX_SPEED=$(( (TX2 - TX1) / 1024 ))  # 单位 KB/s
+        RX_DIFF=$((RX2 - RX1))
+        TX_DIFF=$((TX2 - TX1))
 
-        # 更新基准值用于下次计算
+        # 自动单位转换
+        get_speed() {
+            local bytes=$1
+            local speed
+            if (( bytes < 1024 )); then
+                speed="${bytes}B/s"
+            elif (( bytes < 1024*1024 )); then
+                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024}")KB/s"
+            elif (( bytes < 1024*1024*1024 )); then
+                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024/1024}")MB/s"
+            else
+                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024/1024/1024}")GB/s"
+            fi
+            echo "$speed"
+        }
+
+        RX_SPEED=$(get_speed $RX_DIFF)
+        TX_SPEED=$(get_speed $TX_DIFF)
+
         RX1=$RX2
         TX1=$TX2
-        # 格式化网速输出
-	# 单位使用MB/s
-        RX_SPEED=$(printf "%0.2f\n" $(echo "$RX_SPEED / 1024" | bc))
-        TX_SPEED=$(printf "%0.2f\n" $(echo "$TX_SPEED / 1024" | bc))
 
-#	RX_SPEED=$(echo "scale=2; $RX_SPEED/1024" | bc)
-#	TX_SPEED=$(echo "scale=2; $TX_SPEED/1024" | bc)
-        net_speed=" ${RX_SPEED}MB/s  ${TX_SPEED}MB/s"
-	 
-        # net_speed=" ${RX_SPEED}KB/s  ${TX_SPEED}KB/s"
+        net_speed=" $RX_SPEED  $TX_SPEED"
     else
         net_speed="Error"
     fi
