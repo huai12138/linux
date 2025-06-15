@@ -15,7 +15,7 @@ while true; do
     cpu=$(top -bn1 | awk '/%Cpu/{print 100 - $8"%"}')
     mem=$(free -m | awk 'NR==2{printf "%s/%sMB (%.2f%%)\n", $3,$2,$3*100/$2 }')
     temp=$(awk '{print $1/1000"°C"}' /sys/class/thermal/thermal_zone0/temp)
-    time=$(date | awk '{print $1,$2,$3,$4,$5}')
+    time=$(date "+%a %b %d %H:%M")
     
     # 音频信息
     volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}')
