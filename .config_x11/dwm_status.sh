@@ -43,17 +43,8 @@ while true; do
         # 自动单位转换
         get_speed() {
             local bytes=$1
-            local speed
-            if (( bytes < 1024 )); then
-                speed="${bytes}B/s"
-            elif (( bytes < 1024*1024 )); then
-                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024}")KB/s"
-            elif (( bytes < 1024*1024*1024 )); then
-                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024/1024}")MB/s"
-            else
-                speed="$(awk "BEGIN{printf \"%.2f\", $bytes/1024/1024/1024}")GB/s"
-            fi
-            echo "$speed"
+            local mb=$(awk "BEGIN{printf \"%.2f\", $bytes/1024/1024}")
+            echo "${mb}MB/s"
         }
 
         RX_SPEED=$(get_speed $RX_DIFF)
