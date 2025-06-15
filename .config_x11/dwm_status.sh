@@ -25,7 +25,7 @@ while true; do
     # 输入法状态
     fcitx5_status=$(fcitx5-remote 2>/dev/null)
     if [[ $fcitx5_status -eq 2 ]]; then
-        fcitx5_display="中"
+        fcitx5_display="CN"
     elif [[ $fcitx5_status -eq 1 ]]; then
         fcitx5_display="EN"
     else
