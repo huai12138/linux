@@ -105,32 +105,59 @@ echo -e "${GREEN}Numlock setup completed.${NC}"
 sleep 1  # Sleep 1 second after success message
 
 # User configuration and environment (medium priority)
+echo -e "${BLUE}Select window manager${NC}"
+echo -e "${CYAN}1) dwm${NC}"
+echo -e "${CYAN}2) hyprland${NC}"
+read -p "Enter your choice (1 or 2): " wm_choice
+
+if [ "$wm_choice" = "1" ]; then
+    echo -e "${GREEN}You selected dwm.${NC}"
+    # Copy .config_x11 to ~/.config
+    if [ -d ~/linux/.config_x11 ]; then
+        cp -r ~/linux/.config_x11 ~/.config
+        check_command "Failed to copy .config_x11"
+        echo -e "${GREEN}.config_x11 copied to ~/.config${NC}"
+    else
+        echo -e "${YELLOW}~/linux/.config_x11 not found, skipping copy${NC}"
+    fi
+    # Copy .xinit to ~
+    if [ -f ~/linux/.xinit ]; then
+        cp ~/linux/.xinit ~
+        check_command "Failed to copy .xinit"
+        echo -e "${GREEN}.xinit copied to ~${NC}"
+    else
+        echo -e "${YELLOW}~/linux/.xinit not found, skipping copy${NC}"
+    fi
+    skip_config_copy=true
+else
+    echo -e "${GREEN}You selected hyprland.${NC}"
+    skip_config_copy=false
+fi
+
 echo -e "${BLUE}Copying configuration files...${NC}"
 echo -e "${CYAN}   Copying .config directory to home folder...${NC}"
-if [ -d ~/linux/.config ]; then
-    cp -r ~/linux/.config ~
-    check_command "Failed to copy .config directory"
+if [ "$skip_config_copy" = true ]; then
+    echo -e "${CYAN}   dwm selected, skipping .config copy.${NC}"
 else
-    echo -e "${YELLOW}   Warning: .config directory not found in ~/linux/${NC}"
-    sleep 3  # Sleep 3 seconds after warning message
+    if [ -d ~/linux/.config ]; then
+        cp -r ~/linux/.config ~
+        check_command "Failed to copy .config directory"
+    else
+        echo -e "${YELLOW}   Warning: .config directory not found in ~/linux/${NC}"
+        sleep 3
+    fi
 fi
 
 echo -e "${CYAN}   Copying .bashrc to home folder...${NC}"
 if [ -f ~/linux/.bashrc ]; then
-    # Backup existing .bashrc if it exists
-    if [ -f ~/.bashrc ]; then
-        cp ~/.bashrc ~/.bashrc.bak
-        echo -e "${CYAN}   Created backup of existing .bashrc${NC}"
-    fi
-    
     cp ~/linux/.bashrc ~
     check_command "Failed to copy .bashrc"
 else
     echo -e "${YELLOW}   Warning: .bashrc not found in ~/linux/${NC}"
-    sleep 3  # Sleep 3 seconds after warning message
+    sleep 3
 fi
 echo -e "${GREEN}Configuration files copied successfully.${NC}"
-sleep 1  # Sleep 1 second after success message
+sleep 1
 
 echo -e "${BLUE}Setting up user services...${NC}"
 echo -e "${CYAN}   Enabling and starting Music Player Daemon (MPD)...${NC}"
