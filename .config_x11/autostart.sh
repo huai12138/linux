@@ -1,12 +1,7 @@
 #!/bin/bash
 play ~/.config/dunst/xp.wav &
-start="firefox"
-if [ "$start" = "firefox" ]; then
-	firefox &
-else
-	chromium &
-fi	
-telegram-desktop &
+zen-browser &
+Telegram &
 /bin/bash  ~/.config/wallpaperautochange.sh &
 #/bin/bash  ~/.config/limit.sh &
 /bin/bash  ~/.config/shutdown.sh &
