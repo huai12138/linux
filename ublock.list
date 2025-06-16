@@ -30,11 +30,11 @@ bilibili.com##.bili-danmaku-x-show:has(.bili-danmaku-x-score)
 ! 屏蔽B站因使用广告拦截器弹出的提示
 bilibili.com##.adblock-tips
 
-! 屏蔽首页推荐视频卡片 - 隐藏所有动态推荐内容
-! 这条规则会屏蔽B站首页的所有视频推荐卡片，包括但不限于：
-! - 首页推荐视频
-! - 动态页面的视频卡片
-! - 关注页面的视频内容
-! 注意：这可能会影响正常的视频浏览体验
-bilibili.com##div.bili-feed
+
+! 屏蔽所有 feed-card 元素 - 通配符匹配
+! 这条规则会屏蔽所有 div.feed-card 元素，不管其位置如何
+! 等同于 ##div.feed-card:nth-of-type(1), ##div.feed-card:nth-of-type(2), 等等
+bilibili.com##div.feed-card
+
+
 
