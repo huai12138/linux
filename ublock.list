@@ -37,8 +37,6 @@ bilibili.com##div.bili-feed-card
 ! 屏蔽特定范围的 bili-feed-card 元素
 bilibili.com##div.bili-feed-card:nth-of-type(n)
 
-! 屏蔽包含特定类名的 bili-feed-card 元素
-bilibili.com##div[class*="bili-feed-card"]
 
 
 
