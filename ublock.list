@@ -30,11 +30,11 @@ bilibili.com##.bili-danmaku-x-show:has(.bili-danmaku-x-score)
 ! 屏蔽B站因使用广告拦截器弹出的提示
 bilibili.com##.adblock-tips
 
+! 屏蔽所有 bili-feed-card 元素 - 通配符匹配
+! 这条规则会屏蔽所有 div.bili-feed-card 元素，不管其位置如何
+! 等同于 ##div.bili-feed-card:nth-of-type(1), ##div.bili-feed-card:nth-of-type(2), 等等
+bilibili.com##div.bili-feed-card
 
-! 屏蔽所有 feed-card 元素 - 通配符匹配
-! 这条规则会屏蔽所有 div.feed-card 元素，不管其位置如何
-! 等同于 ##div.feed-card:nth-of-type(1), ##div.feed-card:nth-of-type(2), 等等
-bilibili.com##div.feed-card
 
 
 
