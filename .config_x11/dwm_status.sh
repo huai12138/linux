@@ -19,14 +19,8 @@ while true; do
     
     # 音频信息
     volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}')
-    music=$(mpc current 2>/dev/null || echo "")
-
-    # 获取播放进度信息（如 #142/224 和 0:00/3:40），如果不存在则设置为空
-    long=$(mpc status | awk '/#/{print $2}' || echo "")
-    progress=$(mpc status | awk '/#/{print $3}' || echo "")
-
-    # 将播放进度信息附加到音乐信息中
-    music="$music [${long:-""} ${progress:-""}]"
+    music=$(mpc status | awk '/-/ {print $3}' || echo "")
+    music="[$music]"
     
     # 输入法状态
     fcitx5_status=$(fcitx5-remote 2>/dev/null)
