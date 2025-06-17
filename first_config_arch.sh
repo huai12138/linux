@@ -205,9 +205,9 @@ fi
 
 if [ "$goto_data_sync" != "true" ]; then
     # Read Git information from config file
-    if [ -f ~/data/linux/github.txt ]; then
+    if [ -f ~/data/linux/github.config ]; then
         # Read email
-        GIT_EMAIL=$(grep "EMAIL=" ~/data/linux/github.txt | cut -d= -f2)
+        GIT_EMAIL=$(grep "EMAIL=" ~/data/linux/github.config | cut -d= -f2)
         if [ -n "$GIT_EMAIL" ]; then
             git config --global user.email "$GIT_EMAIL"
             check_command "Failed to set Git email"
@@ -218,7 +218,7 @@ if [ "$goto_data_sync" != "true" ]; then
         fi
         
         # Read username
-        GIT_USERNAME=$(grep "USERNAME=" ~/data/linux/github.txt | cut -d= -f2)
+        GIT_USERNAME=$(grep "USERNAME=" ~/data/linux/github.config | cut -d= -f2)
         if [ -n "$GIT_USERNAME" ]; then
             git config --global user.name "$GIT_USERNAME"
             check_command "Failed to set Git username"
@@ -237,7 +237,7 @@ if [ "$goto_data_sync" != "true" ]; then
             sleep 3  # Sleep 3 seconds after warning message
         fi
     else
-        echo -e "${YELLOW}   Warning: Git config file not found at ~/data/linux/github.txt${NC}"
+        echo -e "${YELLOW}   Warning: Git config file not found at ~/data/linux/github.config${NC}"
         echo -e "${YELLOW}   Skipping Git user configuration.${NC}"
         sleep 3  # Sleep 3 seconds after warning message
     fi
