@@ -12,7 +12,7 @@ fi
 while true; do
     # 系统信息
     arch=$(uname -a | awk '{print $3}' | awk -F'-' '{print $1}')
-    cpu=$(top -bn1 | awk '/%Cpu/{print 100 - $8"%"}')
+    cpu=$(top -bn1 | awk '/%Cpu/{printf "%02d%%\n", 100 - $8}')
     mem=$(free -m | awk 'NR==2{printf "%s/%sMB", $3,$2}')
     temp=$(awk '{print $1/1000"°C"}' /sys/class/thermal/thermal_zone0/temp)
     time=$(date "+%a %b %d %H:%M")
