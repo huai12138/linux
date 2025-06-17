@@ -89,7 +89,7 @@ while true; do
     fi
 
     # 设置 xsetroot 显示
-    xsetroot -name "󰣇 $ARCH|♫ $music| $temp| $cpu|$mem|$volume|$net_speed|󰃰$time|$fcitx5_display"
+    xsetroot -name "󰣇 $ARCH|♫ $music| $temp| $cpu| $mem| $volume|$net_speed|󰃰 $time|$fcitx5_display"
 
 
 done
