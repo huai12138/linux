@@ -19,7 +19,7 @@ while true; do
     
     # 音频信息
     volume=$(pactl get-sink-volume @DEFAULT_SINK@ | awk '{print $5}')
-    music=$(mpc status | awk '/-/ {print $3}' || echo "")
+    music=$(mpc status | awk -F"-" 'NR==1 {gsub(/^ +| +$/, "", $2); print $2}' || echo "")
     music="[$music]"
     
     # 输入法状态
