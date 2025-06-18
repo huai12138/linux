@@ -48,12 +48,12 @@ alias mpause="mpc pause"
 alias pl="vim /home/huai/.config/mpd/playlists/all.m3u"
 
 # 远程连接
-alias nas="ssh huai@10.0.0.21"
+alias nas="ssh huai@192.168.1.21"
 alias cloud="ssh root@ssh.202309.xyz"
 alias scpsingbox="scp -r singbox root@ssh.202309.xyz:/root"
 alias scpclash="scp -r clash root@ssh.202309.xyz:/root"
-alias openwrt="ssh root@10.0.0.1"
-alias ax6s="ssh root@10.0.0.2"
+alias openwrt="ssh root@192.168.1.1"
+alias ax6s="ssh root@192.168.1.2"
 
 # Git相关
 alias gaa='git add -A'
