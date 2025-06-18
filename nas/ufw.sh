@@ -5,53 +5,53 @@
 sudo ufw reset
 
 # SSH 访问
-sudo ufw allow from 192.168.1.25 to any port 22/tcp
+sudo ufw allow proto tcp from 192.168.1.25 to any port 22
 
 # Samba UDP 端口
-sudo ufw allow from 192.168.1.15 to any port 137/udp
-sudo ufw allow from 192.168.1.15 to any port 138/udp
-sudo ufw allow from 192.168.1.8 to any port 137/udp
-sudo ufw allow from 192.168.1.8 to any port 138/udp
+sudo ufw allow proto udp from 192.168.1.15 to any port 137
+sudo ufw allow proto udp from 192.168.1.15 to any port 138
+sudo ufw allow proto udp from 192.168.1.8 to any port 137
+sudo ufw allow proto udp from 192.168.1.8 to any port 138
 
 # Samba TCP 端口
-sudo ufw allow from 192.168.1.15 to any port 139/tcp
-sudo ufw allow from 192.168.1.15 to any port 445/tcp
-sudo ufw allow from 192.168.1.8 to any port 139/tcp
-sudo ufw allow from 192.168.1.8 to any port 445/tcp
+sudo ufw allow proto tcp from 192.168.1.15 to any port 139
+sudo ufw allow proto tcp from 192.168.1.15 to any port 445
+sudo ufw allow proto tcp from 192.168.1.8 to any port 139
+sudo ufw allow proto tcp from 192.168.1.8 to any port 445
 
 # Docker/Podman 网络
 sudo ufw allow in on podman0
 
 # HTTP 和 HTTPS 端口
-sudo ufw allow 80/tcp    # HTTP
-sudo ufw allow 443/tcp   # HTTPS
+sudo ufw allow proto tcp to any port 80    # HTTP
+sudo ufw allow proto tcp to any port 443   # HTTPS
 
 # NFSv4 端口
-sudo ufw allow from 192.168.1.25 to any port 111/tcp    # rpcbind TCP
-sudo ufw allow from 192.168.1.25 to any port 111/udp    # rpcbind UDP
-sudo ufw allow from 192.168.1.25 to any port 2049/tcp   # NFSv4 主端口
-sudo ufw allow from 192.168.1.25 to any port 20049/tcp  # NFS RDMA 端口
+sudo ufw allow proto tcp from 192.168.1.25 to any port 111    # rpcbind TCP
+sudo ufw allow proto udp from 192.168.1.25 to any port 111    # rpcbind UDP
+sudo ufw allow proto tcp from 192.168.1.25 to any port 2049   # NFSv4 主端口
+sudo ufw allow proto tcp from 192.168.1.25 to any port 20049  # NFS RDMA 端口
 
 # Podman 容器 TCP 端口
-sudo ufw allow 8096/tcp
-sudo ufw allow 5000/tcp
-sudo ufw allow 6800/tcp
-sudo ufw allow 6888/tcp
-sudo ufw allow 6880/tcp
-sudo ufw allow 5008/tcp
-sudo ufw allow 8083/tcp
-sudo ufw allow 4000/tcp
-sudo ufw allow 5900/tcp
-sudo ufw allow 8181/tcp
-sudo ufw allow 5002/tcp
-sudo ufw allow 8002/tcp
-sudo ufw allow 3001/tcp
-sudo ufw allow 8123/tcp
-sudo ufw allow 6065/tcp
-sudo ufw allow 8081/tcp
+sudo ufw allow proto tcp to any port 8096
+sudo ufw allow proto tcp to any port 5000
+sudo ufw allow proto tcp to any port 6800
+sudo ufw allow proto tcp to any port 6888
+sudo ufw allow proto tcp to any port 6880
+sudo ufw allow proto tcp to any port 5008
+sudo ufw allow proto tcp to any port 8083
+sudo ufw allow proto tcp to any port 4000
+sudo ufw allow proto tcp to any port 5900
+sudo ufw allow proto tcp to any port 8181
+sudo ufw allow proto tcp to any port 5002
+sudo ufw allow proto tcp to any port 8002
+sudo ufw allow proto tcp to any port 3001
+sudo ufw allow proto tcp to any port 8123
+sudo ufw allow proto tcp to any port 6065
+sudo ufw allow proto tcp to any port 8081
 
 # Podman 容器 UDP 端口
-sudo ufw allow 1900/udp
-sudo ufw allow 5353/udp
-sudo ufw allow 6888/udp
+sudo ufw allow proto udp to any port 1900
+sudo ufw allow proto udp to any port 5353
+sudo ufw allow proto udp to any port 6888
 
