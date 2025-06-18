@@ -1,27 +1,38 @@
 # Description: This script is used to configure the ufw firewall on the host machine.
-# !/bin/bash
-sudo ufw allow from 192.168.1.25 to any port 22 
-sudo ufw allow from 192.168.1.15 to any port 137,138 proto udp
-sudo ufw allow from 192.168.1.15 to any port 139,445 proto tcp
-sudo ufw allow from 192.168.1.8 to any port 137,138 proto udp
-sudo ufw allow from 192.168.1.8 to any port 139,445 proto tcp
-sudo ufw allow in on podman0
-# HTTP and HTTPS ports
-sudo ufw allow 80 proto tcp    # HTTP
-sudo ufw allow 443 proto tcp   # HTTPS
-# NFSv4 only needs these ports:
-sudo ufw allow from 192.168.1.25 to any port 111 proto tcp    # rpcbind TCP (still needed for service discovery)
-sudo ufw allow from 192.168.1.25 to any port 111 proto udp    # rpcbind UDP
-sudo ufw allow from 192.168.1.25 to any port 2049 proto tcp  # NFSv4 main port
-sudo ufw allow from 192.168.1.25 to any port 20049 proto tcp  # NFS RDMA port
-# Remove these lines as they are NFSv3 specific:
-# sudo ufw allow from 192.168.1.25 to any port 20048 proto tcp  # mountd (NFSv3)
-# sudo ufw allow from 192.168.1.25 to any port 32765 proto tcp  # statd (NFSv3)
-# sudo ufw allow from 192.168.1.25 to any port 32766 proto tcp  # statd outgoing (NFSv3)
-# sudo ufw allow from 192.168.1.25 to any port 32767 proto tcp  # lockd (NFSv3)
-# sudo ufw allow from 192.168.1.25 to any port 32768 proto udp  # lockd (NFSv3)
+#!/bin/bash
 
-# Allow Podman container TCP ports
+# 重置防火墙规则
+sudo ufw reset
+
+# SSH 访问
+sudo ufw allow from 192.168.1.25 to any port 22/tcp
+
+# Samba UDP 端口
+sudo ufw allow from 192.168.1.15 to any port 137/udp
+sudo ufw allow from 192.168.1.15 to any port 138/udp
+sudo ufw allow from 192.168.1.8 to any port 137/udp
+sudo ufw allow from 192.168.1.8 to any port 138/udp
+
+# Samba TCP 端口
+sudo ufw allow from 192.168.1.15 to any port 139/tcp
+sudo ufw allow from 192.168.1.15 to any port 445/tcp
+sudo ufw allow from 192.168.1.8 to any port 139/tcp
+sudo ufw allow from 192.168.1.8 to any port 445/tcp
+
+# Docker/Podman 网络
+sudo ufw allow in on podman0
+
+# HTTP 和 HTTPS 端口
+sudo ufw allow 80/tcp    # HTTP
+sudo ufw allow 443/tcp   # HTTPS
+
+# NFSv4 端口
+sudo ufw allow from 192.168.1.25 to any port 111/tcp    # rpcbind TCP
+sudo ufw allow from 192.168.1.25 to any port 111/udp    # rpcbind UDP
+sudo ufw allow from 192.168.1.25 to any port 2049/tcp   # NFSv4 主端口
+sudo ufw allow from 192.168.1.25 to any port 20049/tcp  # NFS RDMA 端口
+
+# Podman 容器 TCP 端口
 sudo ufw allow 8096/tcp
 sudo ufw allow 5000/tcp
 sudo ufw allow 6800/tcp
@@ -39,7 +50,8 @@ sudo ufw allow 8123/tcp
 sudo ufw allow 6065/tcp
 sudo ufw allow 8081/tcp
 
-# Allow Podman container UDP ports
+# Podman 容器 UDP 端口
 sudo ufw allow 1900/udp
 sudo ufw allow 5353/udp
 sudo ufw allow 6888/udp
+
