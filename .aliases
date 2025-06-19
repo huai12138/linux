@@ -65,4 +65,4 @@ alias gpull='git pull'
 alias h="Hyprland"
 alias win="sh /home/huai/.config/windows.sh"
 alias repo="sh /home/huai/.config/repo.sh"
-alias np="sh /home/huai/.config/swww_auto.sh"
+alias np="sh /home/huai/.config/swww.sh"
