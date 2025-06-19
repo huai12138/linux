@@ -49,7 +49,6 @@ sudo ufw allow proto tcp to any port 3001
 sudo ufw allow proto tcp to any port 8123
 sudo ufw allow proto tcp to any port 6065
 sudo ufw allow proto tcp to any port 8081
-sudo ufw allow proto tcp to any port 8888
 
 # Podman 容器 UDP 端口
 sudo ufw allow proto udp to any port 1900
