@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 将整个脚本逻辑放入后台执行
 (
 # 目标主机信息
 TARGET_HOST="huai-PC"
@@ -61,8 +62,5 @@ else
     notify-send "连接超时" "请检查主机状态"
     exit 1
 fi
-
-sleep 3
-rm -f windows.log
-) > windows.log 2>&1 &
+) > /dev/null 2>&1 &
 
