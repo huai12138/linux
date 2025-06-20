@@ -33,25 +33,25 @@ sudo ufw allow proto tcp from 192.168.8.25 to any port 2049   # NFSv4 主端口
 sudo ufw allow proto tcp from 192.168.8.25 to any port 20049  # NFS RDMA 端口
 
 # Podman 容器 TCP 端口
-sudo ufw allow proto tcp to any port 8096
-sudo ufw allow proto tcp to any port 5000
-sudo ufw allow proto tcp to any port 6800
-sudo ufw allow proto tcp to any port 6888
-sudo ufw allow proto tcp to any port 6880
-sudo ufw allow proto tcp to any port 5008
-sudo ufw allow proto tcp to any port 8083
-sudo ufw allow proto tcp to any port 4000
-sudo ufw allow proto tcp to any port 5900
-sudo ufw allow proto tcp to any port 8181
-sudo ufw allow proto tcp to any port 5002
-sudo ufw allow proto tcp to any port 8002
-sudo ufw allow proto tcp to any port 3001
-sudo ufw allow proto tcp to any port 8123
-sudo ufw allow proto tcp to any port 6065
-sudo ufw allow proto tcp to any port 8081
+sudo ufw allow proto tcp to any port 8096   # Emby Media Server
+sudo ufw allow proto tcp to any port 6800   # aria2-pro
+sudo ufw allow proto tcp to any port 6888   # aria2-pro
+sudo ufw allow proto tcp to any port 6880   # ariang
+sudo ufw allow proto tcp to any port 5008   # shutdown
+sudo ufw allow proto tcp to any port 8083   # calibre-web
+sudo ufw allow proto tcp to any port 4000   # tinymediamanager
+sudo ufw allow proto tcp to any port 5900   # tinymediamanager VNC
+sudo ufw allow proto tcp to any port 8181   # vaultwarden
 
+sudo ufw allow proto tcp to any port 8002   # music-tag-web
+sudo ufw allow proto tcp to any port 3000   # homepage
+sudo ufw allow proto tcp to any port 8123   # homeassistant
+sudo ufw allow proto tcp to any port 6065   # webdav-server
+sudo ufw allow proto tcp to any port 8081   # calibre
+sudo ufw allow proto tcp to any port 32400  # Plex Media Server
 # Podman 容器 UDP 端口
-sudo ufw allow proto udp to any port 1900
-sudo ufw allow proto udp to any port 5353
-sudo ufw allow proto udp to any port 6888
+sudo ufw allow proto udp to any port 1900   # homeassistant
+sudo ufw allow proto udp to any port 5353   # homeassistant
+sudo ufw allow proto udp to any port 6888   # aria2-pro
+sudo ufw allow proto udp to any port 7359   # Emby 客户端发现
 
