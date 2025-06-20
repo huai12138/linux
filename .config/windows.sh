@@ -19,7 +19,7 @@ done
 # 检查目标主机是否在线
 if sudo arping -c 1 -w 1 -q -I "$INTERFACE" "$TARGET_IP" > /dev/null 2>&1; then
     notify-send "远程连接" "Windows 系统已启动，正在连接..." && play ~/.config/dunst/system_online.mp3 > /dev/null 2>&1
-    nohup xfreerdp3 /v:192.168.8.15 /u:huai /p:110 /sound /dynamic-resolution /cert:ignore > /dev/null 2>&1 &
+    nohup xfreerdp3 /v:huai-PC /u:huai /p:110 /sound /dynamic-resolution /cert:ignore > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
 else
     notify-send "唤醒主机" "Windows 系统未启动，正在唤醒..." && play ~/.config/dunst/wol.mp3 > /dev/null 2>&1
@@ -46,7 +46,7 @@ else
     fi
 
     notify-send "开始连接" "FreeRDP 正在启动，请稍候..." && play ~/.config/dunst/connecting.mp3 > /dev/null 2>&1
-    nohup xfreerdp3 /v:192.168.8.15 /u:huai /p:110 /sound /dynamic-resolution /cert:ignore > /dev/null 2>&1 &
+    nohup xfreerdp3 /v:huai-PC /u:huai /p:110 /sound /dynamic-resolution /cert:ignore > /dev/null 2>&1 &
     notify-send "连接中" "请稍候..." > /dev/null 2>&1
 fi
 sleep 3
