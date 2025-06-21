@@ -1,1 +1,3 @@
 __pycache__
+dotfiles/.config/mpd/log
+dotfiles/.config/mpd/state
