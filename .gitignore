@@ -2,3 +2,4 @@ __pycache__
 dotfiles/.config/mpd/log
 dotfiles/.config/mpd/state
 dotfiles/.config/mpd/socket
+dotfiles/.config/mpd/sticker.sql
