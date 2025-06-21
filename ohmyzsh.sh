@@ -153,36 +153,6 @@ else
     sleep 3
 fi
 
-# Copy custom config file if it exists, otherwise skip
-if [ -f ~/linux/.zshrc ]; then
-    if cmp -s ~/linux/.zshrc ~/.zshrc; then
-        echo -e "${GREEN}>> Custom .zshrc file already exists and is identical, skipping copy${NC}"
-        sleep 3
-    else
-        echo -e "${CYAN}>> Copying custom .zshrc file${NC}"
-        cp ~/linux/.zshrc ~
-        sleep 3
-    fi
-else
-    echo -e "${YELLOW}>> Custom .zshrc file not found, skipping${NC}"
-    sleep 3
-fi
-
-# Copy custom p10k config file if it exists, otherwise skip
-if [ -f ~/linux/.p10k.zsh ]; then
-    if cmp -s ~/linux/.p10k.zsh ~/.p10k.zsh; then
-        echo -e "${GREEN}>> Custom .p10k.zsh file already exists and is identical, skipping copy${NC}"
-        sleep 3
-    else
-        echo -e "${CYAN}>> Copying custom .p10k.zsh file${NC}"
-        cp ~/linux/.p10k.zsh ~
-        sleep 3
-    fi
-else
-    echo -e "${YELLOW}>> Custom .p10k.zsh file not found, skipping${NC}"
-    sleep 3
-fi
-
 # Completion message
 echo -e "${GREEN}Installation completed! Please restart your terminal or run 'source ~/.zshrc' to apply changes.${NC}"
 sleep 3
