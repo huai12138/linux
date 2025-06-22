@@ -11,9 +11,6 @@ echo "Downloading and installing GitHub Copilot.vim plugin..."
 git clone --depth=1 https://github.com/github/copilot.vim.git \
   ~/.vim/pack/github/start/copilot.vim
 echo "GitHub Copilot plugin installation completed!"
-cp ~/linux/.vimrc ~
-echo "Copying .vimrc configuration file to home directory..."
-echo "Setting up Vim configuration..."
 echo "=== Vim Copilot Environment Setup Completed ==="
 echo "Usage:"
 echo "1. Launch Vim and run :Copilot setup for authorization"
