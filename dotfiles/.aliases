@@ -12,7 +12,7 @@ alias ~='cd ~'
 # 系统操作
 alias update="sudo pacman -Syyu"
 alias x="startx"
-alias P="sleep 300 && shutdown now"
+alias P="sleep 60 && shutdown now"
 alias R="systemctl reboot"
 alias rsyncdir="rsync -avzh --delete"  # 同步目录，删除目标端多余文件
 
@@ -50,12 +50,12 @@ alias mpause="mpc pause"
 alias pl="vim /home/huai/.config/mpd/playlists/all.m3u"
 
 # 远程连接
-alias nas="ssh huai@192.168.8.21"
+alias nas="ssh huai@nas"
 alias cloud="ssh root@ssh.202309.xyz"
 alias scpsingbox="scp -r singbox root@ssh.202309.xyz:/root"
 alias scpclash="scp -r clash root@ssh.202309.xyz:/root"
-alias openwrt="ssh root@192.168.8.1"
-alias ax6s="ssh root@192.168.8.2"
+alias openwrt="ssh root@openwrt"
+alias ax6s="ssh root@ax6s"
 
 # Git相关
 # alias gaa='git add -A'
