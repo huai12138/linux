@@ -51,7 +51,7 @@ if [ -d ~/.oh-my-zsh ]; then
     sleep 3
 else
     echo -e "${YELLOW}>> Installing oh-my-zsh${NC}"
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --keep-zshrc
     sleep 3
 fi
 
