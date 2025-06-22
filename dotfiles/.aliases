@@ -35,9 +35,11 @@ alias cdclash="cd /home/huai/data/appdata/clash"
 # 音频控制
 alias 0="pactl set-default-sink alsa_output.usb-DeSheng_Electronics_Inc._Star_Y360-00.analog-stereo"
 alias 1="pactl set-default-sink alsa_output.usb-Generic_USB2.0_Device_20130100ph0-00.analog-stereo"
-alias vol='pactl set-sink-volume @DEFAULT_SINK@'
-alias volup="pactl set-sink-volume @DEFAULT_SINK@ +10%"
-alias voldown="pactl set-sink-volume @DEFAULT_SINK@ -10%"
+vol() {
+    pactl set-sink-volume @DEFAULT_SINK@ ${1}%
+}
+alias volup="vol +10%"
+alias voldown="vol -10%"
 alias volmute="pactl set-sink-mute @DEFAULT_SINK@ toggle"
 
 # MPD控制
