@@ -14,7 +14,6 @@ get_speed() {
 ARCH=$(uname -r | cut -d'-' -f1)
 
 # 缓存文件路径
-TEMP_FILE="/sys/class/thermal/thermal_zone0/temp"
 NET_RX_FILE="/sys/class/net/$INTERFACE/statistics/rx_bytes"
 NET_TX_FILE="/sys/class/net/$INTERFACE/statistics/tx_bytes"
 
@@ -51,7 +50,7 @@ while true; do
         if ($1 == "MemAvailable:") avail = $2/1024
     } END {printf "%d/%dMB", (total-avail), total}' /proc/meminfo)
     
-    temp=$(awk '{printf "%.0f°C", $1/1000}' "$TEMP_FILE" 2>/dev/null)
+    temp=$(sensors 2>/dev/null | awk '/Core 0|Package id 0|CPU/ {for(i=1;i<=NF;i++) if($i~/\+[0-9]+\.[0-9]+°C/) {gsub(/\+|°C/,"",$i); printf "%.0f°C",$i; exit}}' || echo "N/A")
     time=$(date "+%a %b %d %H:%M")
     
     # 音频信息
