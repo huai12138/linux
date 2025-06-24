@@ -11,7 +11,6 @@ alias ~='cd ~'
 
 # 系统操作
 alias update="sudo pacman -Syyu"
-alias x="startx"
 alias P="sleep 60 && shutdown now"
 alias R="systemctl reboot"
 alias rsyncdir="rsync -avzh --delete"  # 同步目录，删除目标端多余文件
