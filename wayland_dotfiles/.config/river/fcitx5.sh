@@ -5,7 +5,7 @@ pkill -f "sleep 30.*killall fcitx5" 2>/dev/null
 # 确保 fcitx5 运行
 if ! pgrep -x fcitx5 > /dev/null; then
     fcitx5 -d &
-    sleep 0.5
+    sleep 2 # 等待 fcitx5 启动 
 fi
 
 # 切换输入法
