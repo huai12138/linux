@@ -165,4 +165,5 @@ riverctl default-layout rivertile
 rivertile -view-padding 6 -outer-padding 6 &
 
 # Auto-start applications
-sh ~/.config/river/autostart.sh &
+. $HOME/.config/river/autostart.sh
+
