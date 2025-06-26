@@ -1,6 +1,6 @@
 #!/bin/bash
 # Auto-start applications for River WM
-sleep 1 && fcitx5 -d &
+#sleep 1 && fcitx5 -d &
 dunst &
 waybar &
 swww-daemon &
