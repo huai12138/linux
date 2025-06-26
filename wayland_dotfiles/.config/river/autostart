@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 # Auto-start applications for River WM (optimized for performance)
 dunst &
-waybar &
+# waybar &
 swww-daemon &
 sh /home/huai/.config/swww_auto.sh &
 sh /home/huai/.config/shutdown.sh &
