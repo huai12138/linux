@@ -165,7 +165,8 @@ riverctl default-layout rivertile
 rivertile -view-padding 6 -outer-padding 6 &
 
 # Auto-start applications
-. $HOME/.config/river/autostart.sh
+. $HOME/.config/river/autostart
 
-riverctl map normal Control space spawn 'sh ~/.config/river/fcitx5.sh'
+riverctl map normal Control space spawn 'sh ~/.config/river/fcitx5'
+riverctl map normal Super B spawn 'sh ~/.config/river/waybar'
 
