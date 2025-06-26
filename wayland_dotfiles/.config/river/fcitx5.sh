@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/sh
 # 杀死之前的定时器
 pkill -f "sleep 30.*killall fcitx5" 2>/dev/null
 
