@@ -1,2 +1,4 @@
 #!/usr/bin/sh
-waybar && sleep 3 && killall waybar
+waybar & 
+sleep 3 
+killall waybar
