@@ -1,4 +1,4 @@
 #!/usr/bin/sh
 waybar & 
-sleep 3 
+sleep 5
 killall waybar
