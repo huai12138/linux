@@ -3,7 +3,7 @@
 dunst &
 waybar &
 swww-daemon &
-numlockx &
+numlockx on
 sh /home/huai/.config/swww_auto.sh &
 sh /home/huai/.config/shutdown.sh &
 # zen-browser &
