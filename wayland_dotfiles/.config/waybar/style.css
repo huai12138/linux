@@ -143,3 +143,34 @@ window#waybar.hidden {
     background-color: #cbecff;
     color: #000000;
 }
+#tags {
+	margin-top: 6px;
+	background: rgba(16, 20, 24, 0.5);
+	transition: none;
+
+    font-size: 12px;
+}
+
+#tags button {
+    border: none;
+    padding: 0 6px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#tags button:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#tags button.active {
+    background: #fff9bb;
+    color: #000000;
+}
+
+#tags button.active:hover {
+    background: #fffcdf;
+}
+
+#tags button.urgent {
+    background-color: #eb4d4b;
+}
