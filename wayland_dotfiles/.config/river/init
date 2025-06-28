@@ -170,3 +170,6 @@ rivertile -view-padding 2 -outer-padding 2 &
 riverctl map normal Control space spawn 'sh ~/.config/river/fcitx5'
 riverctl map normal Super B spawn 'sh ~/.config/river/waybar'
 riverctl map normal Super w spawn 'sh ~/.config/windows.sh'
+# Super+T to launch Telegram
+riverctl map normal Super T spawn Telegram &
+riverctl map normal Super Z spawn zen-browser &
