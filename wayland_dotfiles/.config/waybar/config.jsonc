@@ -46,6 +46,20 @@
         "exec": "uname -r | cut -d '-' -f 1",
         "interval": "60"
     },
+    "river/tags": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "󰇄",
+            "4": "",
+            "5": "󰝚",
+            "6": "",
+            "7": ""
+        },
+        "format-focused": "<span color='#ffcc00'>{icon}</span>",
+        "format-urgent": "<span color='red'>{icon}</span>"
+    },
     "mpd": {
         //        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title} ⸨{songPosition}|{queueLength}⸩ ",
