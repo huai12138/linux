@@ -142,8 +142,8 @@ install_packages() {
     pacman-key --populate archlinux
 
     pacstrap /mnt base base-devel iptables-nft linux-lts linux-lts-headers linux-firmware vim dhcpcd git less \
-        hyprland fuzzel waybar swww mako foot feh polkit \
-        nfs-utils fastfetch pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
+        river fuzzel waybar swww dunst foot feh polkit \
+        nfs-utils fastfetch btop pipewire pipewire-jack pipewire-alsa pipewire-pulse pavucontrol \
         fcitx5 fcitx5-rime fcitx5-configtool rsync ntfs-3g curl p7zip ranger reflector libnotify openssh \
         mpd mpc freerdp xf86-video-intel libva libva-intel-driver intel-media-driver vlc arp-scan unzip \
         ttf-liberation wakeonlan noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji \
