@@ -7,8 +7,8 @@
     "spacing": 1, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "river/tags",
-        "river/window"
+        "wlr/workspaces",
+        "wlr/window"
     ],
     "modules-center": [],
     "modules-right": [
@@ -23,30 +23,7 @@
         "tray"
     ],
     // Modules configuration
-    "hyprland/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
-        "warp-on-scroll": false,
-        "format": "{icon}",
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "󰇄",
-            "4": "",
-            "5": "󰝚",
-            "6": "",
-            "7": "",
-            "urgent": "",
-            "focused": "",
-            "default": ""
-        }
-    },
-    "custom/arch": {
-        "format": "󰣇 {}",
-        "exec": "uname -r | cut -d '-' -f 1",
-        "interval": "60"
-    },
-    "river/tags": {
+    "wlr/workspaces": {
         "format": "{icon}",
         "format-icons": {
             "1": "",
@@ -57,8 +34,15 @@
             "6": "",
             "7": ""
         },
-        "format-focused": "<span color='#ffcc00'>{icon}</span>",
-        "format-urgent": "<span color='red'>{icon}</span>"
+        "on-click": "activate"
+    },
+    "wlr/window": {
+        "format": "{}"
+    },
+    "custom/arch": {
+        "format": "󰣇 {}",
+        "exec": "uname -r | cut -d '-' -f 1",
+        "interval": "60"
     },
     "mpd": {
         //        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
