@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# dwl status script - 适配 dwl bar 补丁
-# 基于补丁: https://codeberg.org/dwl/dwl-patches/src/branch/main/patches/bar/bar-0.7.patch
-# 
-# 使用方法:
-# 1. 确保 dwl 已经应用了 bar 补丁并编译
-# 2. 给脚本添加执行权限: chmod +x dwl_status.sh
-# 3. 运行: ./dwl_status.sh | dwl
-# 
-# dwl bar 补丁通过 stdin 接收状态文本并显示在状态栏上
-
 # 获取网络接口名称（在循环外执行一次）
 INTERFACE=$(ip route | awk '/default/ {print $5; exit}')
 
@@ -71,46 +61,21 @@ while true; do
     temp=$(sensors 2>/dev/null | awk '/Core 0|Package id 0|CPU/ {for(i=1;i<=NF;i++) if($i~/\+[0-9]+\.[0-9]+°C/) {gsub(/\+|°C/,"",$i); printf "%.0f°C",$i; exit}}' || echo "N/A")
     time=$(date "+%a %b %d %H:%M")
     
-    # 音频信息 - Wayland 兼容
-    # 使用 pactl 和 wpctl (pipewire) 的兼容方式
-    if command -v wpctl >/dev/null 2>&1; then
-        # PipeWire 方式
-        volume=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ 2>/dev/null | 
-                 awk '{printf "%02d%%", $2*100}')
-    else
-        # PulseAudio 方式
-        volume=$(pactl get-sink-volume @DEFAULT_SINK@ 2>/dev/null | 
-                 awk '{gsub(/%/, "", $5); printf "%02d%%", $5; exit}')
-    fi
-    [[ -z "$volume" ]] && volume="N/A"
+    # 音频信息
+    volume=$(pactl get-sink-volume @DEFAULT_SINK@ 2>/dev/null | 
+             awk '{gsub(/%/, "", $5); printf "%02d%%", $5; exit}')
     
-    # 音乐信息 - 支持多种播放器
-    if command -v playerctl >/dev/null 2>&1; then
-        # 使用 playerctl (更适合 Wayland)
-        music=$(playerctl metadata --format "{{ title }}" 2>/dev/null)
-        music="[${music:-N/A}]"
-    elif command -v mpc >/dev/null 2>&1; then
-        # 传统 MPD 方式
-        music=$(mpc current 2>/dev/null | awk -F' - ' '{print $2}')
-        music="[${music:-N/A}]"
-    else
-        music="[N/A]"
-    fi
+    # 音乐信息
+    music=$(mpc current 2>/dev/null | awk -F' - ' '{print $2}')
+    music="[${music:-N/A}]"
     
-    # 输入法状态 - Wayland 兼容
-    if command -v fcitx5-remote >/dev/null 2>&1; then
-        fcitx5_status=$(fcitx5-remote 2>/dev/null)
-        case $fcitx5_status in
-            2) fcitx5_display="CN" ;;
-            1) fcitx5_display="EN" ;;
-            *) fcitx5_display="Er" ;;
-        esac
-    elif [[ -n "$XKB_DEFAULT_LAYOUT" ]]; then
-        # 如果设置了键盘布局环境变量
-        fcitx5_display="$XKB_DEFAULT_LAYOUT"
-    else
-        fcitx5_display="EN"
-    fi
+    # 输入法状态
+    fcitx5_status=$(fcitx5-remote 2>/dev/null)
+    case $fcitx5_status in
+        2) fcitx5_display="CN" ;;
+        1) fcitx5_display="EN" ;;
+        *) fcitx5_display="Er" ;;
+    esac
 
     # 计算网速
     if $NETWORK_ENABLED; then
