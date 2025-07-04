@@ -126,13 +126,13 @@ while true; do
         RX1=$RX2
         TX1=$TX2
 
-        net_speed=" $RX_SPEED  $TX_SPEED"
+        net_speed="📶 $RX_SPEED 📤 $TX_SPEED"
     else
-        net_speed=" N/A"
+        net_speed="📶 N/A"
     fi
 
     # 设置 dwl 状态显示
-    status_text="󰣇 $ARCH|♫ $music| $temp| $cpu| $mem| $volume|$net_speed|󰃰 $time|$fcitx5_display"
+    status_text="󰣇 $ARCH|♫ $music|🌡️ $temp|💻 $cpu|💾 $mem|🔊 $volume|$net_speed|󰃰 $time|$fcitx5_display"
     output_status "$status_text"
     
     sleep 1
